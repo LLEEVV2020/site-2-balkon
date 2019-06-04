@@ -166,7 +166,7 @@
             </div><!-- container -->
         </nav><!-- top_menu -->
 
-        
+        <!-- Самый верхний блок -->
         <div class="es1 _main">
             <div class="container">
                 <div class="es1__pict"></div>
@@ -199,6 +199,7 @@
                 </div>
             </div>
         </div>
+        <!--/ Самый верхний блок -->
 
 
         
@@ -214,26 +215,7 @@
                     только до 15 апреля!</p>
 
             <div class="h2">
-                    <script>
-                        //Работа с ползунком на туч устройствах
-                        //$('#slider').draggable();
-                        //$('#sliderhor').draggable();
-                        //$('#sliderver').draggable();
-                        var months = ['января', 'февраля', 'марта', 'апреля', 'мая', 'июня', 'июля', 'августа', 'сентября', 'октября', 'ноября', 'декабря'];
-                        var month_days = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
-                        var now = new Date();
-                        var month = now.getMonth();
-                        var day = now.getDate();
-    
-                        if (day < 15) {
-                            var start = 1;
-                            var end = 15;
-                        }
-                        else {
-                            var start = 15;
-                            var end = month_days[month];
-                        }
-                        $('#akcia').html('C ' + start + ' по ' + end + ' ' + months[month] + '!');	
+                    
                     </script>
                     <i id="akcia" style="font-style: normal;"></i>
                     Лучшие цены на ремонт в&nbsp;Новороссийске
@@ -416,6 +398,37 @@
             </div>
         </div><!-- /.es2 -->
 
+        
+        <!-- Сложный блок, скрипты -->
+        <div class="finishing_balconies template">
+            <div class="container">
+
+            </div>  
+            
+            <script>
+            
+                //Работа с ползунком на туч устройствах
+                //$('#slider').draggable();
+                //$('#sliderhor').draggable();
+                //$('#sliderver').draggable();
+                var months = ['января', 'февраля', 'марта', 'апреля', 'мая', 'июня', 'июля', 'августа', 'сентября', 'октября', 'ноября', 'декабря'];
+                var month_days = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
+                var now = new Date();
+                var month = now.getMonth();
+                var day = now.getDate();
+
+                if (day < 15) {
+                    var start = 1;
+                    var end = 15;
+                }
+                else {
+                    var start = 15;
+                    var end = month_days[month];
+                }
+                $('#akcia').html('C ' + start + ' по ' + end + ' ' + months[month] + '!');	
+            </script>
+        </div>    
+        <!--/ Самый верхний блок -->
 
 
         <div class="wrap-b-vid-remonta">
