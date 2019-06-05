@@ -12,7 +12,7 @@
 
     <script src="js/jquery-1.11.3.min.js"></script>
     <script src="js/jquery.fancybox.pack.js"></script>
-
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
     <script language="JavaScript">
 
@@ -410,168 +410,203 @@
         </div><!-- /.es2 -->
 
 
-             <!-- b-sms_bg -->
-             <div class="b-sms_bg sms-discount es3_balcons template">
-                    <div class="container ">
-                        <div class="flex-container">
-                            <div class="b-sms_phone">
-                                <img src="img/b_sms_phone.png" alt="">
-                            </div>
-                            <div class="b-sms-form">
-                                <div class="b-sms__text">
-                                    СМС-СКИДКА
+        <!-- b-sms_bg -->
+        <div class="b-sms_bg sms-discount es3_balcons template">
+            <div class="container ">
+                <div class="flex-container">
+                    <div class="b-sms_phone">
+                        <img src="img/b_sms_phone.png" alt="">
+                    </div>
+                    <div class="b-sms-form">
+                        <div class="b-sms__text">
+                            СМС-СКИДКА
+                        </div>
+                        <div class="b-sms__undertext">
+                            Впишите свой телефон и получите смс-купон на скидку:
+                        </div>
+                        <div class="b-sms__form">
+    
+                            <!-- ######### СМС-СКИДКА ######### -->
+                            <!-- ######### СМС-СКИДКА ######### -->
+                            <!-- ######### СМС-СКИДКА ######### -->
+                            <form action="php/mail.php" method="POST">
+                                <input type="hidden" name="lang" value="СМС-СКИДКА" />
+                                <div class="b-sms_input b-sms_input_tel form-group">
+                                    <input type="text" class="phonemask input-phone" data-validation="required"
+                                        placeholder="Ваш телефон" id="form_text_11" name="phone" value="" size="0" />
                                 </div>
-                                <div class="b-sms__undertext">
-                                    Впишите свой телефон и получите смс-купон на скидку:
+                                <div class="b-sms_but">
+                                    <button class="red-button" type="submit">отправить</button>
                                 </div>
-                                <div class="b-sms__form">
-            
-                                    <!-- ######### СМС-СКИДКА ######### -->
-                                    <!-- ######### СМС-СКИДКА ######### -->
-                                    <!-- ######### СМС-СКИДКА ######### -->
-                                    <form action="php/mail.php" method="POST">
-                                        <input type="hidden" name="lang" value="СМС-СКИДКА" />
-                                        <div class="b-sms_input b-sms_input_tel form-group">
-                                            <input type="text" class="phonemask input-phone" data-validation="required"
-                                                placeholder="Ваш телефон" id="form_text_11" name="phone" value="" size="0" />
-                                        </div>
-                                        <div class="b-sms_but">
-                                            <button class="red-button" type="submit">отправить</button>
-                                        </div>
-                                    </form>
-                                    <!-- ######### СМС-СКИДКА ######### -->
-                                    <!-- ######### СМС-СКИДКА ######### -->
-                                    <!-- ######### СМС-СКИДКА ######### -->
-            
-                                    <p>Оставляя свои контактные данные, вы подтверждаете свое совершеннолетие, соглашаетесь на обработку персональных данных в соответствии с <a href="#">Правовой информацией</a></p>
-            
-                                </div>
-                            </div>
+                            </form>
+                            <!-- ######### СМС-СКИДКА ######### -->
+                            <!-- ######### СМС-СКИДКА ######### -->
+                            <!-- ######### СМС-СКИДКА ######### -->
+    
+                            <p>Оставляя свои контактные данные, вы подтверждаете свое совершеннолетие, соглашаетесь на обработку персональных данных в соответствии с <a href="#">Правовой информацией</a></p>
+    
                         </div>
                     </div>
-                    <!-- /.container -->
                 </div>
-                <!-- /.b-sms_bg -->
+            </div>
+            <!-- /.container -->
+        </div>
+        <!-- /.b-sms_bg -->
 
-
-
-
-
-                <div class="es3balkon">
-	    
-                        <div class="es3__text">
-                            ��������� ������� �� ������ ����:
-                        </div>
-                        
-                        <div class="container">
-                            
-                                <div class="iosSlider_balkon">
-                                
-                                    <div class="slider">
-                    
-                                            
-                                        <div class="item es3_ok1">
-                                            <div class="es3_blue">������ 2 ������</div>
-                                            <div class="es3_strzag"></div>
-                                            <img src="img/slider_balk/1.png" alt="" />
-                                            <div class="es3_bageout"><div class="es3_bage">
-                                                <span class="es3_vashek">���� ��������</span><br>
-                                                <span class="es3_econom">1 250 <span>�.</span></span>
-                                            </div></div>
-                                            <div class="es3_tsena">4 750 <span>������</span></div>
-                                        </div>
-                                    
-                                    
-                                        <div class="item es3_ok1">
-                                            <div class="es3_blue">������ �-��������</div>
-                                            <div class="es3_strzag"></div>
-                                            <img src="img/slider_balk/2.png" alt="" />
-                                            <div class="es3_bageout"><div class="es3_bage">
-                                                <span class="es3_vashek">���� ��������</span><br>
-                                                <span class="es3_econom">1 600 <span>�.</span></span>
-                                            </div></div>
-                                            <div class="es3_tsena">6 050 <span>������</span></div>
-                                        </div>
-                                        
-                                        
-                                        <div class="item es3_ok1">
-                                            <div class="es3_blue">������ 5 ����</div>
-                                            <div class="es3_strzag"></div>
-                                            <img src="img/slider_balk/3.png" alt="" />
-                                            <div class="es3_bageout"><div class="es3_bage">
-                                                <span class="es3_vashek">���� ��������</span><br>
-                                                <span class="es3_econom">1 250 <span>�.</span></span>
-                                            </div></div>
-                                            <div class="es3_tsena">4 750 <span>������</span></div>
-                                        </div>
-                                    
-                                    
-                                        <div class="item es3_ok1">
-                                            <div class="es3_blue">������ �-44</div>
-                                            <div class="es3_strzag"></div>
-                                            <img src="img/slider_balk/4.png" alt="" />
-                                            <div class="es3_bageout"><div class="es3_bage">
-                                                <span class="es3_vashek">���� ��������</span><br>
-                                                <span class="es3_econom">1 600 <span>�.</span></span>
-                                            </div></div>
-                                            <div class="es3_tsena">6 050 <span>������</span></div>
-                                        </div>
-                                        
-                                        
-                                        <div class="item es3_ok1">
-                                            <div class="es3_blue">������ 2 ������</div>
-                                            <div class="es3_strzag"></div>
-                                            <img src="img/slider_balk/5.png" alt="" />
-                                            <div class="es3_bageout"><div class="es3_bage">
-                                                <span class="es3_vashek">���� ��������</span><br>
-                                                <span class="es3_econom">1 250 <span>�.</span></span>
-                                            </div></div>
-                                            <div class="es3_tsena">4 750 <span>������</span></div>
-                                        </div>
-                                    
-                                    
-                                        <div class="item es3_ok1">
-                                            <div class="es3_blue">������ �-��������</div>
-                                            <div class="es3_strzag"></div>
-                                            <img src="img/slider_balk/6.png" alt="" />
-                                            <div class="es3_bageout"><div class="es3_bage">
-                                                <span class="es3_vashek">���� ��������</span><br>
-                                                <span class="es3_econom">1 600 <span>�.</span></span>
-                                            </div></div>
-                                            <div class="es3_tsena">6 050 <span>������</span></div>
-                                        </div>
-                                        
-                                        
-                                        <div class="item es3_ok1">
-                                            <div class="es3_blue">������ 3 �������</div>
-                                            <div class="es3_strzag"></div>
-                                            <img src="img/slider_balk/7.png" alt="" />
-                                            <div class="es3_bageout"><div class="es3_bage">
-                                                <span class="es3_vashek">���� ��������</span><br>
-                                                <span class="es3_econom">1 250 <span>�.</span></span>
-                                            </div></div>
-                                            <div class="es3_tsena">4 750 <span>������</span></div>
-                                        </div>
-                                    
-                                    
-                                        
-                                        
-                                        
-                                            
-                                    
+        <div class="es4_balcons template">
+            <div class="container">
+                <div class="h2">
+                    ОСТЕКЛИТЕ БАЛКОН ПО НИЗКОЙ ЦЕНЕ
+                </div>
+                <section class="regular2 slider">
+                        <div >
+                            <div class="item">
+                                <div class="box1">
+                                    <img src="img/balcony_glazing1.png">
+                                </div>
+                                <div class="box2">
+                                    <div class="name"><span>ЛОДЖИЯ</span> 2 ЭРКЕРА</div>
+                                    <div class="price">4750 Р</div>
+                                    <div class="savings">
+                                        <span>Ваша экономия</span>
+                                        <span>1250 Р</span>
                                     </div>
                                 </div>
-                                    
-                                <div class="next4"></div>
-                                <div class="prev4 unselectable"></div>
-                                            
-                            </div><!-- /.container -->
+                            </div>
                             
-                           
+                        </div>
+                        <div >
+                            <div class="item">
+                                <div class="box1">
+                                    <img src="img/balcony_glazing2.png">
+                                </div>
+                                <div class="box2">
+                                    <div class="name"><span>П-ОБРАЗНЫЙ</span>  БАЛКОН</div>
+                                    <div class="price">6050 Р</div>
+                                    <div class="savings">
+                                        <span>Ваша экономия</span>
+                                        <span>1600 Р</span>
+                                    </div>
+                                </div>
+                            </div>
                             
-                        </div><!-- /.es3balkon -->	
+                        </div>
+                        <div >
+                            <div class="item">
+                                <div class="box1">
+                                    <img src="img/balcony_glazing1.png">
+                                </div>
+                                <div class="box2">
+                                    <div class="name"><span>ЛОДЖИЯ</span> 2 ЭРКЕРА</div>
+                                    <div class="price">4750 Р</div>
+                                    <div class="savings">
+                                        <span>Ваша экономия</span>
+                                        <span>1250 Р</span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div >
+                            <div class="item">
+                                <div class="box1">
+                                    <img src="img/balcony_glazing2.png">
+                                </div>
+                                <div class="box2">
+                                    <div class="name"><span>П-ОБРАЗНЫЙ</span>  БАЛКОН</div>
+                                    <div class="price">6050 Р</div>
+                                    <div class="savings">
+                                        <span>Ваша экономия</span>
+                                        <span>1600 Р</span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        
+                    </section>
 
+                    <p>Балконы по действующей акции
+                        <button class="red-button" type="submit">ЗАКАЗАТЬ</button>
+                    </p>
+                    
+
+            </div>
+            
+
+            <script>
+                // ОСТЕКЛИТЕ БАЛКОН ПО НИЗКОЙ ЦЕНЕ
+                $(document).ready(function(){
+                    $(".regular2").slick({
+                        dots: false,
+                        infinite: true,
+                        slidesToShow: 2,
+                        slidesToScroll: 2,
+                        responsive: [
+                            {
+                            breakpoint: 1200,
+                                settings: {
+                                    slidesToShow: 1,
+                                    slidesToScroll: 1
+                                }
+                            }
+                        ]
+                    });
+                });
+            </script>
+        </div>
+
+        
+        <div class="b_windownow_bg rast_windownow_bg  es5_balcons template">
+    
+            <div class="container">
+
+                <div class="flex-container">
+                    <div class="b_windownow_man"><img src="img/rasr_gerl2.png" alt=""></div>
+                    <div class="b_windownow_block">
+                        <h4>ОСТЕКЛЕНИЕ БЕСПЛАТНО!</h4>
+                        
+                        <p>Оформите дисконтную карту и верните все деньги за остекление своего балкона!</p>  
+
+                        <a href="remont-kvartir-rassrochka/index.html" class="red-button">ОФОРМИТЬ СЕЙЧАС</a>
+                                
+                    </div>
+                    
+                </div> 
+
+            </div><!-- /.container -->
+
+        </div>
+
+        <div class="giving es6_balcons template">
+            <div class="container">
+                <div class="h2">КОМПАНИЯ “БАЛКОНЫ ЦЕНЫ” 100% ДЕШЕВЛЕ! </div>
+                <form action="php/mail.php" method="POST">
+                    <div class="b-sms_input b-sms_input_tel form-group">
+                        <input type="text" class="phonemask input-phone" data-validation="required" placeholder="Ваш телефон" id="form_text_11" name="phone" value="" size="0">
+                    </div>
+                    <div class="b-sms_input b-sms_input_tel form-group">
+                        <input type="text" class="" data-validation="required" placeholder="Ваше имя" id="form_text_11" name="phone" value="" size="0">
+                    </div>
+
+                    <div class="sketch" title="Прикрепить файл" style="overflow: hidden;">
+                        
+                        <input  onchange="readURL(this);" size="0" type="file"><span class="sketch-text"></span> 
+                    </div>
+
+                </form>
                 
+
+            </div>
+        </div><!-- /.es13_14 -->
+
+        <div class="es6_balcons template">
+            <div class="container">
+                <div class="h2">ДОПОЛНИТЕЛЬНАЯ СКИДКА 5% ПРИ ЗАКАЗЕ ЧЕРЕЗ САЙТ</div>
+               
+                
+            </div>
+        </div>
         
         <!-- Сложный блок, скрипты --
         <div class="finishing_balconies template">
@@ -2266,9 +2301,10 @@
         <script type="text/javascript" src="js/pixel.js"></script>
         <!-- /Pixel -->
 
-        <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+        
 
         <script type="text/javascript">
+        // ОТЗЫВЫ
             $(document).ready(function(){
                 $(".regular").slick({
                     dots: true,
@@ -2287,6 +2323,8 @@
                     ]
                 });
             });
+
+            
           </script>
 
 </body>
