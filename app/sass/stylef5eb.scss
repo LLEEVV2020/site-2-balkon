@@ -99,11 +99,11 @@ h2 span {
 }
 /* line 69, ../../sass/_common.sass */
 h1 span {
-  font-size: 100px;
+  
   color: #000;
   font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
-  line-height: 1;
+  
   
   font-weight: bold;
 }
@@ -388,7 +388,7 @@ button {
     font-size: 16px;
     text-decoration: none;
     padding: 0 10px 0 10px;
-    padding: 0 1.1vw;
+    padding: 0 1.25vw;
     text-transform: uppercase;
     font-family: "Montserrat", sans-serif;
     -webkit-transition: all 0.3s ease;
@@ -1037,7 +1037,6 @@ span.red-button {
   height: 82px;
   background: #DD0053;
   border-radius: 40px;
-  margin-right: 95px;
   cursor: pointer;
   float: right; 
   display: flex;
@@ -1108,7 +1107,7 @@ line-height: 29px;
 
 /* line 22, ../../sass/blocks/es1/_es1.sass */
 .es1__block {
-  margin-top: 60px;
+  
   position: relative;
   z-index: 5;
   display: flex;
@@ -1119,7 +1118,7 @@ line-height: 29px;
   display: flex;
   width: 100%;
   justify-content: space-between;
-  margin-top: 50px;
+  z-index: 7;
 }
 
 /* line 26, ../../sass/blocks/es1/_es1.sass */
@@ -1362,36 +1361,14 @@ line-height: 78px;
   display: none; }
 
 /*main */
-/* line 202, ../../sass/blocks/es1/_es1.sass */
-.es1._main h1 span {
-  font-size: 48px; 
-  text-transform: lowercase;
-  line-height: 1.5;
 
-}
-/* line 204, ../../sass/blocks/es1/_es1.sass */
-.es1._main h2 {
-  text-align: left; }
-  /* line 206, ../../sass/blocks/es1/_es1.sass */
-  .es1._main h2 span {
-    font-size: 72px; 
-    text-transform: none;
-  }
-/* line 208, ../../sass/blocks/es1/_es1.sass */
-.es1._main .es1__pict {
-  background: url("../img/es1_main.png") top right no-repeat; }
-/* line 210, ../../sass/blocks/es1/_es1.sass */
-.es1._main .es1_7day {
- // margin-left: 35px; 
-}
+
 
 /* line 214, ../../sass/blocks/es1/_es1.sass */
 .es1._main .es1__sto {
   top: 35px;
   left: 41%; }
-/* line 217, ../../sass/blocks/es1/_es1.sass */
-.es1._main .es1__pict {
-  right: 0; }
+
 /* line 219, ../../sass/blocks/es1/_es1.sass */
 .es1._main .es1_skidka__block {
   background-position: center;

@@ -1,0 +1,42 @@
+.es1{
+    .es1-wrapper-decor{
+        background: rgba(255, 255, 255, 0.6);
+        padding: 26px 29px 22px;
+        max-width: 430px;
+        margin-bottom: 127px;
+    }
+    p{
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 15px;
+
+
+        color: #000000;
+    }
+
+    h1{
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 59px;
+        text-transform: uppercase;
+        color: #000000;
+        text-transform: uppercase;
+        span{
+            display: block;
+        }
+    }
+    h2{
+        font-weight: bold;
+        font-size: 80px;
+        line-height: 98px;
+        text-align: left;
+
+
+        color: #DD0053;
+    }
+    .es1__pict{
+        background: url(../img/es1_main.png) top center no-repeat;
+        z-index: 6;
+        background-position-x: 300px;
+    }
+}

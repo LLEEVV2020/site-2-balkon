@@ -48,9 +48,43 @@
             flex-direction: column;
             margin:  0;
         }
+        
         & > li{
+            position: relative;
             @media only screen and (max-width: 767px) {
                 margin-top: 0px;
+            }
+            & > ul{
+                position: absolute;
+                display: none;
+                @media only screen and (max-width: 767px) {
+                    position: static;
+                }
+                top: 100%;
+                left: 0;
+                background-color: #fff;
+                li + li > a{
+                    border-top: 1px solid #EDEDED;
+                    @media only screen and (max-width: 767px) {
+                        border-top: 0 solid #EDEDED;
+                    }
+                }
+                a{
+                    font-weight: bold;
+                    font-size: 14px;
+                    line-height: 17px;
+                    padding: 12px 10px 11px;
+                    color: #000000;
+                    display: block;
+                    &:hover{
+                        background-color: #d9d9d9;
+                    }
+                    
+                }
+            }
+            
+            &:hover > ul{
+                display: block;
             }
         }
         & > li > a{
