@@ -1,0 +1,43 @@
+.es7_balcons{
+    background-image: url(../img/b_market_filtr_bg.png);
+    background-color: #FBC035;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    form{
+        display: flex;
+    }
+    .sketch{
+        position: relative;
+        width: 158px;
+        height: 50px;
+        overflow: hidden;
+        display: flex;
+    align-items: center;
+        &::before{
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            display: block;
+            width: 50px;
+            height: 50px;
+            background-color: #fff;
+            border-radius: 50%;
+            background-image: url(../img/sketch.png);
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        input{
+            opacity: 0;
+            height: 100%;
+            width: 100%;
+        }
+        .sketch-text{
+            display: block;
+            font-style: normal;
+            span{
+                display: block;
+            }
+        }
+    }
+}
