@@ -62,8 +62,7 @@
 // 2. БАЛКОНЫ
 @import "site/balcons/template";
 
-
-@import "site/balcons/finishing_balconies/finishing_balconies";
+// БАЛКОНЫ - главная
 @import "site/balcons/main/es1";
 @import "site/balcons/main/es2_balcons";
 @import "site/balcons/main/es3_balcons";
@@ -76,3 +75,9 @@
 @import "site/balcons/main/es10_repairs_balcony";
 @import "site/balcons/main/es20_balcony";
 @import "site/balcons/main/es21_balcony";
+
+// БАЛКОНЫ - отделка балконов
+@import "site/balcons/finishing_balconies/b1_finishing_balconies";
+
+
+
