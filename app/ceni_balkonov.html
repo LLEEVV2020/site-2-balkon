@@ -174,1150 +174,980 @@
                             СКИДКИ</a></li>
                     </ul>
 
+
+                    
+
                 </div><!-- navbar-collapse -->
             </div><!-- container -->
         </nav><!-- top_menu -->
-        
-               
+
         <!-- Самый верхний блок -->
-        <div class="es1 _main template finishing_balconies">
-            <div class="container">
-                <div class="es1__pict"></div>
-                <div class="es1__block">
-                    <h1>СКИДКА НА ОТДЕЛКУ
+        
+<div class="calc_block">
+        <div class="b-calc-bg">
+                <div class="b-calc">
+                    <div class="container">
                         
-                        <span>БАЛКОНОВ</span>
-                        </h1>
-                        <div class="action-img"><img src="img/accii.png" alt=""></div>
+                        <div class="b-calc__zag">Расчет стоимости балкона</div>
+          <script type="text/javascript">
+                   
+                       
+            //допуски и цена м2 
+              shir_balk_min = 50;
+              shir_balk_max = 120;
+              vysota_balk_min = 50;
+              vysota_balk_max = 200;
+              
+              stoim_balk = 3550;
+                   
+              
+                   
+              //СКИДКА процент скидки
+              skidka = 0.1;
+              
+              //ПРЕМИУМ	процент наценки
+              premium = 1+0.3; // 0.3 редактируемое значение
+              
+              
+              //ПОДОКОННИК и ОТЛИВ за м
+              podokonnik = 400;
+              
+              //МОНТАЖНЫЕ РАБОТЫ за м2 
+              montazhrab = 1200;
+              
+              
+              //КОЭФФИЦИЕНТ К СТОИМОСТИ ОКОН
+              koeffits = 1;
+              
+              //ВАША ЭКОНОМИЯ
+              vashaeconomiya = 0.3; // 0.3 - это 30% 
+              
+              //РАССРОЧКА. количество месяцев 
+              rassrochkames = 8; 
+               
+                               
+          </script><script type="text/javascript">
+          jQuery(document).ready(function(){
+              
+          
+          
+              
+              
+                   $(".tipbalk1").click(function () {
+                          $('.tipbalk1').removeClass('okact');
+                          $('.tipbalk2').removeClass('okact');
+                          $('.tipbalk3').removeClass('okact');
+                          $('.tipbalk4').removeClass('okact');
+                          $('.tipbalk5').removeClass('okact');
+                          $('.tipbalk6').removeClass('okact');
+                          $('.tipbalk7').removeClass('okact');
+                          $('.tipbalk1').addClass('okact');
+                          $('.oknofull').html('<img src="img/calc/balk/1.png" >');
+                   });
+                   
+                   $(".tipbalk2").click(function () {
+                          $('.tipbalk1').removeClass('okact');
+                          $('.tipbalk2').removeClass('okact');
+                          $('.tipbalk3').removeClass('okact');
+                          $('.tipbalk4').removeClass('okact');
+                          $('.tipbalk5').removeClass('okact');
+                          $('.tipbalk6').removeClass('okact');
+                          $('.tipbalk7').removeClass('okact');
+                          $('.tipbalk2').addClass('okact');
+                          $('.oknofull').html('<img src="img/calc/balk/2.png" >');
+                   });
+                   
+                   $(".tipbalk3").click(function () {
+                          $('.tipbalk1').removeClass('okact');
+                          $('.tipbalk2').removeClass('okact');
+                          $('.tipbalk3').removeClass('okact');
+                          $('.tipbalk4').removeClass('okact');
+                          $('.tipbalk5').removeClass('okact');
+                          $('.tipbalk6').removeClass('okact');
+                          $('.tipbalk7').removeClass('okact');
+                          $('.tipbalk3').addClass('okact');
+                          $('.oknofull').html('<img src="img/calc/balk/3.png" >');
+                   });
+                   
+                   $(".tipbalk4").click(function () {
+                          $('.tipbalk1').removeClass('okact');
+                          $('.tipbalk2').removeClass('okact');
+                          $('.tipbalk3').removeClass('okact');
+                          $('.tipbalk4').removeClass('okact');
+                          $('.tipbalk5').removeClass('okact');
+                          $('.tipbalk6').removeClass('okact');
+                          $('.tipbalk7').removeClass('okact');
+                          $('.tipbalk4').addClass('okact');
+                          $('.oknofull').html('<img src="img/calc/balk/4.png" >');
+                   });
+                   
+                   $(".tipbalk5").click(function () {
+                          $('.tipbalk1').removeClass('okact');
+                          $('.tipbalk2').removeClass('okact');
+                          $('.tipbalk3').removeClass('okact');
+                          $('.tipbalk4').removeClass('okact');
+                          $('.tipbalk5').removeClass('okact');
+                          $('.tipbalk6').removeClass('okact');
+                          $('.tipbalk7').removeClass('okact');
+                          $('.tipbalk5').addClass('okact');
+                          $('.oknofull').html('<img src="img/calc/balk/5.png" >');
+                   });
+                   
+                   $(".tipbalk6").click(function () {
+                          $('.tipbalk1').removeClass('okact');
+                          $('.tipbalk2').removeClass('okact');
+                          $('.tipbalk3').removeClass('okact');
+                          $('.tipbalk4').removeClass('okact');
+                          $('.tipbalk5').removeClass('okact');
+                          $('.tipbalk6').removeClass('okact');
+                          $('.tipbalk7').removeClass('okact');
+                          $('.tipbalk6').addClass('okact');
+                          $('.oknofull').html('<img src="img/calc/balk/6.png" >');
+                   });
+                   
+                   $(".tipbalk7").click(function () {
+                          $('.tipbalk1').removeClass('okact');
+                          $('.tipbalk2').removeClass('okact');
+                          $('.tipbalk3').removeClass('okact');
+                          $('.tipbalk4').removeClass('okact');
+                          $('.tipbalk5').removeClass('okact');
+                          $('.tipbalk6').removeClass('okact');
+                          $('.tipbalk7').removeClass('okact');
+                          $('.tipbalk7').addClass('okact');
+                          $('.oknofull').html('<img src="img/calc/balk/7.png" >');
+                   });
+                   
+                   
+                   
+          });
+          </script>				  
+                        
+                                      
+          <script type="text/javascript" src="js/jquery-ui.min.js"></script>
+          <script src="js/jquery.ui.touch-punch.min.js"></script>
+          <script type="text/javascript">
+                  
+                   
+                   
+           //задаем первоначальные минимальные и максимальные значения ширины и высоты
+                  minsliderhor = shir_balk_min*5;
+                  maxsliderhor = shir_balk_max*5;
+                  minsliderver = vysota_balk_min;
+                  maxsliderver = vysota_balk_max;
+                  
+                  //объявляем переменные
+                  tipbalk = 4; //задаем тип окна
+                  shirinafin=0;
+                  costfin = 0; // стоимость финальная
+                  rassrochka = 0; // стоимость рассрочки
+                  block_econom_text = 0;
+                  block_econom_bg = 0;
+                  CostverES = 0;
+                  CosthorES = 0;
+                  stoim = stoim_balk; // присваиваем стоимость из прайса
+                  skidka = 1 - skidka;
+                  
+                  //chekoksys = 0; // оконная система 0- эконом, 1 -премиум
+                  chekpodokonnik = 0; // подоконник, отлив  0- нет, 1 -да
+                  chekmontazhrab = 0; // монтажные работы  0- нет, 1 -да
+          
+                   
+          jQuery(document).ready(function(){
+                   
+              
+                  $('#Costhor').val(minsliderhor);
+                  $('#Costver').val("110");
+                  
+                  jQuery("#sliderhor").slider({
+                      animate:true,
+                      min: minsliderhor,
+                      max: maxsliderhor,
+                      values: [0,minsliderhor],
+                      range: true,
+                      stop: function(event, ui) {
+                          jQuery("input#Costhor").val(jQuery("#sliderhor").slider("values",0,minsliderhor));
+                          jQuery("input#Costhor").val(jQuery("#sliderhor").slider("values",1));
+                          change_price();
+                      },
+                      slide: function(event, ui){
+                          /*jQuery("input#Costhor").val(jQuery("#sliderhor").slider("values",0));
+                          jQuery("input#Costhor").val(jQuery("#sliderhor").slider("values",1));*/
+                      }
+                  });
+                          
+                  jQuery("#sliderver").slider({
+                      orientation: "vertical",
+                      animate:true,
+                      min: minsliderver,
+                      max: maxsliderver,
+                      values: [0,110],
+                      range: true,
+                      stop: function(event, ui) {
+                          jQuery("input#Costver").val(jQuery("#sliderver").slider("values",0,minsliderver));
+                          jQuery("input#Costver").val(jQuery("#sliderver").slider("values",1));
+                          change_price();
+                      },
+                      slide: function(event, ui){
+                          /*jQuery("input#Costver").val(jQuery("#sliderver").slider("values",0));
+                          jQuery("input#Costver").val(jQuery("#sliderver").slider("values",1));*/
+          
+                      }
+                  });
+                   
+                  change_price();
+          
+          
+          
+          
+          function change_price()
+          {
+              
+          
+              /*
+          if (tipbalk == 1) 
+                  {
+                      costfin = $('#Costhor').val() * $('#Costver').val() * stoim * 3 / 10000;
+                      shirinafin= parseInt($('#Costhor').val()) * 3;
+                  }
+          */
+              
+                  
+                  costfin = $('#Costhor').val() * $('#Costver').val() * stoim  / 10000;
+                  shirinafin= parseInt($('#Costhor').val());
+                   
+                  costfin= costfin *koeffits*skidka;
                     
-                </div>
+                  if (chekpodokonnik == 1) {costfin= costfin + podokonnik*shirinafin*0.01;}
+                  if (chekmontazhrab == 1) {costfin= costfin + montazhrab*shirinafin*$('#Costver').val()*0.0001;}
+                   costfin = Math.round(costfin); // округляем до целого
+                  $('.costfin').html(costfin); // выводим финальную стоимость
+              
+              
+              
+                  block_econom_bg = costfin * vashaeconomiya;
+                   block_econom_bg = Math.round(block_econom_bg); // округляем до целого 
+                   $('.block_econom_bg span').html(block_econom_bg);
+                   
+                   block_econom_text = costfin + block_econom_bg;
+                   block_econom_text = Math.round(block_econom_text); // округляем до целого 
+                   $('.block_econom_text span').html(block_econom_text);
+              
+              
+                  
+              
+              
+                  //расчитываем рассрочку
+                  rassrochka = costfin / rassrochkames;   
+                   rassrochka = Math.round(rassrochka); // округляем до целого 
+                  $('.rassrochka').html(rassrochka); // выводим финальную стоимость
+                  
+                  
+                  CostverES = $('#Costver').val()
+                  $('#CostverES').val(CostverES + " см");
+                  CosthorES = $('#Costhor').val()
+                  $('#CosthorES').val(CosthorES + " см");
+                  
+                  
+          }	// конец  change_price()
+          
+          
+          
+          
+          // расчет тип балкона 1
+          $(".tipbalk1").click(function () {
+              
+                  
+                  tipbalk = 1; //задаем тип окна
+                  
+                  minsliderhor = shir_balk_min*3;
+                  maxsliderhor = shir_balk_max*3;
+                  
+                  minsliderver = vysota_balk_min;
+                  maxsliderver = vysota_balk_max;
+                  
+                  $('#Costhor').val(minsliderhor); // подставляем значения максимума и минимума на слайдер
+                  $('#Costver').val(110);
+                  
+                  jQuery("#sliderhor").slider({
+                      animate:true,
+                      min: minsliderhor,
+                      max: maxsliderhor,
+                      values: [0,minsliderhor],
+                      range: true,
+                      stop: function(event, ui) {
+                          jQuery("input#Costhor").val(jQuery("#sliderhor").slider("values",0,minsliderhor));
+                          jQuery("input#Costhor").val(jQuery("#sliderhor").slider("values",1));
+                          change_price();
+                      },
+                      slide: function(event, ui){
+                          /*jQuery("input#Costhor").val(jQuery("#sliderhor").slider("values",0));
+                          jQuery("input#Costhor").val(jQuery("#sliderhor").slider("values",1));*/
+                      }
+                  });
+                  
+                  
+          
+                  jQuery("#sliderver").slider({
+                      orientation: "vertical",
+                      animate:true,
+                      min: minsliderver,
+                      max: maxsliderver,
+                      values: [0,110],
+                      range: true,
+                      stop: function(event, ui) {
+                          jQuery("input#Costver").val(jQuery("#sliderver").slider("values",0,minsliderver));
+                          jQuery("input#Costver").val(jQuery("#sliderver").slider("values",1));
+                          change_price();
+                      },
+                      slide: function(event, ui){
+                          /*jQuery("input#Costver").val(jQuery("#sliderver").slider("values",0));
+                          jQuery("input#Costver").val(jQuery("#sliderver").slider("values",1));*/
+          
+                      }
+                  });
+                  
+                  stoim = stoim_balk; // присваиваем стоимость из прайса
+                  
+                  change_price();
+                  
+          });
+          //конец расчета тип балкона 1
+          
+              
+              
+          // расчет тип балкона 2
+          $(".tipbalk2").click(function () {
+              
+              
+              
+              
+                  tipbalk = 2; //задаем тип окна
+                  minsliderhor = shir_balk_min*4;
+                  maxsliderhor = shir_balk_max*4;
+                  
+                  minsliderver = vysota_balk_min;
+                  maxsliderver = vysota_balk_max;
+                  
+                  $('#Costhor').val(minsliderhor); // подставляем значения максимума и минимума на слайдер
+                  
+                  
+                  
+                  $('#Costver').val(110);
+                  
+                  jQuery("#sliderhor").slider({
+                      animate:true,
+                      min: minsliderhor,
+                      max: maxsliderhor,
+                      values: [0,minsliderhor],
+                      range: true,
+                      stop: function(event, ui) {
+                          jQuery("input#Costhor").val(jQuery("#sliderhor").slider("values",0,minsliderhor));
+                          jQuery("input#Costhor").val(jQuery("#sliderhor").slider("values",1));
+                          change_price();
+                      },
+                      slide: function(event, ui){
+                          /*jQuery("input#Costhor").val(jQuery("#sliderhor").slider("values",0));
+                          jQuery("input#Costhor").val(jQuery("#sliderhor").slider("values",1));*/
+                      }
+                  });
+                  
+                  
+          
+                  jQuery("#sliderver").slider({
+                      orientation: "vertical",
+                      animate:true,
+                      min: minsliderver,
+                      max: maxsliderver,
+                      values: [0,110],
+                      range: true,
+                      stop: function(event, ui) {
+                          jQuery("input#Costver").val(jQuery("#sliderver").slider("values",0,minsliderver));
+                          jQuery("input#Costver").val(jQuery("#sliderver").slider("values",1));
+                          change_price();
+                      },
+                      slide: function(event, ui){
+                          /*jQuery("input#Costver").val(jQuery("#sliderver").slider("values",0));
+                          jQuery("input#Costver").val(jQuery("#sliderver").slider("values",1));*/
+          
+                      }
+                  });
+                  
+                  stoim = stoim_balk; // присваиваем стоимость из прайса
+                  
+                  change_price();
+                  
+          });
+          //конец расчета тип балкона 2
+              
+              
+              
+          // расчет тип балкона 3
+          $(".tipbalk3").click(function () {
+              
+              
+              
+              
+                  tipbalk = 3; //задаем тип окна
+                  minsliderhor = shir_balk_min*4;
+                  maxsliderhor = shir_balk_max*4;
+                  
+                  
+                  minsliderver = vysota_balk_min;
+                  maxsliderver = vysota_balk_max;
+                  
+                  $('#Costhor').val(minsliderhor); // подставляем значения максимума и минимума на слайдер
+                  
+                  
+                  
+                  $('#Costver').val(110);
+                  
+                  jQuery("#sliderhor").slider({
+                      animate:true,
+                      min: minsliderhor,
+                      max: maxsliderhor,
+                      values: [0,minsliderhor],
+                      range: true,
+                      stop: function(event, ui) {
+                          jQuery("input#Costhor").val(jQuery("#sliderhor").slider("values",0,minsliderhor));
+                          jQuery("input#Costhor").val(jQuery("#sliderhor").slider("values",1));
+                          change_price();
+                      },
+                      slide: function(event, ui){
+                          /*jQuery("input#Costhor").val(jQuery("#sliderhor").slider("values",0));
+                          jQuery("input#Costhor").val(jQuery("#sliderhor").slider("values",1));*/
+                      }
+                  });
+                  
+                  
+          
+                  jQuery("#sliderver").slider({
+                      orientation: "vertical",
+                      animate:true,
+                      min: minsliderver,
+                      max: maxsliderver,
+                      values: [0,110],
+                      range: true,
+                      stop: function(event, ui) {
+                          jQuery("input#Costver").val(jQuery("#sliderver").slider("values",0,minsliderver));
+                          jQuery("input#Costver").val(jQuery("#sliderver").slider("values",1));
+                          change_price();
+                      },
+                      slide: function(event, ui){
+                          /*jQuery("input#Costver").val(jQuery("#sliderver").slider("values",0));
+                          jQuery("input#Costver").val(jQuery("#sliderver").slider("values",1));*/
+          
+                      }
+                  });
+                  
+                  stoim = stoim_balk; // присваиваем стоимость из прайса
+                  
+                  change_price();
+                  
+          });
+          //конец расчета тип балкона 3
+          
+          
+          
+          // расчет тип балкона 4
+          $(".tipbalk4").click(function () {
+              
+              
+              
+              
+                  tipbalk = 4; //задаем тип окна
+                  minsliderhor = shir_balk_min*5;
+                  maxsliderhor = shir_balk_max*5;
+                          
+                  minsliderver = vysota_balk_min;
+                  maxsliderver = vysota_balk_max;
+                  
+                  $('#Costhor').val(minsliderhor); // подставляем значения максимума и минимума на слайдер
+                  
+                  
+                  
+                  $('#Costver').val(110);
+                  
+                  jQuery("#sliderhor").slider({
+                      animate:true,
+                      min: minsliderhor,
+                      max: maxsliderhor,
+                      values: [0,minsliderhor],
+                      range: true,
+                      stop: function(event, ui) {
+                          jQuery("input#Costhor").val(jQuery("#sliderhor").slider("values",0,minsliderhor));
+                          jQuery("input#Costhor").val(jQuery("#sliderhor").slider("values",1));
+                          change_price();
+                      },
+                      slide: function(event, ui){
+                          /*jQuery("input#Costhor").val(jQuery("#sliderhor").slider("values",0));
+                          jQuery("input#Costhor").val(jQuery("#sliderhor").slider("values",1));*/
+                      }
+                  });
+                  
+                  
+                      
+                      
+          
+          
+                  jQuery("#sliderver").slider({
+                      orientation: "vertical",
+                      animate:true,
+                      min: minsliderver,
+                      max: maxsliderver,
+                      values: [0,110],
+                      range: true,
+                      stop: function(event, ui) {
+                          jQuery("input#Costver").val(jQuery("#sliderver").slider("values",0,minsliderver));
+                          jQuery("input#Costver").val(jQuery("#sliderver").slider("values",1));
+                          change_price();
+                      },
+                      slide: function(event, ui){
+                          /*jQuery("input#Costver").val(jQuery("#sliderver").slider("values",0));
+                          jQuery("input#Costver").val(jQuery("#sliderver").slider("values",1));*/
+          
+                      }
+                  });
+                  
+                  stoim = stoim_balk; // присваиваем стоимость из прайса
+                  
+                  change_price();
+                  
+          });
+          //конец расчета тип балкона 4
+          
+          
+          
+          // расчет тип балкона 5
+          $(".tipbalk5").click(function () {
+              
+              
+                  
+                  tipbalk = 5; //задаем тип окна
+                  minsliderhor = shir_balk_min*5;
+                  maxsliderhor = shir_balk_max*5;
+                  
+                  
+                  minsliderver = vysota_balk_min;
+                  maxsliderver = vysota_balk_max;
+                  
+                  $('#Costhor').val(minsliderhor); // подставляем значения максимума и минимума на слайдер
+                  
+                  
+                  
+                  $('#Costver').val(110);
+                  
+                  jQuery("#sliderhor").slider({
+                      animate:true,
+                      min: minsliderhor,
+                      max: maxsliderhor,
+                      values: [0,minsliderhor],
+                      range: true,
+                      stop: function(event, ui) {
+                          jQuery("input#Costhor").val(jQuery("#sliderhor").slider("values",0,minsliderhor));
+                          jQuery("input#Costhor").val(jQuery("#sliderhor").slider("values",1));
+                          change_price();
+                      },
+                      slide: function(event, ui){
+                          /*jQuery("input#Costhor").val(jQuery("#sliderhor").slider("values",0));
+                          jQuery("input#Costhor").val(jQuery("#sliderhor").slider("values",1));*/
+                      }
+                  });
+                  
+                  
+                      
+                              
+          
+          
+                  jQuery("#sliderver").slider({
+                      orientation: "vertical",
+                      animate:true,
+                      min: minsliderver,
+                      max: maxsliderver,
+                      values: [0,110],
+                      range: true,
+                      stop: function(event, ui) {
+                          jQuery("input#Costver").val(jQuery("#sliderver").slider("values",0,minsliderver));
+                          jQuery("input#Costver").val(jQuery("#sliderver").slider("values",1));
+                          change_price();
+                      },
+                      slide: function(event, ui){
+                          /*jQuery("input#Costver").val(jQuery("#sliderver").slider("values",0));
+                          jQuery("input#Costver").val(jQuery("#sliderver").slider("values",1));*/
+          
+                      }
+                  });
+                  
+                  stoim = stoim_balk; // присваиваем стоимость из прайса
+                  
+                  change_price();
+                  
+          });
+          //конец расчета тип балкона 5
+          
+          
+          // расчет тип балкона 6
+          $(".tipbalk6").click(function () {
+              
+              
+                  
+                  tipbalk = 6; //задаем тип окна
+                  minsliderhor = shir_balk_min*5;
+                  maxsliderhor = shir_balk_max*5;
+                          
+                  minsliderver = vysota_balk_min;
+                  maxsliderver = vysota_balk_max;
+                  
+                  $('#Costhor').val(minsliderhor); // подставляем значения максимума и минимума на слайдер
+                  
+                  
+                  
+                  $('#Costver').val(110);
+                  
+                  jQuery("#sliderhor").slider({
+                      animate:true,
+                      min: minsliderhor,
+                      max: maxsliderhor,
+                      values: [0,minsliderhor],
+                      range: true,
+                      stop: function(event, ui) {
+                          jQuery("input#Costhor").val(jQuery("#sliderhor").slider("values",0,minsliderhor));
+                          jQuery("input#Costhor").val(jQuery("#sliderhor").slider("values",1));
+                          change_price();
+                      },
+                      slide: function(event, ui){
+                          /*jQuery("input#Costhor").val(jQuery("#sliderhor").slider("values",0));
+                          jQuery("input#Costhor").val(jQuery("#sliderhor").slider("values",1));*/
+                      }
+                  });
+                  
+                  
+                  
+                      
+          
+          
+                  jQuery("#sliderver").slider({
+                      orientation: "vertical",
+                      animate:true,
+                      min: minsliderver,
+                      max: maxsliderver,
+                      values: [0,110],
+                      range: true,
+                      stop: function(event, ui) {
+                          jQuery("input#Costver").val(jQuery("#sliderver").slider("values",0,minsliderver));
+                          jQuery("input#Costver").val(jQuery("#sliderver").slider("values",1));
+                          change_price();
+                      },
+                      slide: function(event, ui){
+                          /*jQuery("input#Costver").val(jQuery("#sliderver").slider("values",0));
+                          jQuery("input#Costver").val(jQuery("#sliderver").slider("values",1));*/
+          
+                      }
+                  });
+                  
+                  stoim = stoim_balk; // присваиваем стоимость из прайса
+                  
+                  change_price();
+                  
+          });
+          //конец расчета тип балкона 6
+          
+          
+          
+          // расчет тип балкона 7
+          $(".tipbalk7").click(function () {
+              
+              
+              
+              
+                  tipbalk = 7; //задаем тип окна
+                  minsliderhor = shir_balk_min*7;
+                  maxsliderhor = shir_balk_max*7;
+                  
+                  
+                  minsliderver = vysota_balk_min;
+                  maxsliderver = vysota_balk_max;
+                  
+                  $('#Costhor').val(minsliderhor); // подставляем значения максимума и минимума на слайдер
+                  
+                  
+                  
+                  $('#Costver').val(110);
+                  
+                  jQuery("#sliderhor").slider({
+                      animate:true,
+                      min: minsliderhor,
+                      max: maxsliderhor,
+                      values: [0,minsliderhor],
+                      range: true,
+                      stop: function(event, ui) {
+                          jQuery("input#Costhor").val(jQuery("#sliderhor").slider("values",0,minsliderhor));
+                          jQuery("input#Costhor").val(jQuery("#sliderhor").slider("values",1));
+                          change_price();
+                      },
+                      slide: function(event, ui){
+                          /*jQuery("input#Costhor").val(jQuery("#sliderhor").slider("values",0));
+                          jQuery("input#Costhor").val(jQuery("#sliderhor").slider("values",1));*/
+                      }
+                  });
+                  
+                  
+                          
+          
+          
+                  jQuery("#sliderver").slider({
+                      orientation: "vertical",
+                      animate:true,
+                      min: minsliderver,
+                      max: maxsliderver,
+                      values: [0,110],
+                      range: true,
+                      stop: function(event, ui) {
+                          jQuery("input#Costver").val(jQuery("#sliderver").slider("values",0,minsliderver));
+                          jQuery("input#Costver").val(jQuery("#sliderver").slider("values",1));
+                          change_price();
+                      },
+                      slide: function(event, ui){
+                          /*jQuery("input#Costver").val(jQuery("#sliderver").slider("values",0));
+                          jQuery("input#Costver").val(jQuery("#sliderver").slider("values",1));*/
+          
+                      }
+                  });
+                  
+                  stoim = stoim_balk; // присваиваем стоимость из прайса
+                  
+                  change_price();
+                  
+          });
+          //конец расчета тип балкона 7
+          
+                   
+                   
+                   
+          $(".tipoknasyschekpodnet").click(function () {
+                      $('.tipoknasyschekpodnet').removeClass('tipoknachek').addClass('tipoknachekact');
+                      $('.tipoknasyschekpodda').removeClass('tipoknachekact').addClass('tipoknachek');
+                      chekpodokonnik = 0;
+                      change_price();
+                   });
+                   
+          $(".tipoknasyschekpodda").click(function () {
+                      $('.tipoknasyschekpodda').removeClass('tipoknachek').addClass('tipoknachekact');
+                      $('.tipoknasyschekpodnet').removeClass('tipoknachekact').addClass('tipoknachek');
+                      chekpodokonnik = 1;
+                      change_price();
+                   });
+                   
+                   
+                   
+          $(".tipoknasyschekrabotnet").click(function () {
+                      $('.tipoknasyschekrabotnet').removeClass('tipoknachek').addClass('tipoknachekact');
+                      $('.tipoknasyschekrabotda').removeClass('tipoknachekact').addClass('tipoknachek');
+                      chekmontazhrab = 0;
+                      change_price();
+                   });
+                   
+          $(".tipoknasyschekrabotda").click(function () {
+                      $('.tipoknasyschekrabotda').removeClass('tipoknachek').addClass('tipoknachekact');
+                      $('.tipoknasyschekrabotnet').removeClass('tipoknachekact').addClass('tipoknachek');
+                      chekmontazhrab = 1;
+                      change_price();
+                   });	 
+                   
+              //Подвеска к ползункам инпутов
+                  $("#sliderhor span.ui-slider-handle:eq(1)").append($(".Costhor11_block"));
+                  $("#sliderver span.ui-slider-handle:eq(1)").append($(".Costver11_block"));
+                   
+          
+          
+          // фильтрация ввода в поля только цифр
+          jQuery('input#Costver').keypress(function(event){
+                  var key, keyChar;
+                  if(!event) var event = window.event;
+                  if (event.keyCode) key = event.keyCode;
+                  else if(event.which) key = event.which;
+                  if(key==null || key==0 || key==8 || key==13 || key==9 || key==46 || key==37 || key==39 ) return true;
+                  keyChar=String.fromCharCode(key);
+                  if(!/\d/.test(keyChar))	return false;
+              });
+              
+          jQuery('input#Costhor').keypress(function(event){
+                  var key, keyChar;
+                  if(!event) var event = window.event;
+                  if (event.keyCode) key = event.keyCode;
+                  else if(event.which) key = event.which;
+                  if(key==null || key==0 || key==8 || key==13 || key==9 || key==46 || key==37 || key==39 ) return true;
+                  keyChar=String.fromCharCode(key);
+                  if(!/\d/.test(keyChar))	return false;
+              });
+              
+          
+              
+          
+          // передаем значение введенное пользователем вручную
+          jQuery("input#Costhor").change(function(){
+              var value2=jQuery("input#Costhor").val();
+              if (value2 > maxsliderhor) { value2 = maxsliderhor; jQuery("input#Costhor").val(maxsliderhor)}
+              if (value2 < minsliderhor) { value2 = minsliderhor; jQuery("input#Costhor").val(minsliderhor)}
+              jQuery("#sliderhor").slider("values",1,value2);
+              change_price();
+          });
+          
+          
+          
+          jQuery("input#Costver").change(function(){
+              var value2=jQuery("input#Costver").val();
+              if (value2 > maxsliderver) { value2 = maxsliderver; jQuery("input#Costver").val(maxsliderver)}
+              if (value2 < minsliderver) { value2 = minsliderver; jQuery("input#Costver").val(minsliderver)}
+              jQuery("#sliderver").slider("values",1,value2);
+              change_price();
+          });
+          
+          
+          
+          
+          // скрытие первого ползунка на слайдере
+          $("#sliderhor a.ui-slider-handle:eq(0)").css({"display":"none" , "visibility":"hidden"});
+          $("#sliderver a.ui-slider-handle:eq(0)").css("display","none");
+          
+          
+          });
+          
+          
+          
+          
+          
+          </script>
+          
+          
+                          <div class="b-calc__left">
+                              
+                              <ul class="b-calc__ul_onoff">
+                                  <li><a href="plastikovye-okna-kalkulyator.html">окна</a></li>
+                                  <li><a href="plastikovye-okna-kalkulyator.html"><img src="img/b_market_filtr_off.png" alt=""></a></li>
+                                  <li>балконы</li>
+                              </ul>
+                              
+                              
+                              
+                              
+                              
+                              <div class="tabletipokna tabletipbalk">
+                                  
+                                  
+                                  <div class="tipbalk1"></div>
+                                  <div class="tipbalk2"></div>
+                                  <div class="tipbalk3"></div>
+                                  <div class="tipbalk4 okact"></div>
+                                  <div class="tipbalk5"></div>
+                                  <div class="tipbalk6"></div>
+                                  <div class="tipbalk7"></div>
+                                  
+                                           
+          
+                              </div><!-- /.tabletipokna -->
+                              
+                              <div class="oknofull oknofullbalk"><img src="img/calc/balk/4.png">
+                                <div class="basechek">
+                                  
+                                        <div class="basechek__zag">Подоконник, отлив:</div>
+                                        <table cellpadding="0" cellspacing="0">
+                        <tbody><tr>
+                            <td width="45"><div class="tipoknasyschekpodnet tipoknachekact"></div></td>
+                            <td width="70">Нет</td>
+                            <td width="45"><div class="tipoknasyschekpodda tipoknachek"></div></td>
+                            <td>Да</td>
+                        </tr>
+                    </tbody></table>
+                
+                                        <div class="basechek__line"></div>
+                
+                                        <div class="basechek__zag">Монтажные работы:</div>
 
-                <div class="es1-flex-wrap">
-                    <div class="b-top__zamer block-calculate" data-toggle="modal" data-target="#want_zamer">
-                        <div class="b-top__zamer_ruler "></div>
-                        <div class="b-top__zamer_txt"><span>РАССЧИТАТЬ</span><br>
-                            по самой низкой цене</div>
+                    <table cellpadding="0" cellspacing="0" height="29">
+                        <tbody><tr>
+                            
+                            <td width="45"><div class="tipoknasyschekrabotnet tipoknachekact"></div></td>
+                            <td width="70">Нет</td>
+                            <td width="45"><div class="tipoknasyschekrabotda tipoknachek"></div></td>
+                            <td>Да</td>
+                        </tr>
+                    </tbody></table>
+                </div><!-- /.basechek -->
+                            </div> 
+                              
+                              
+                              <div id="sliderhor" style="margin-left:15px; margin-bottom:10px;" class="ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all"><div class="ui-slider-range ui-widget-header ui-corner-all" style="left: 0%; width: 0%;"></div><span class="ui-slider-handle ui-state-default ui-corner-all" tabindex="0" style="left: 0%;"></span><span class="ui-slider-handle ui-state-default ui-corner-all" tabindex="0" style="left: 0%;"><div class="Costhor11_block"><input type="text" id="Costhor">см</div></span></div>
+                    <div class="markhor"></div>
+                    <div id="sliderver" style="margin:20px auto 0 auto;" class="ui-slider ui-slider-vertical ui-widget ui-widget-content ui-corner-all"><div class="ui-slider-range ui-widget-header ui-corner-all" style="bottom: 0%; height: 40%;"></div><span class="ui-slider-handle ui-state-default ui-corner-all" tabindex="0" style="bottom: 0%;"></span><span class="ui-slider-handle ui-state-default ui-corner-all" tabindex="0" style="bottom: 40%;"><div class="Costver11_block"><input type="text" id="Costver">см</div></span></div>
+                    <div class="markver"></div>
+                              
+                              
+                    
+          
+                    
+                    
+                    
+                    
+                    <!--
+          <div class="Costhor11_block"><input type="text" id="CosthorES" disabled=""/></div>
+                    <div class="Costver11_block"><input type="text" id="CostverES" disabled=""/></div>
+          
+          
+                              <div style="display:none;"><input type="text" id="Costhor" disabled=""/></div>
+                    <div style="display:none;"><input type="text" id="Costver" disabled=""/></div>
+          -->
+                    
+                    
+          
+          
+                    
+                    <div class="stage1"></div>
+                    <div class="stage2"></div>
+                    <div class="stage3"></div>
+                    
+                    <div class="block_econom">
+                        <div class="block_econom_text">Средняя стоимость такого окна: <span>11422</span> р.</div>
+                        <div class="block_econom_bg">ВАША ЭКОНОМИЯ = <span>2636</span> р.</div>
                     </div>
-                    <div class="name-abs">
-                        <span>Мастер</span>
-                        <span>
-                            Василий Скворцов</span>
-                    </div>
-                    <div class="b-top__zamer" data-toggle="modal" data-target="#want_zamer">
-                        <div class="b-top__zamer_ruler "></div>
-                        <div class="b-top__zamer_txt"><span>БЕСПЛАТНЫЙ</span><br>
-                            выезд замерщика</div>
-                    </div>
-                </div>
-
+                    
+          
+                          </div><!-- /.b-calc__left -->
+          
+          
+          
+                          <div class="b-calc__right">
+                              <div class="dostavka" data-toggle="modal" data-target="#kupitDeshevle"></div>
+                              <div class="underdostavka">* уточните у менеджера</div>
+                              <div class="proc"><div></div></div>
+                              
+                              
+                              
+                              <div class="basetsena">
+                                  <div class="costonsale">Цена по акции</div>
+                                  
+                                  <div class="tsena_base_cost"><span class="costfin">8786</span> <img src="img/calc_otdelka/r.png" alt=""></div>
+                              </div><!-- /.basetsena -->
+                              
+                              <div class="calc_but">
+                                  <img src="img/calc/but.png" alt="" class="hidden-xs" data-toggle="modal" data-target="#kupitDeshevle">
+                                  <img src="img/calc/but260.png" alt="" class="hidden-lg hidden-md hidden-sm" data-toggle="modal" data-target="#kupitDeshevle">
+                              </div><!-- /.calc_but -->
+                              
+                              <div class="calc_rassr">
+                                  ЭТО ОКНО В РАССРОЧКУ<br>
+                                  <span class="credd">ВСЕГО <span class="rassrochka">1098</span> РУБЛЕЙ</span>
+                              </div><!-- /.calc_rassr -->
+                              
+                              
+                              
+                          </div><!-- /.b-calc__right -->
+                   
+                                    </div><!-- /.container -->
+                </div><!-- /.b-calc -->
+              </div>
             </div>
-        </div>
         <!--/ Самый верхний блок -->
 
-        
-        <div class="template es2_balcons finishing_balconies_calc">
-        
-            <script>
-		  
-                // КРЫША
-                stoim_1_1 = 800; //Гофролист
-                  stoim_1_2 = 1100; //Ондулин
-                  stoim_1_3 = 0;   //Без крыши
-      
-      
-                  // ТИП ОСТЕКЛЕНИЯ
-                  stoim_2_1 = 2050; //Раздвижной
-                  stoim_2_2 = 2550; //Распашной
-                  stoim_2_3 = 0;    //Без остекления
-          
-                  
-                  // ВНЕШНЯЯ ОТДЕЛКА
-                  stoim_3_1 = 1200; //Гафролист
-                  stoim_3_2 = 440; //Сайдинг
-                  stoim_3_3 = 0;   //Без внешней отделки
-                  
-                  
-                  // ОТДЕЛКА СТЕН						
-                  stoim_4_1 = 600; //ПФХ вагонка
-                  stoim_4_2 = 700; //ПВХ панель
-                  stoim_4_3 = 0;   //Без отделки
-                      
-                  
-                  // ШКАФ НА БАЛКОН						
-                  stoim_5_1 = 1200; //Тумба
-                  stoim_5_2 = 1700; //Распашной
-                  stoim_5_3 = 2250; //Раздвижной
-                  stoim_5_4 = 0;   //Без шкафа
-                  
-                  
-                  // НАСТИЛ ПОЛА						
-                  stoim_6_1 = 400; //Линолиум
-                  stoim_6_2 = 600; //Ламинат
-                  stoim_6_3 = 800; //Доска
-                  stoim_6_4 = 0;   //Без отделки
-                      
-              </script>
-      
-      
-     
-            <div class="container">
-            <!-- $$$$$$$ -->
-            <!-- $$$$$$$ -->
-            <!-- $$$$$$$ -->
-
-            <div class="h2">
-                <script></script>
-                <i id="akcia" style="font-style: normal;"></i>
-                ЛУЧШИЕ ЦЕНЫ НА БАЛКОНЫ В МОСКВЕ
-            </div>
-            <div class="text">"Балконы Цены" - компания,которая предлагает услуги по утеплению и отделке балконов и лоджий в Москве уже более 10 лет! За это время нами было реализовано свыше 13 000 проектов. Высокий уровень качества продукции и отсутствие недочетов при монтаже являются визитной карточкой компании.</div>
-            <!-- $$$$$$$ -->
-            <!-- $$$$$$$ -->
-            <!-- $$$$$$$ -->
-
-
-            <div class="calc_otdelka">						
-                  
-                  
-                <div class="calc_otdelka__left">
-                    <!--ОТДЕЛКА стен-->
-                    <div class="yellow_plash_bg red-button"><div class="plash_line_4"></div>ОТДЕЛКА стен</div>
-                    <div class="container-fluid  wall_decoration">
-                        <div class=" param_4_block_1 flex-wrap-block">
-                            
-                            <div class="flex-wrap-mini">
-                                <div class="circle param_4 param_4_1_1 param_4_1_1act"></div>
-                                <div class="circle param_4 param_4_1_2"></div>
-                                <div class="param_4 circle param_4_1_3"></div>
-                                <div class="circle param_4 param_4_1_4"></div>
-                            </div>
-                            
-                            <div class="block-right">
-                                
-                                <div class="param_4_link param_4_link_act">ПВХ вагонка</div>
-                                <div class="param_4_link param_4_link2">ПВХ панель</div>
-                                <div class="param_no_4 param_no">Без отделки</div>
-                            </div>
-                        </div>
-                        
-                        
-                        <div class=" param_4_block_2 flex-wrap-block">
-                            
-                            <div class="flex-wrap-mini">
-                                <div class="circle param_4 circle param_4_2_1 param_4_2_1act"></div>
-                                <div class="circle param_4 param_4_2_2"></div>
-                                <div class="circle param_4 param_4_2_3"></div>
-                                <div class="circle param_4 param_4_2_4"></div>
-                            </div>
-                            
-                            <div class="block-right">
-                                
-                                <div class="param_4_link param_4_link1">ПВХ вагонка</div>
-                                <div class="param_4_link param_4_link_act">ПВХ панель</div>
-                                <div class="param_no_4 param_no">Без отделки</div>
-                            </div>
-                        </div>
-                        
-                    </div>
-
-                    <!--Тип остекления-->
-                    <div class="yellow_plash_bg red-button"><div class="plash_line_2"></div>Тип остекления</div>
-                    <div class="container-fluid  glazing_type">
-                        <div class="flex-wrap">
-                            <div class="circle param_2 param_2_1"><span>Раздвижной</span></div>
-                            <div class="circle param_2 param_2_2"><span>Распашной</span></div>
-                            <div class="circle param_no_2 param_no param_no_act"><span>Без остекления</span></div>
-                        </div>
-                        
-                    </div>
-
-                    
-                    
-                    
-                    
-                    <div class="yellow_plash_bg red-button"><div class="plash_line_3"></div>Внешняя отделка</div>
-                    <div class="container-fluid  exterior_finish">
-                        <div class="flex-wrap">
-                            <div class="circle param_3 circle param_3_1"><span>Гафролист</span></div>
-                            <div class="circle param_3 param_3_2"><span>Сайдинг</span></div>
-                            <div class="circle param_no_3 param_no param_no_act"><span>Без внешней отделки</span></div>
-                        </div>
-                        
-                    </div>
-                    
-                </div><!-- /.calc_otdelka__left -->
-                
-                
-                <div class="calc_otdelka__right">
-                    
-                    <div class="yellow_plash_bg red-button"><div class="plash_line_1"></div>Крыша на балкон</div>
-                    <div class="container-fluid balcony_roof">
-                        <div class="flex-wrap">
-                            <div class="circle scale param_1 param_1_1 param_1_1act"><span>Гафролист</span>   </div>
-                            <div class="circle scale param_1 param_1_2"><span>Ондулин</span></div>
-                            
-                            <div class="circle param_no_1 param_no"><span>Без крыши</span></div>
-                        </div>
-                        <div class="row">
-                        </div>
-                    </div>
-                    
-                    
-                    <div class="yellow_plash_bg red-button"><div class="plash_line_5"></div>ШКАФ на балкон</div>
-                    <div class="container-fluid   cabinet_balcony">
-                        <div class="flex-wrap">
-                            <div class="circle param_5 param_5_1"><span>Тумба</span></div>
-                            <div class="circle param_5 param_5_2"><span>Распашной</span></div>
-                            <div class="circle param_5 param_5_3"><span>Купе</span></div>
-                            <div class="circle param_no_5 param_no param_no_act"><span>Без шкафа</span></div>
-                        </div>
-                        
-                    </div>
-                    
-                    <div class="yellow_plash_bg red-button"><div class="plash_line_6"></div>НАСТИЛ ПОЛА</div>
-                    <div class="container-fluid">
-                        <div class=" param_6_block_1 flex-wrap-block">
-                            
-                            <div class="flex-wrap-mini">
-                                <div class="circle param_6 param_6_1_1 param_6_1_1act"></div>
-                                <div class="circle param_6 param_6_1_2"></div>
-                                <div class="circle param_6 param_6_1_3"></div>
-                                <div class="circle param_6 param_6_1_4"></div>
-                            </div>
-                            
-                            <div class="block-right">
-                                
-                                <div class="param_6_link param_6_link_act">Линолеум</div>
-                                <div class="param_6_link param_6_link2">Ламинат</div>
-                                <div class="param_6_link param_6_link3">Доска </div>
-                            </div>
-                        </div>
-                        
-                        
-                        <div class=" param_6_block_2 flex-wrap-block">
-                            
-                            <div class="flex-wrap-mini">
-                                <div class="circle param_6 circle param_6_2_1 param_6_2_1act"></div>
-                                <div class="circle param_6 param_6_2_2"></div>
-                                <div class="circle param_6 param_6_2_3"></div>
-                                <div class="circle param_6 param_6_2_4"></div>
-                            </div>
-                            
-                            <div class="block-right">
-                                
-                                <div class="param_6_link param_6_link1">Линолеум</div>
-                                <div class="param_6_link param_6_link_act">Ламинат</div>
-                                <div class="param_6_link param_6_link3">Доска </div>
-                            </div>
-                        </div>
-                        
-                        <div class=" param_6_block_3 flex-wrap-block">
-                            <div class="flex-wrap-mini">
-                                
-                                <div class="col-xs-12"><div class="param_6 param_6_3_1 param_6_3_1act"></div></div>
-                                
-                            </div>
-                            <div class="block-right">
-                                
-                                <div class="param_6_link param_6_link1">Линолеум</div>
-                                <div class="param_6_link param_6_link2">Ламинат</div>
-                                <div class="param_6_link param_6_link_act">Доска </div>
-                            </div>
-                        </div>
-                        
-                        
-                        
-                        <div class="row" style="position: absolute; left: -200vw;">
-                            <div class="col-xs-12 param_no_a"><div class="param_no_6 param_no">Без отделки</div></div>
-                        </div>
-                    </div>
-    
-                    
-                    
-                    
-                </div><!-- /.calc_otdelka__right -->
-                
-                
-                <div class="calc_otdelka__center">
-                    
-                    
-                    <!-- крыша -->
-                    <div class="calc_1"></div>
-                    
-                    <!-- наружная отделка -->
-                    <div class="calc_3"></div>
-                                                    
-                    <!-- пол -->
-                    <div class="calc_6"></div>
-                    
-                    <!-- стены -->
-                    <div class="calc_4"></div>
-                    
-                    
-                    
-                    <!-- основа -->
-                    <div class="calc_osnova"></div>
-                    
-                    <!-- остекление -->
-                    <div class="calc_2"> </div>
-                    
-                    <!-- пол бетон -->
-                    <div class="calc_6_no"></div>
-                    
-                    <!-- стены бетон -->
-                    <div class="calc_4_no"></div>
-                    
-                    <!-- шкафы -->
-                    <div class="calc_5"></div>
-                    
-                    
-                    
-    
-                    <div class="tsena_base_bg_block">
-                        <div class="tsena_base_bg">
-                            <div class="costonsale">Цена по акции</div>
-                            
-                            <div class="tsena_base_cost"><span>8900</span> </div>
-                            
-                            <div class="only15days">Только 7 дней!</div>
-                        </div>
-                    </div>
-                    
-                    
-    
-                    
-                </div><!-- /.calc_otdelka__center -->
-                
-                
-                
-                <div class="calc_otdelka__right_2">
-          
-<!--<form onsubmit="yaCounter37363900.reachGoal('zayavka'); return true;" action="form9.php" method="POST">
-      
-                    <div class="input_bg"><input type="text" placeholder="Телефон" class="phonemask" required name="tel" id="form_text_20"/></div>
-                    
-                    
-                    
-    <center><input type="submit" value="ЗАКАЗАТЬ СО СКИДКОЙ" style="font-size: 20px; cursor: pointer; text-decoration: none; padding:11px 47px; color:#ffffff; background-color:#e62929; border-radius:5px; border: 2px solid #9e0303;"></center>
-    
-    </form>				
--->       
-<form action="php/mail.php" method="POST">
-    <input type="hidden" name="lang" value="Бесплатная консультация">
-    <div class="form-group_input form-group">
-        <input type="text" placeholder="Ваш телефон" class="phonemask" data-validation="required" id="form_text_10" name="phone" value="" size="0">
-    </div>
-    <button type="submit" class="red-pink-button">ЗАКАЗАТЬ СО СКИДКОЙ</button>
-</form>                  
-                                    
-
-                </div><!-- /.calc_otdelka__right_2 -->
-                
-                
-                
-                <div class="calc_otdelka__left_2 installment_plan">
-                    <img src="img/calc_otdelka/null_proc.png" alt="" />
-                    <div class="wrap">
-                        <span class="calc_otdelka__left_2_zag">Рассрочка 0%</span> 
-                
-                        <span class="calc_otdelka__left_2_text">Воспользуйтесь беспроцентной рассрочкой
-        на 12 месяцев.</span>
-                    </div>
-
-                </div><!-- /.calc_otdelka__left_2 -->
-                
-                </div></div><!-- /.calc_otdelka -->
-            </div>
-            
-      
-            <script>
-      
-              //объявляем переменные
-              costfin = 0; 
-              stoim1 = stoim_1_1;
-              stoim2 = stoim_2_3; 
-              stoim3 = stoim_3_3; 
-              stoim4 = stoim_4_1;
-              stoim5 = stoim_5_4;
-              stoim6 = stoim_6_1;
-                
-                
-                
-                $(document).ready(function() {
-                    
-                    
-                    
-                    
-                    change_price_otdelka();
-      
-                    
-                    function change_price_otdelka()
-                          {
-                              costfin = stoim1 + stoim2 + stoim3 + stoim4 + stoim5 + stoim6;
-                              costfin = Math.round(costfin); // округляем до целого
-                              $('.tsena_base_cost span').html(costfin); // выводим финальную стоимость
-                          }	// конец  change_price_otdelka()
-                    
-                    
-                    // roof start
-                    $('.param_1_1').click(function() {
-                        $('.param_1_2').removeClass('param_1_2act');
-                        $('.param_no_1').removeClass('param_no_act');
-                        $('.param_1_1').addClass('param_1_1act');
-                        $('.calc_1').css("background","url(img/calc_otdelka/calc_1_1.png)");
-                          $('.calc_1').css("background-size","cover");
-                          
-                          stoim1 = stoim_1_1;
-                          change_price_otdelka();
-                    });
-                    
-                    $('.param_1_2').click(function() {
-                        $('.param_1_1').removeClass('param_1_1act');
-                        $('.param_no_1').removeClass('param_no_act');
-                        $('.param_1_2').addClass('param_1_2act');	
-                        $('.calc_1').css("background","url(img/calc_otdelka/calc_1_2.png)");
-                        $('.calc_1').css("background-size","cover");
-                        
-                        stoim1 = stoim_1_2;
-                        change_price_otdelka();
-                    });
-                    
-                    $('.param_no_1').click(function() {
-                        $('.param_1_1').removeClass('param_1_1act');
-                        $('.param_1_2').removeClass('param_1_2act');
-                        $('.param_no_1').addClass('param_no_act');	
-                        $('.calc_1').css("background","url(img/calc_otdelka/calc_1_no.png)");
-                        $('.calc_1').css("background-size","cover");
-                        
-                        stoim1 = stoim_1_3;
-                        change_price_otdelka();
-                    });
-                    // roof end
-                    
-                    // type of window start
-                    $('.param_2_1').click(function() {
-                        $('.param_2_2').removeClass('param_2_2act');
-                        $('.param_no_2').removeClass('param_no_act');
-                        $('.param_2_1').addClass('param_2_1act');
-                        $('.calc_2').css("background","url(img/calc_otdelka/calc_2_1.png)");
-                        $('.calc_2').css("background-size","cover");
-                        
-                        stoim2 = stoim_2_1;
-                        change_price_otdelka();
-                    });
-                    
-                    $('.param_2_2').click(function() {
-                        $('.param_2_1').removeClass('param_2_1act');
-                        $('.param_no_2').removeClass('param_no_act');
-                        $('.param_2_2').addClass('param_2_2act');	
-                        $('.calc_2').css("background","url(img/calc_otdelka/calc_2_2.png)");
-                        $('.calc_2').css("background-size","cover");
-                        
-                        stoim2 = stoim_2_2;
-                        change_price_otdelka();
-                    });
-                    
-                    $('.param_no_2').click(function() {
-                        $('.param_2_1').removeClass('param_2_1act');
-                        $('.param_2_2').removeClass('param_2_2act');
-                        $('.param_no_2').addClass('param_no_act');	
-                        $('.calc_2').css("background","url(img/calc_otdelka/calc_2_no.png)");
-                        $('.calc_2').css("background-size","cover");
-                        
-                        stoim2 = stoim_2_3;
-                        change_price_otdelka();
-                    });
-                    // type of window end
-                    
-                    // outside start
-                    $('.param_3_1').click(function() {
-                        $('.param_3_2').removeClass('param_3_2act');
-                        $('.param_no_3').removeClass('param_no_act');
-                        $('.param_3_1').addClass('param_3_1act');
-                        $('.calc_3').css("background","url(img/calc_otdelka/calc_3_1.png)");
-                        $('.calc_3').css("background-size","cover");
-                        
-                        stoim3 = stoim_3_1;
-                        change_price_otdelka();
-                    });
-                    
-                    $('.param_3_2').click(function() {
-                        $('.param_3_1').removeClass('param_3_1act');
-                        $('.param_no_3').removeClass('param_no_act');
-                        $('.param_3_2').addClass('param_3_2act');	
-                        $('.calc_3').css("background","url(img/calc_otdelka/calc_3_2.png)");
-                        $('.calc_3').css("background-size","cover");
-                        
-                        stoim3 = stoim_3_2;
-                        change_price_otdelka();
-                    });
-                    
-                    $('.param_no_3').click(function() {
-                        $('.param_3_1').removeClass('param_3_1act');
-                        $('.param_3_2').removeClass('param_3_2act');
-                        $('.param_no_3').addClass('param_no_act');	
-                        $('.calc_3').css("background","url(img/calc_otdelka/calc_3_no.png)");
-                        $('.calc_3').css("background-size","cover");	
-                        
-                        stoim3 = stoim_3_3;
-                        change_price_otdelka();
-                    });
-                    // outside end
-                    
-                    // inside start
-                    $('.param_4_1_1').click(function() {
-                        $('.param_4_1_2').removeClass('param_4_1_2act');
-                        $('.param_4_1_3').removeClass('param_4_1_3act');
-                        $('.param_4_1_4').removeClass('param_4_1_4act');
-                        $('.param_no_4').removeClass('param_no_act');
-                        $('.param_4_1_1').addClass('param_4_1_1act');
-                        $('.calc_4').css("background","url(img/calc_otdelka/calc_4_1_1.png)");
-                        $('.calc_4').css("background-size","cover");
-                        $('.calc_4_no').css("background","none");
-                        stoim4 = stoim_4_1;
-                        change_price_otdelka();
-                    });
-                    
-                    $('.param_4_1_2').click(function() {
-                        $('.param_4_1_1').removeClass('param_4_1_1act');
-                        $('.param_4_1_3').removeClass('param_4_1_3act');
-                        $('.param_4_1_4').removeClass('param_4_1_4act');
-                        $('.param_no_4').removeClass('param_no_act');
-                        $('.param_4_1_2').addClass('param_4_1_2act');	
-                        $('.calc_4').css("background","url(img/calc_otdelka/calc_4_1_2.png)");
-                        $('.calc_4').css("background-size","cover");
-                        $('.calc_4_no').css("background","none");
-                        stoim4 = stoim_4_1;
-                        change_price_otdelka();
-                    });
-                    
-                    $('.param_4_1_3').click(function() {
-                        $('.param_4_1_1').removeClass('param_4_1_1act');
-                        $('.param_4_1_2').removeClass('param_4_1_2act');
-                        $('.param_4_1_4').removeClass('param_4_1_4act');
-                        $('.param_no_4').removeClass('param_no_act');
-                        $('.param_4_1_3').addClass('param_4_1_3act');	
-                        $('.calc_4').css("background","url(img/calc_otdelka/calc_4_1_3.png)");
-                        $('.calc_4').css("background-size","cover");
-                        $('.calc_4_no').css("background","none");
-                        stoim4 = stoim_4_1;
-                        change_price_otdelka();
-                    });
-                    
-                    $('.param_4_1_4').click(function() {
-                        $('.param_4_1_1').removeClass('param_4_1_1act');
-                        $('.param_4_1_2').removeClass('param_4_1_2act');
-                        $('.param_4_1_3').removeClass('param_4_1_3act');
-                        $('.param_no_4').removeClass('param_no_act');
-                        $('.param_4_1_4').addClass('param_4_1_4act');	
-                        $('.calc_4').css("background","url(img/calc_otdelka/calc_4_1_4.png)");
-                        $('.calc_4').css("background-size","cover");
-                        $('.calc_4_no').css("background","none");
-                        stoim4 = stoim_4_1;
-                        change_price_otdelka();
-                    });
-                    
-                    
-                    
-                    
-                    
-                    
-                    $('.param_4_2_1').click(function() {
-                        $('.param_4_2_2').removeClass('param_4_2_2act');
-                        $('.param_4_2_3').removeClass('param_4_2_3act');
-                        $('.param_4_2_4').removeClass('param_4_2_4act');
-                        $('.param_no_4').removeClass('param_no_act');
-                        $('.param_4_2_1').addClass('param_4_2_1act');
-                        $('.calc_4').css("background","url(img/calc_otdelka/calc_4_2_1.png)");
-                        $('.calc_4').css("background-size","cover");
-                        $('.calc_4_no').css("background","none");
-                        stoim4 = stoim_4_2;
-                        change_price_otdelka();
-                    });
-                    
-                    $('.param_4_2_2').click(function() {
-                        $('.param_4_2_1').removeClass('param_4_2_1act');
-                        $('.param_4_2_3').removeClass('param_4_2_3act');
-                        $('.param_4_2_4').removeClass('param_4_2_4act');
-                        $('.param_no_4').removeClass('param_no_act');
-                        $('.param_4_2_2').addClass('param_4_2_2act');	
-                        $('.calc_4').css("background","url(img/calc_otdelka/calc_4_2_2.png)");
-                        $('.calc_4').css("background-size","cover");
-                        $('.calc_4_no').css("background","none");
-                        stoim4 = stoim_4_2;
-                        change_price_otdelka();
-                    });
-                    
-                    $('.param_4_2_3').click(function() {
-                        $('.param_4_2_1').removeClass('param_4_2_1act');
-                        $('.param_4_2_2').removeClass('param_4_2_2act');
-                        $('.param_4_2_4').removeClass('param_4_2_4act');
-                        $('.param_no_4').removeClass('param_no_act');
-                        $('.param_4_2_3').addClass('param_4_2_3act');	
-                        $('.calc_4').css("background","url(img/calc_otdelka/calc_4_2_3.png)");
-                        $('.calc_4').css("background-size","cover");
-                        $('.calc_4_no').css("background","none");
-                        stoim4 = stoim_4_2;
-                        change_price_otdelka();
-                    });
-                    
-                    $('.param_4_2_4').click(function() {
-                        $('.param_4_2_1').removeClass('param_4_2_1act');
-                        $('.param_4_2_2').removeClass('param_4_2_2act');
-                        $('.param_4_2_3').removeClass('param_4_2_3act');
-                        $('.param_no_4').removeClass('param_no_act');
-                        $('.param_4_2_4').addClass('param_4_2_4act');	
-                        $('.calc_4').css("background","url(img/calc_otdelka/calc_4_2_4.png)");
-                        $('.calc_4').css("background-size","cover");
-                        $('.calc_4_no').css("background","none");
-                        stoim4 = stoim_4_2;
-                        change_price_otdelka();
-                    });
-                    
-                    
-                    $('.param_no_4').click(function() {
-                        $('.param_4_1_1').removeClass('param_4_1_1act');
-                        $('.param_4_1_2').removeClass('param_4_1_2act');
-                        $('.param_4_1_3').removeClass('param_4_1_3act');
-                        $('.param_4_1_4').removeClass('param_4_1_4act');
-                          $('.param_4_2_1').removeClass('param_4_2_1act');
-                        $('.param_4_2_2').removeClass('param_4_2_2act');
-                        $('.param_4_2_3').removeClass('param_4_2_3act');
-                        $('.param_4_2_4').removeClass('param_4_2_4act');
-                        $('.param_no_4').addClass('param_no_act');	
-                        $('.calc_4_no').css("background","url(img/calc_otdelka/calc_4_no.png)");	
-                        $('.calc_4_no').css("background-size","cover");
-                        
-                        stoim4 = stoim_4_3;
-                        change_price_otdelka();
-                    });
-                    
-                    $('.param_4_link1').click(function() {
-                        $('.param_4_1_2').removeClass('param_4_1_2act');
-                        $('.param_4_1_3').removeClass('param_4_1_3act');
-                        $('.param_4_1_4').removeClass('param_4_1_4act');
-                        $('.param_no_4').removeClass('param_no_act');
-                        $('.param_4_1_1').addClass('param_4_1_1act');
-                        $('.calc_4').css("background","url(img/calc_otdelka/calc_4_1_1.png)");
-                        $('.calc_4').css("background-size","cover");
-                        $('.param_4_block_2').css("display","none");
-                        $('.param_4_block_1').css("display","block");
-                        $('.calc_4_no').css("background","none");
-                        stoim4 = stoim_4_1;
-                        change_price_otdelka();
-                    });
-                    
-                    $('.param_4_link2').click(function() {
-                        $('.param_4_2_2').removeClass('param_4_2_2act');
-                        $('.param_4_2_3').removeClass('param_4_2_3act');
-                        $('.param_4_2_4').removeClass('param_4_2_4act');
-                        $('.param_no_4').removeClass('param_no_act');
-                        $('.param_4_2_1').addClass('param_4_2_1act');
-                        $('.calc_4').css("background","url(img/calc_otdelka/calc_4_2_1.png)");
-                        $('.calc_4').css("background-size","cover");
-                        $('.param_4_block_1').css("display","none");
-                        $('.param_4_block_2').css("display","block");
-                        $('.calc_4_no').css("background","none");
-                        stoim4 = stoim_4_2;
-                        change_price_otdelka();
-                    });
-                    // inside end
-                    
-                    // furniture start
-                    $('.param_5_1').click(function() {
-                        $('.param_5_2').removeClass('param_5_2act');
-                        $('.param_5_3').removeClass('param_5_3act');
-                        $('.param_no_5').removeClass('param_no_act');
-                        $('.param_5_1').addClass('param_5_1act');
-                        $('.calc_5').css("background","url(img/calc_otdelka/calc_5_1.png)");
-                        $('.calc_5').css("background-size","cover");
-                        
-                        stoim5 = stoim_5_1;
-                        change_price_otdelka();
-                    });
-                    
-                    $('.param_5_2').click(function() {
-                        $('.param_5_1').removeClass('param_5_1act');
-                        $('.param_5_3').removeClass('param_5_3act');
-                        $('.param_no_5').removeClass('param_no_act');
-                        $('.param_5_2').addClass('param_5_2act');	
-                        $('.calc_5').css("background","url(img/calc_otdelka/calc_5_2_.png)");
-                        $('.calc_5').css("background-size","cover");
-                        
-                        stoim5 = stoim_5_2;
-                        change_price_otdelka();
-                    });
-                    
-                    $('.param_5_3').click(function() {
-                        $('.param_5_1').removeClass('param_5_1act');
-                        $('.param_5_2').removeClass('param_5_2act');
-                        $('.param_no_5').removeClass('param_no_act');
-                        $('.param_5_3').addClass('param_5_3act');	
-                        $('.calc_5').css("background","url(img/calc_otdelka/calc_5_3_.png)");
-                        $('.calc_5').css("background-size","cover");
-                        
-                        stoim5 = stoim_5_3;
-                        change_price_otdelka();
-                    });
-                    
-                    $('.param_no_5').click(function() {
-                        $('.param_5_1').removeClass('param_5_1act');
-                        $('.param_5_2').removeClass('param_5_2act');
-                        $('.param_5_3').removeClass('param_5_3act');
-                        $('.param_no_5').addClass('param_no_act');	
-                        $('.calc_5').css("background","none");	
-                        
-                        stoim5 = stoim_5_4;
-                        change_price_otdelka();
-                    });
-                    // furniture end
-                    
-                    
-                    
-                    // floor start
-                    $('.param_6_1_1').click(function() {
-                        $('.param_6_1_2').removeClass('param_6_1_2act');
-                        $('.param_6_1_3').removeClass('param_6_1_3act');
-                        $('.param_6_1_4').removeClass('param_6_1_4act');
-                        $('.param_no_6').removeClass('param_no_act');
-                        $('.param_6_1_1').addClass('param_6_1_1act');
-                        $('.calc_6').css("background","url(img/calc_otdelka/calc_6_1_1.png)");
-                        $('.calc_6').css("background-size","cover");
-                        $('.calc_6_no').css("background","none");
-                        stoim6 = stoim_6_1;
-                        change_price_otdelka();
-                    });
-                    
-                    $('.param_6_1_2').click(function() {
-                        $('.param_6_1_1').removeClass('param_6_1_1act');
-                        $('.param_6_1_3').removeClass('param_6_1_3act');
-                        $('.param_6_1_4').removeClass('param_6_1_4act');
-                        $('.param_no_6').removeClass('param_no_act');
-                        $('.param_6_1_2').addClass('param_6_1_2act');	
-                        $('.calc_6').css("background","url(img/calc_otdelka/calc_6_1_2.png)");
-                        $('.calc_6').css("background-size","cover");
-                        $('.calc_6_no').css("background","none");
-                        stoim6 = stoim_6_1;
-                        change_price_otdelka();
-                    });
-                    
-                    $('.param_6_1_3').click(function() {
-                        $('.param_6_1_1').removeClass('param_6_1_1act');
-                        $('.param_6_1_2').removeClass('param_6_1_2act');
-                        $('.param_6_1_4').removeClass('param_6_1_4act');
-                        $('.param_no_6').removeClass('param_no_act');
-                        $('.param_6_1_3').addClass('param_6_1_3act');	
-                        $('.calc_6').css("background","url(img/calc_otdelka/calc_6_1_3.png)");
-                        $('.calc_6').css("background-size","cover");
-                        $('.calc_6_no').css("background","none");
-                        stoim6 = stoim_6_1;
-                        change_price_otdelka();
-                    });
-                    
-                    $('.param_6_1_4').click(function() {
-                        $('.param_6_1_1').removeClass('param_6_1_1act');
-                        $('.param_6_1_2').removeClass('param_6_1_2act');
-                        $('.param_6_1_3').removeClass('param_6_1_3act');
-                        $('.param_no_6').removeClass('param_no_act');
-                        $('.param_6_1_4').addClass('param_6_1_4act');	
-                        $('.calc_6').css("background","url(img/calc_otdelka/calc_6_1_4.png)");
-                        $('.calc_6').css("background-size","cover");
-                        $('.calc_6_no').css("background","none");
-                        stoim6 = stoim_6_1;
-                        change_price_otdelka();
-                    });
-                    
-                    
-                    $('.param_6_2_1').click(function() {
-                        $('.param_6_2_2').removeClass('param_6_2_2act');
-                        $('.param_6_2_3').removeClass('param_6_2_3act');
-                        $('.param_6_2_4').removeClass('param_6_2_4act');
-                        $('.param_no_6').removeClass('param_no_act');
-                        $('.param_6_2_1').addClass('param_6_2_1act');
-                        $('.calc_6').css("background","url(img/calc_otdelka/calc_6_2_2.png)");
-                        $('.calc_6').css("background-size","cover");
-                        $('.calc_6_no').css("background","none");
-                        stoim6 = stoim_6_2;
-                        change_price_otdelka();
-                    });
-                    
-                    $('.param_6_2_2').click(function() {
-                        $('.param_6_2_1').removeClass('param_6_2_1act');
-                        $('.param_6_2_3').removeClass('param_6_2_3act');
-                        $('.param_6_2_4').removeClass('param_6_2_4act');
-                        $('.param_no_6').removeClass('param_no_act');
-                        $('.param_6_2_2').addClass('param_6_2_2act');	
-                        $('.calc_6').css("background","url(img/calc_otdelka/calc_6_2_1.png)");
-                        $('.calc_6').css("background-size","cover");
-                        $('.calc_6_no').css("background","none");
-                        stoim6 = stoim_6_2;
-                        change_price_otdelka();
-                    });
-                    
-                    $('.param_6_2_3').click(function() {
-                        $('.param_6_2_1').removeClass('param_6_2_1act');
-                        $('.param_6_2_2').removeClass('param_6_2_2act');
-                        $('.param_6_2_4').removeClass('param_6_2_4act');
-                        $('.param_no_6').removeClass('param_no_act');
-                        $('.param_6_2_3').addClass('param_6_2_3act');	
-                        $('.calc_6').css("background","url(img/calc_otdelka/calc_6_2_3.png)");
-                        $('.calc_6').css("background-size","cover");
-                        $('.calc_6_no').css("background","none");
-                        stoim6 = stoim_6_2;
-                        change_price_otdelka();
-                    });
-                    
-                    $('.param_6_2_4').click(function() {
-                        $('.param_6_2_1').removeClass('param_6_2_1act');
-                        $('.param_6_2_2').removeClass('param_6_2_2act');
-                        $('.param_6_2_3').removeClass('param_6_2_3act');
-                        $('.param_no_6').removeClass('param_no_act');
-                        $('.param_6_2_4').addClass('param_6_2_4act');	
-                        $('.calc_6').css("background","url(img/calc_otdelka/calc_6_2_4.png)");
-                        $('.calc_6').css("background-size","cover");
-                        $('.calc_6_no').css("background","none");
-                        stoim6 = stoim_6_2;
-                        change_price_otdelka();
-                    });
-                    
-                    
-                    
-                    $('.param_6_3_1').click(function() {
-                        $('.param_no_6').removeClass('param_no_act');
-                        $('.param_6_3_1').addClass('param_6_3_1act');	
-                        $('.calc_6').css("background","url(img/calc_otdelka/calc_6_3_1.png)");
-                        $('.calc_6').css("background-size","cover");
-                        $('.calc_6_no').css("background","none");
-                        stoim6 = stoim_6_3;
-                        change_price_otdelka();
-                    });
-                    
-                    
-                    
-                    
-                    $('.param_no_6').click(function() {
-                        $('.param_6_1_1').removeClass('param_6_1_1act');
-                        $('.param_6_1_2').removeClass('param_6_1_2act');
-                        $('.param_6_1_3').removeClass('param_6_1_3act');
-                        $('.param_6_1_4').removeClass('param_6_1_4act');
-                          $('.param_6_2_1').removeClass('param_6_2_1act');
-                        $('.param_6_2_2').removeClass('param_6_2_2act');
-                        $('.param_6_2_3').removeClass('param_6_2_3act');
-                        $('.param_6_2_4').removeClass('param_6_2_4act');
-                        $('.param_6_3_1').removeClass('param_6_3_1act');
-                        $('.param_no_6').addClass('param_no_act');	
-                        $('.calc_6_no').css("background","url(img/calc_otdelka/calc_6_no.png)");	
-                        $('.calc_6_no').css("background-size","cover");
-                        
-                        stoim6 = stoim_6_4;
-                        change_price_otdelka();
-                    });
-                    
-                    $('.param_6_link1').click(function() {
-                        $('.param_6_1_2').removeClass('param_6_1_2act');
-                        $('.param_6_1_3').removeClass('param_6_1_3act');
-                        $('.param_6_1_4').removeClass('param_6_1_4act');
-                        $('.param_no_6').removeClass('param_no_act');
-                        $('.param_6_1_1').addClass('param_6_1_1act');
-                        $('.calc_6').css("background","url(img/calc_otdelka/calc_6_1_1.png)");
-                        $('.calc_6').css("background-size","cover");
-                        $('.param_6_block_2').css("display","none");
-                        $('.param_6_block_3').css("display","none");
-                        $('.param_6_block_1').css("display","block");
-                        $('.calc_6_no').css("background","none");
-                        stoim6 = stoim_6_1;
-                        change_price_otdelka();
-                    });
-                    
-                    $('.param_6_link2').click(function() {
-                        $('.param_6_2_2').removeClass('param_6_2_2act');
-                        $('.param_6_2_3').removeClass('param_6_2_3act');
-                        $('.param_6_2_4').removeClass('param_6_2_4act');
-                        $('.param_no_6').removeClass('param_no_act');
-                        $('.param_6_2_1').addClass('param_6_2_1act');
-                        $('.calc_6').css("background","url(img/calc_otdelka/calc_6_2_2.png)");
-                        $('.calc_6').css("background-size","cover");
-                        $('.param_6_block_1').css("display","none");
-                        $('.param_6_block_3').css("display","none");
-                        $('.param_6_block_2').css("display","block");
-                        $('.calc_6_no').css("background","none");
-                        stoim6 = stoim_6_2;
-                        change_price_otdelka();
-                    });
-                    
-                    $('.param_6_link3').click(function() {
-                        $('.param_no_6').removeClass('param_no_act');
-                        $('.param_6_3_1').addClass('param_6_3_1act');
-                        $('.calc_6').css("background","url(img/calc_otdelka/calc_6_3_1.png)");
-                        $('.calc_6').css("background-size","cover");
-                        $('.param_6_block_1').css("display","none");
-                        $('.param_6_block_2').css("display","none");
-                        $('.param_6_block_3').css("display","block");
-                        $('.calc_6_no').css("background","none");	
-                        stoim6 = stoim_6_3;
-                        change_price_otdelka();
-                    });
-                    // floor end
-                    
-                });
-            </script>
-
-        </div>
-
-        <div class="template es10_repairs_balcony">
-                <div class="container">
-                    <div class="repairs-wrapper">
-                        <div class="h2">РЕМОНТ БАЛКОНОВ
-                            И ЛОДЖИЙ</div>
-                        <div class="item">
-                            <div class="name">Установка крыши</div>
-                            <div class="discount">980 Р</div>
-                            <div class="price">1500 Р</div>
-                        </div>
-                        <div class="item">
-                            <div class="name">Остекление</div>
-                            <div class="discount">2310 Р</div>
-                            <div class="price">2500 Р</div>
-                        </div>
-                        <div class="item">
-                            <div class="name">Кладка парапета</div>
-                            <div class="discount">440 Р</div>
-                            <div class="price">870 Р</div>
-                        </div>
-                        <div class="item">
-                            <div class="name">Вынос балкона</div>
-                            <div class="discount">430 Р</div>
-                            <div class="price">750 Р</div>
-                        </div>
-                        <div class="item">
-                            <div class="name">Утепление стен</div>
-                            <div class="discount">410 Р</div>
-                            <div class="price">650 Р</div>
-                        </div>
-                        <div class="item">
-                            <div class="name">Отделка</div>
-                            <div class="discount">790 Р</div>
-                            <div class="price">1100 Р</div>
-                        </div>
-                        <div class="item">
-                            <div class="name">Укладка пола</div>
-                            <div class="discount">510 Р</div>
-                            <div class="price">980 Р</div>
-                        </div>
-                        <p>Ваша выгода составляет : <span>3750</span><span>Р</span></p>
-                    </div>
-                </div>  
-    
-            </div>
-
- <div class="es7_balcons template">
-            <div class="container">
-                    <div class="h2">РАССЧИТАЕМ ОТДЕЛКУ БАЛКОНА ЗА 3 МИНУТЫ</div>
-                
-                <form action="php/mail.php" method="POST">
-                    <div class="b-sms_input b-sms_input_tel form-group">
-                        <input type="text" class="phonemask input-phone" data-validation="required" placeholder="Ваш телефон" id="form_text_11" name="phone" value="" size="0">
-                    </div>
-                    <div class="b-sms_input b-sms_input_tel form-group">
-                        <input type="text" class="" data-validation="required" placeholder="Ваше имя" id="form_text_11" name="phone" value="" size="0">
-                    </div>
-                    <div class="block-sketch-submit">
-                        <div class="sketch" title="Прикрепить файл">
-                        
-                            <input  onchange="readURL(this);" size="0" type="file"><i class="sketch-text"><span>Загрузить</span>
-                                эскизы</i> 
-                        </div>
-                        <button class="red-button" type="submit">РАССЧИТАТЬ</button>
-    
-                    </div>
-                </form>
-                <div class="text">Если у Вас нет эскизов, впишите номер телефона и менеджер перезвонит Вам для
-                    выяснения размеров!</div>
-                <p>Оставляя свои контактные данные, вы подтверждаете свое совершеннолетие,
-                    соглашаетесь на обработку персональных данных в соответствии с Правовой информацией</p>
-            </div>
-        </div><!-- /.es13_14 -->
-
-
-        <!-- quick-calculation10 -->
-        <div class="quick-calculation es8_balcons template">
-            <div class="container">
-                <div class="h2">ПРИ ЗАКАЗЕ ВЫ ПОЛУЧАЕТЕ</div>
-                <div class="flex-container">
-                    <div class="item item-1">
-                        <div class="es2_but" data-toggle="modal" data-target="#kupitDeshevle">ТЕПЛЫЙ ПОЛ <br>
-                            ОТ 640 Р</div>
-                    </div>
-                    <div class="item item-2">
-                        <div class="es2_but" data-toggle="modal" data-target="#kupitDeshevle">УТЕПЛЕНИЕ БАЛКОНА
-                            <br> ОТ 420 Р</div>
-                    </div>
-                    <div class="item item-3">
-                        <div class="es2_but" data-toggle="modal" data-target="#kupitDeshevle">ОБЪЕДИНЕНИЕ БАЛКОНА
-                            <br> ОТ 990 Р</div>
-                    </div>
-                </div>
-            </div>
-            
-        </div>
-
-        <!--Блок таб-->
-        <div class=" template tab-block">
-            <div class="container">
-                
-                <div class="h2">ШКАФЫ НА БАЛКОН ПО НИЗКИМ ЦЕНАМ </div>
-                
-                <div id="wrap-tabs" class="wrap-tabs">
-                    <div class="tabs">
-                        <div class="tab active">Шкафы</div>
-                        <div class="tab">Тумбы</div>
-                        <div class="tab ">Стеллажи</div>
-                        <div class="tab">Столики</div>
-                    </div>
-                    
-                    <div class="content">
-                        <div class="tab-content active">
-                            <div class="flex-wrap">
-                                <div class="text">Только у нас! Специальное
-                                    предложение на шкаф на
-                                        балкон. Закажите шкаф
-                                        сейчас - по самой выгодной
-                                        цене.</div>
-                                <div class="img-right">
-                                    <img src="img/tab_img1.png" alt="">
-                                </div>
-                                <div class="price">
-                                    <div class="red-button" data-toggle="modal" data-target="#kupitDeshevle">ЗАКАЗАТЬ ПО АКЦИИ</div>
-                                </div>
-                            </div>
-                            
-                            
-                        </div>
-                        <div class="tab-content">
-                            <div class="flex-wrap">
-                                <div class="text">Только у нас! Специальное
-                                    предложение на шкаф на
-                                        балкон. Закажите шкаф
-                                        сейчас - по самой выгодной
-                                        цене.</div>
-                                <div class="img-right">
-                                    <img src="img/tab_img1.png" alt="">
-                                </div>
-                                <div class="price">
-                                        <div class="red-button" data-toggle="modal" data-target="#kupitDeshevle">ЗАКАЗАТЬ ПО АКЦИИ</div>
-                                    </div>
-                            </div>
-                        </div>
-                        <div class="tab-content">
-                            <div class="flex-wrap">
-                                <div class="text">Только у нас! Специальное
-                                    предложение на шкаф на
-                                        балкон. Закажите шкаф
-                                        сейчас - по самой выгодной
-                                        цене.</div>
-                                <div class="img-right">
-                                    <img src="img/tab_img1.png" alt="">
-                                </div>
-                                <div class="price">
-                                        <div class="red-button" data-toggle="modal" data-target="#kupitDeshevle">ЗАКАЗАТЬ ПО АКЦИИ</div>
-                                    </div>
-                            </div>
-                        </div>
-                        <div class="tab-content">
-                             <div class="flex-wrap">
-                                <div class="text">Только у нас! Специальное
-                                    предложение на шкаф на
-                                        балкон. Закажите шкаф
-                                        сейчас - по самой выгодной
-                                        цене.</div>
-                                <div class="img-right">
-                                    <img src="img/tab_img1.png" alt="">
-                                </div>
-                                <div class="price">
-                                        <div class="red-button" data-toggle="modal" data-target="#kupitDeshevle">ЗАКАЗАТЬ ПО АКЦИИ</div>
-                                    </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-    
-            <script > 
-                $(function() {
-                $('#wrap-tabs').on('click', '.tab', function() {
-
-                    var tabs = $('#wrap-tabs .tab'),
-                    cont = $('#wrap-tabs .tab-content');
-
-                    //Удяляем классы active
-                    tabs.removeClass('active');
-                    cont.removeClass('active');
-
-                    //Добавляем класссы active
-                    $(this).addClass('active');
-                    cont.eq($(this).index()).addClass('active');
-
-                    return false;
-                });
-                });
-            </script>
-        </div>
-
-
-
-        <!-- b-sms_bg -->
-        <div class="b-sms_bg sms-discount es3_balcons template">
-            <div class="container ">
-                <div class="flex-container">
-                    <div class="b-sms_phone">
-                        <img src="img/b_sms_phone.png" alt="">
-                    </div>
-                    <div class="b-sms-form">
-                        <div class="b-sms__text">
-                            СМС-СКИДКА
-                        </div>
-                        <div class="b-sms__undertext">
-                            Впишите свой телефон и получите смс-купон на скидку:
-                        </div>
-                        <div class="b-sms__form">
-    
-                            <!-- ######### СМС-СКИДКА ######### -->
-                            <!-- ######### СМС-СКИДКА ######### -->
-                            <!-- ######### СМС-СКИДКА ######### -->
-                            <form action="php/mail.php" method="POST">
-                                <input type="hidden" name="lang" value="СМС-СКИДКА" />
-                                <div class="b-sms_input b-sms_input_tel form-group">
-                                    <input type="text" class="phonemask input-phone" data-validation="required"
-                                        placeholder="Ваш телефон" id="form_text_11" name="phone" value="" size="0" />
-                                </div>
-                                <div class="b-sms_but">
-                                    <button class="red-button" type="submit">отправить</button>
-                                </div>
-                            </form>
-                            <!-- ######### СМС-СКИДКА ######### -->
-                            <!-- ######### СМС-СКИДКА ######### -->
-                            <!-- ######### СМС-СКИДКА ######### -->
-    
-                            <p>Оставляя свои контактные данные, вы подтверждаете свое совершеннолетие, соглашаетесь на обработку персональных данных в соответствии с <a href="#">Правовой информацией</a></p>
-    
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- /.container -->
-        </div>
-        <!-- /.b-sms_bg -->
-
-        <div class="template price_2018">
-
-            <div class="container">
-                <div class="h2">ЦЕНЫ НА БАЛКОНЫ В ЛУЧШИХ КОМПАНИЯХ 2018 ГОДА</div>
-                <img src="img/price_2018.png" alt="">
-            </div> 
-        </div>
-
-        
         <!--/ Второй блок. Самый верхний блок  -->
         <div class="es2 es2_balcons template">
             <div class="container">
@@ -1326,7 +1156,7 @@
             <!-- $$$$$$$ -->
 
             <div class="h2">
-               <script> </script>
+                </script>
                 <i id="akcia" style="font-style: normal;"></i>
                 ЛУЧШИЕ ЦЕНЫ НА БАЛКОНЫ В МОСКВЕ
                 </div>
@@ -1510,6 +1340,48 @@
         </div><!-- /.es2 -->
 
 
+        <!-- b-sms_bg -->
+        <div class="b-sms_bg sms-discount es3_balcons template">
+            <div class="container ">
+                <div class="flex-container">
+                    <div class="b-sms_phone">
+                        <img src="img/b_sms_phone.png" alt="">
+                    </div>
+                    <div class="b-sms-form">
+                        <div class="b-sms__text">
+                            СМС-СКИДКА
+                        </div>
+                        <div class="b-sms__undertext">
+                            Впишите свой телефон и получите смс-купон на скидку:
+                        </div>
+                        <div class="b-sms__form">
+    
+                            <!-- ######### СМС-СКИДКА ######### -->
+                            <!-- ######### СМС-СКИДКА ######### -->
+                            <!-- ######### СМС-СКИДКА ######### -->
+                            <form action="php/mail.php" method="POST">
+                                <input type="hidden" name="lang" value="СМС-СКИДКА" />
+                                <div class="b-sms_input b-sms_input_tel form-group">
+                                    <input type="text" class="phonemask input-phone" data-validation="required"
+                                        placeholder="Ваш телефон" id="form_text_11" name="phone" value="" size="0" />
+                                </div>
+                                <div class="b-sms_but">
+                                    <button class="red-button" type="submit">отправить</button>
+                                </div>
+                            </form>
+                            <!-- ######### СМС-СКИДКА ######### -->
+                            <!-- ######### СМС-СКИДКА ######### -->
+                            <!-- ######### СМС-СКИДКА ######### -->
+    
+                            <p>Оставляя свои контактные данные, вы подтверждаете свое совершеннолетие, соглашаетесь на обработку персональных данных в соответствии с <a href="#">Правовой информацией</a></p>
+    
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /.container -->
+        </div>
+        <!-- /.b-sms_bg -->
 
         <div class="es4_balcons template">
             <div class="container">
@@ -1638,7 +1510,7 @@
 
         <div class="giving es6_balcons template">
             <div class="container">
-                <div class="h2">ДОПОЛНИТЕЛЬНАЯ СКИДКА 5% ПРИ ЗАКАЗЕ ЧЕРЕЗ САЙТ</div>
+                    <div class="h2">КОМПАНИЯ “БАЛКОНЫ ЦЕНЫ” 100% ДЕШЕВЛЕ! </div>
                 <p>"Балконы Цены" - это компания, которая производит остекление балконы и лоджии по
                     самым низким ценам в Москве и области! Благодаря собственному производству
                     компания уже более 12 лет является самой надежной и стабильной. 
@@ -1650,7 +1522,8 @@
 
         <div class="es7_balcons template">
             <div class="container">
-                <div class="h2">КОМПАНИЯ “БАЛКОНЫ ЦЕНЫ” 100% ДЕШЕВЛЕ! </div>
+                    <div class="h2">ДОПОЛНИТЕЛЬНАЯ СКИДКА 5% ПРИ ЗАКАЗЕ ЧЕРЕЗ САЙТ</div>
+                
                 <form action="php/mail.php" method="POST">
                     <div class="b-sms_input b-sms_input_tel form-group">
                         <input type="text" class="phonemask input-phone" data-validation="required" placeholder="Ваш телефон" id="form_text_11" name="phone" value="" size="0">

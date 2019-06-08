@@ -1,5 +1,6 @@
 .finishing_balconies_calc{
     padding-top: 41px;
+    padding-bottom: 88px;
     .h2{
         margin-bottom: 31px;
     }
@@ -25,29 +26,58 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-
+        margin-bottom: 38px;
        
         &>div{
             flex-basis: 33.33333%;
             max-width: 33.33333%;
             position: relative;
         }
+        .circle{
+            margin-bottom: 40px;
+        }
     }
     .flex-wrap-block{
-        width: 166px;
-        display: flex;
-        justify-content: space-between;
+        position: relative;
+        
     }
     .block-right{
-        margin-left: auto;
+        text-align: right;
+        top: 0;
+        right: 0;
+        position: absolute;
+        color: #BEBEBE;
+        & > div{
+            margin-bottom: 20px;
+        }
+
+        div[class*=act]{
+            
+            color: #000000;
+        }
+    }
+    .calc_otdelka__left{
+        .block-right > *{
+            width: 50px;
+        }
     }
     .flex-wrap-mini{
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
+        width: 166px;
+        margin-bottom: 38px;
         & > div{
             flex-basis: 50%;
-            max-width: 50%;
+            max-width: 68px;
+            min-width: 68px;
+        }
+        .circle{
+            margin-bottom: 20px;
+            &:before{
+                background-position: center;
+                background-size: 110px 110px;
+            }
         }
     }
     .container-fluid{
@@ -61,7 +91,7 @@
             justify-content: center;
             text-align: center;
             min-height: 68px;
-            margin-bottom: 68px;
+            
             position: relative;
             &::before, &::after{
                 content: "";
@@ -86,12 +116,15 @@
 
             
         }
-        .circle:nth-child(1){
-            transform: translateX(-10%);
+        .flex-wrap{
+            .circle:nth-child(1){
+                transform: translateX(-10%);
+            }
+            .circle:nth-child(3){
+                transform: translateX(10%);
+            }
         }
-        .circle:nth-child(3){
-            transform: translateX(10%);
-        }
+        
         div[class*=act]::after{
             border: 3px solid #FFC93C;
             box-sizing: border-box;
@@ -104,27 +137,100 @@
         }
         
     }
+    .calc_otdelka__right{
+        .flex-wrap{
+            margin-bottom: 0;
+        }
+    }
+    
+    .tsena_base_bg {
+        background: url(/css/../img/calc_otdelka/tsena_base_bg.png) no-repeat center top;
+        width: 320px;
+        height: 306px;
+        color: #fff;
+        font-size: 18px;
+        line-height: 22px;
+        text-transform: uppercase;
+        text-align: center;
+        padding-top: 128px;
+        margin: 0 auto;
+        & > *{
+            transform: rotate(-9.54deg);
+        }
+        .tsena_base_cost{
+            font-weight: bold;
+            font-size: 68px;
+            line-height: 77px;
 
-    
-    
+            &::after{
+                content: "р";
+                //padding-left: 20px;
+            }
+        }
+    }
+
+    .calc_otdelka__center{
+        transform: translateX(-30px);
+        & > *{
+            background-size: cover;
+        }
+    }
+     
+    .installment_plan{
+        display: flex;
+
+        .wrap{
+            margin-left: 30px;
+        }
+        .calc_otdelka__left_2_zag{
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 29px;
+            margin-bottom: 11px;
+            color: #000000;
+        }
+        .calc_otdelka__left_2_text{
+            font-size: 18px;
+            line-height: 22px;
+            
+            color: #000000;
+            
+        }
+    }
+
     .calc_otdelka .calc_otdelka__left {
         width: 264px;
         float: left;
     }
     
+    .red-pink-button{
+        height: 50px;
+        border-radius: 50px;
+        font-size: 24px;
+        line-height: 29px;
+        background: linear-gradient(180deg, #FFD054 0%, #F2AD27 100%);
+box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
+        margin-left: 0;
+        width: 100%;
+        color: #000;
+        white-space: nowrap;
+    }
+    .form-group{
+        width: 100%;
+        margin-bottom: 38px;
+        margin-right: 0;
+    }
     
     
     
     
-    
-    
-    .calc_otdelka .calc_otdelka__left .param_1.param_1_1::before {
+    .calc_otdelka .balcony_roof .param_1.param_1_1::before {
         background-image: url(../img/calc_otdelka/param_1_1.png);
     }
     
     
     
-    .calc_otdelka .calc_otdelka__left .param_1.param_1_2::before {
+    .calc_otdelka .balcony_roof .param_1.param_1_2::before {
         background-image: url(../img/calc_otdelka/param_1_2.png);
     }
     
@@ -133,12 +239,12 @@
     
     
     
-    .calc_otdelka .calc_otdelka__left .param_2.param_2_1::before {
+    .calc_otdelka .glazing_type .param_2.param_2_1::before {
         background-image: url(../img/calc_otdelka/param_2_1.png);
     }
     
     
-    .calc_otdelka .calc_otdelka__left .param_2.param_2_2::before {
+    .calc_otdelka .glazing_type .param_2.param_2_2::before {
         background-image: url(../img/calc_otdelka/param_2_2.png);
     }
     
@@ -147,13 +253,13 @@
    
     
     
-    .calc_otdelka .calc_otdelka__left .param_3.param_3_1::before {
+    .calc_otdelka .exterior_finish .param_3.param_3_1::before {
         background-image: url(../img/calc_otdelka/param_3_1.png);
     }
     
     
     
-    .calc_otdelka .calc_otdelka__left .param_3.param_3_2::before {
+    .calc_otdelka .exterior_finish .param_3.param_3_2::before {
         background-image: url(../img/calc_otdelka/param_3_2.png) ;
     }
     
@@ -182,49 +288,49 @@
     
     
     
-    .calc_otdelka .calc_otdelka__right .param_4.param_4_1_1::before {
+    .calc_otdelka .wall_decoration .param_4.param_4_1_1::before {
         background-image: url(../img/calc_otdelka/param_4_1_1.png);
     }
     
     
     
-    .calc_otdelka .calc_otdelka__right .param_4.param_4_1_2::before {
+    .calc_otdelka .wall_decoration .param_4.param_4_1_2::before {
         background-image: url(../img/calc_otdelka/param_4_1_2.png);
     }
     
     
     
-    .calc_otdelka .calc_otdelka__right .param_4.param_4_1_3::before {
+    .calc_otdelka .wall_decoration .param_4.param_4_1_3::before {
         background-image: url(../img/calc_otdelka/param_4_1_3.png);
     }
     
     
     
-    .calc_otdelka .calc_otdelka__right .param_4.param_4_1_4::before {
+    .calc_otdelka .wall_decoration .param_4.param_4_1_4::before {
         background-image: url(../img/calc_otdelka/param_4_1_4.png);
     }
     
     
     
-    .calc_otdelka .calc_otdelka__right .param_4.param_4_2_1::before {
+    .calc_otdelka  .param_4.param_4_2_1::before {
         background-image: url(../img/calc_otdelka/param_4_2_1.png);
     }
     
     
     
-    .calc_otdelka .calc_otdelka__right .param_4.param_4_2_2::before {
+    .calc_otdelka  .param_4.param_4_2_2::before {
         background-image: url(../img/calc_otdelka/param_4_2_2.png);
     }
     
     
     
-    .calc_otdelka .calc_otdelka__right .param_4.param_4_2_3::before {
+    .calc_otdelka  .param_4.param_4_2_3::before {
         background-image: url(../img/calc_otdelka/param_4_2_3.png);
     }
     
    
     
-    .calc_otdelka .calc_otdelka__right .param_4.param_4_2_4::before {
+    .calc_otdelka  .param_4.param_4_2_4::before {
         background-image: url(../img/calc_otdelka/param_4_2_4.png);
     }
     
@@ -233,102 +339,82 @@
     
     
     
-    .calc_otdelka .calc_otdelka__right .param_4_link.param_4_link_act {
-        color: #0d0d0d;
-        border-bottom: 2px dotted #fff;
-        cursor: text
-    }
     
-    .calc_otdelka .calc_otdelka__right .param_4_block_2 {
+    
+    .calc_otdelka  .param_4_block_2 {
         display: none
     }
     
-    .calc_otdelka .calc_otdelka__right .param_5 {
-        width: 91px;
-        height: 110px;
-        margin: 0 auto;
-        padding-top: 79px;
-        font-size: 1.8em;
-        font-family: 'Roboto', sans-serif;
-        font-weight: 300;
-        color: #3d3d3d;
-        text-align: center;
-        cursor: pointer
-    }
     
-    .calc_otdelka .calc_otdelka__right .param_5.param_5_1::before {
+    
+    .calc_otdelka .param_5.param_5_1::before {
         background-image: url(../img/calc_otdelka/param_5_1.png);
     }
     
     
     
-    .calc_otdelka .calc_otdelka__right .param_5.param_5_2::before {
+    .calc_otdelka  .param_5.param_5_2::before {
         background-image: url(../img/calc_otdelka/param_5_2.png);
     }
     
     
     
-    .calc_otdelka .calc_otdelka__right .param_5.param_5_3::before {
+    .calc_otdelka  .param_5.param_5_3::before {
         background-image: url(../img/calc_otdelka/param_5_3.png);
     }
     
     
     
-    .calc_otdelka .calc_otdelka__right .param_6 {
-        width: 70px;
-        height: 66px;
-        margin: 0 auto;
-        cursor: pointer
-    }
     
-    .calc_otdelka .calc_otdelka__right .param_6.param_6_1_1::before {
+    
+    .calc_otdelka  .param_6.param_6_1_1::before {
         background-image: url(../img/calc_otdelka/param_6_1_1.png);
     }
     
     
     
-    .calc_otdelka .calc_otdelka__right .param_6.param_6_1_2::before {
+    .calc_otdelka  .param_6.param_6_1_2::before {
         background-image: url(../img/calc_otdelka/param_6_1_2.png) ;
     }
     
     
     
-    .calc_otdelka .calc_otdelka__right .param_6.param_6_1_3::before {
+    .calc_otdelka  .param_6.param_6_1_3::before {
         background-image: url(../img/calc_otdelka/param_6_1_3.png);
     }
     
     
-    .calc_otdelka .calc_otdelka__right .param_6.param_6_1_4::before {
+    .calc_otdelka  .param_6.param_6_1_4::before {
         background-image: url(../img/calc_otdelka/param_6_1_4.png);
     }
     
     
     
-    .calc_otdelka .calc_otdelka__right .param_6.param_6_2_1::before {
+    .calc_otdelka  .param_6.param_6_2_1::before {
         background-image: url(../img/calc_otdelka/param_6_2_1.png);
     }
     
    
     
-    .calc_otdelka .calc_otdelka__right .param_6.param_6_2_2::before {
+    .calc_otdelka  .param_6.param_6_2_2::before {
         background-image: url(../img/calc_otdelka/param_6_2_2.png);
     }
     
     
-    .calc_otdelka .calc_otdelka__right .param_6.param_6_2_3::before {
+    .calc_otdelka  .param_6.param_6_2_3::before {
         background-image: url(../img/calc_otdelka/param_6_2_3.png);
     }
     
     
     
-    .calc_otdelka .calc_otdelka__right .param_6.param_6_2_4::before {
+    .calc_otdelka  .param_6.param_6_2_4::before {
         background-image: url(../img/calc_otdelka/param_6_2_4.png);
     }
     
   
     
     
-    .calc_otdelka .calc_otdelka__right .param_6.param_6_3_1::before {
+    .calc_otdelka  .param_6.param_6_3_1::before {
         background-image: url(../img/calc_otdelka/param_6_3_1.png);
         
     }
@@ -336,24 +422,15 @@
     
     
     
-    .calc_otdelka .calc_otdelka__right .param_6_link {
-        color: #9e9e9e;
-        font-family: 'Roboto', sans-serif;
-        font-size: 1.6em;
-        font-weight: bold;
-        margin-bottom: 10px;
-        display: inline-block;
-        border-bottom: 2px dotted #9e9e9e;
-        cursor: pointer
-    }
     
-    .calc_otdelka .calc_otdelka__right .param_6_link.param_6_link_act {
+    
+    .calc_otdelka  .param_6_link.param_6_link_act {
         color: #0d0d0d;
         border-bottom: 2px dotted #fff;
         cursor: text
     }
     
-    .calc_otdelka .calc_otdelka__right .param_6_block_2,.calc_otdelka .calc_otdelka__right .param_6_block_3 {
+    .calc_otdelka  .param_6_block_2,.calc_otdelka  .param_6_block_3 {
         display: none
     }
     
@@ -391,50 +468,14 @@
     }
     
     .calc_otdelka .calc_otdelka__center .tsena_base_bg_block {
-        padding-top: 683px;
-        position: relative
+        padding-top: 661px;
+        position: relative;
+        margin-left: 83px;
     }
     
-    .calc_otdelka .calc_otdelka__center .tsena_base_bg_block .tsena_base_bg {
-        background: url(../img/calc_otdelka/tsena_base_bg.png) no-repeat center top;
-        width: 380px;
-        height: 200px;
-        margin: 0px 0px 0px 145px;
-        text-align: center
-    }
+      
     
-    .calc_otdelka .calc_otdelka__center .tsena_base_bg_block .tsena_base_bg .costonsale {
-        padding-top: 30px;
-        font-size: 2em;
-        font-family: 'Roboto', sans-serif;
-        font-weight: bold
-    }
     
-    .calc_otdelka .calc_otdelka__center .tsena_base_bg_block .tsena_base_bg .tsena_base_cost {
-        margin-bottom: 15px;
-        text-align: center
-    }
-    
-    .calc_otdelka .calc_otdelka__center .tsena_base_bg_block .tsena_base_bg .tsena_base_cost span {
-        color: #f72727;
-        font-size: 8em;
-        text-shadow: -3px -3px 0 #fff,3px -3px 0 #fff,-3px 3px 0 #fff,3px 3px 0 #fff,0.02em 0.03em 0.18em rgba(0,0,0,0.8);
-        font-family: 'Roboto', sans-serif;
-        font-weight: bold;
-        font-style: italic;
-        line-height: 1
-    }
-    
-    .calc_otdelka .calc_otdelka__center .tsena_base_bg_block .tsena_base_bg .tsena_base_cost img {
-        vertical-align: top;
-        margin-right: -10px
-    }
-    
-    .calc_otdelka .calc_otdelka__center .tsena_base_bg_block .tsena_base_bg .only15days {
-        font-size: 3em;
-        font-family: 'Roboto', sans-serif;
-        font-weight: bold
-    }
     
     .calc_otdelka .plash_line_1 {
         width: 48px;
@@ -463,14 +504,7 @@
         z-index: 1
     }
     
-    .calc_otdelka .plash_line_4 {
-        width: 146px;
-        height: 119px;
-        position: absolute;
-        background: url(../img/calc_otdelka/plash_line_4.png);
-        margin: 27px 0px 0px -165px;
-        z-index: 1
-    }
+    
     
     .calc_otdelka .plash_line_5 {
         width: 217px;
@@ -493,30 +527,16 @@
     .calc_otdelka .calc_otdelka__left_2 {
         width: 390px;
         float: left;
-        margin-top: -190px
+        margin-top: -140px;
     }
     
-    .calc_otdelka .calc_otdelka__left_2 .calc_otdelka__left_2_zag {
-        
-        font-size: 3.2em;
-        text-transform: uppercase
-    }
     
-    .calc_otdelka .calc_otdelka__left_2 .calc_otdelka__left_2_text {
-        font-family: 'Roboto', sans-serif;
-        font-size: 1.8em;
-        line-height: 1.2
-    }
     
-    .calc_otdelka .calc_otdelka__left_2 img {
-        float: left;
-        margin: 6px 20px 30px 0px
-    }
     
     .calc_otdelka .calc_otdelka__right_2 {
-        width: 349px;
+        width: 340px;
         float: right;
-        margin-top: -190px
+        margin-top: -140px;
     }
     
     .calc_otdelka .calc_otdelka__right_2 .input_bg {
@@ -569,14 +589,14 @@
         
         
     
-        .calc_otdelka .calc_otdelka__left .param_1.param_1_1::before {
+        .calc_otdelka .balcony_roof .param_1.param_1_1::before {
             background-image: url(../img/calc_otdelka/param_1_1.png);
         }
     
         
         
     
-        .calc_otdelka .calc_otdelka__left .param_1.param_1_2::before {
+        .calc_otdelka .balcony_roof .param_1.param_1_2::before {
             background-image: url(../img/calc_otdelka/param_1_2.png);
         }
     
@@ -586,14 +606,14 @@
        
         
     
-        .calc_otdelka .calc_otdelka__left .param_2.param_2_1::before {
+        .calc_otdelka .glazing_type .param_2.param_2_1::before {
             background-image: url(../img/calc_otdelka/param_2_1.png);
         }
     
         
         
     
-        .calc_otdelka .calc_otdelka__left .param_2.param_2_2::before {
+        .calc_otdelka .glazing_type .param_2.param_2_2::before {
             background-image: url(../img/calc_otdelka/param_2_2.png);
         }
     
@@ -603,13 +623,13 @@
        
         
     
-        .calc_otdelka .calc_otdelka__left .param_3.param_3_1::before {
+        .calc_otdelka .exterior_finish .param_3.param_3_1::before {
             background-image: url(../img/calc_otdelka/param_3_1.png);
         }
     
         
     
-        .calc_otdelka .calc_otdelka__left .param_3.param_3_2::before {
+        .calc_otdelka .exterior_finish .param_3.param_3_2::before {
             background-image: url(../img/calc_otdelka/param_3_2.png);
         }
     
@@ -638,48 +658,48 @@
         
         
     
-        .calc_otdelka .calc_otdelka__right .param_4.param_4_1_1::before {
+        .calc_otdelka .wall_decoration .param_4.param_4_1_1::before {
             background-image: url(../img/calc_otdelka/param_4_1_1.png);
         }
     
         
     
-        .calc_otdelka .calc_otdelka__right .param_4.param_4_1_2::before {
+        .calc_otdelka .wall_decoration .param_4.param_4_1_2::before {
             background-image: url(../img/calc_otdelka/param_4_1_2.png);
         }
     
         
     
-        .calc_otdelka .calc_otdelka__right .param_4.param_4_1_3::before {
+        .calc_otdelka .wall_decoration .param_4.param_4_1_3::before {
             background-image: url(../img/calc_otdelka/param_4_1_3.png);
         }
     
         
     
-        .calc_otdelka .calc_otdelka__right .param_4.param_4_1_4::before {
+        .calc_otdelka .wall_decoration .param_4.param_4_1_4::before {
             background-image: url(../img/calc_otdelka/param_4_1_4.png);
         }
     
        
     
-        .calc_otdelka .calc_otdelka__right .param_4.param_4_2_1::before {
+        .calc_otdelka  .param_4.param_4_2_1::before {
             background-image: url(../img/calc_otdelka/param_4_2_1.png);
         }
     
         
     
-        .calc_otdelka .calc_otdelka__right .param_4.param_4_2_2::before {
+        .calc_otdelka  .param_4.param_4_2_2::before {
             background-image: url(../img/calc_otdelka/param_4_2_2.png);
         }
     
         
-        .calc_otdelka .calc_otdelka__right .param_4.param_4_2_3::before {
+        .calc_otdelka  .param_4.param_4_2_3::before {
             background-image: url(../img/calc_otdelka/param_4_2_3.png);
         }
     
         
     
-        .calc_otdelka .calc_otdelka__right .param_4.param_4_2_4::before {
+        .calc_otdelka  .param_4.param_4_2_4::before {
             background-image: url(../img/calc_otdelka/param_4_2_4.png);
         }
     
@@ -694,113 +714,88 @@
             cursor: text
         }
     
-        .calc_otdelka .calc_otdelka__right .param_4_block_2 {
+        .calc_otdelka  .param_4_block_2 {
             display: none
         }
     
-        .calc_otdelka .calc_otdelka__right .param_5 {
-            width: 70px;
-            height: 80px;
-            margin: 0 auto;
-            padding-top: 59px;
-            font-size: 1.4em;
-            font-family: 'Roboto', sans-serif;
-            font-weight: 300;
-            color: #3d3d3d;
-            text-align: center;
-            cursor: pointer
-        }
+        
     
-        .calc_otdelka .calc_otdelka__right .param_5.param_5_1::before {
+        .calc_otdelka .param_5.param_5_1::before {
             background-image: url(../img/calc_otdelka/param_5_1_.png);
         }
     
         
     
-        .calc_otdelka .calc_otdelka__right .param_5.param_5_2::before {
+        .calc_otdelka  .param_5.param_5_2::before {
             background-image: url(../img/calc_otdelka/param_5_2_.png);
         }
     
         
     
-        .calc_otdelka .calc_otdelka__right .param_5.param_5_3::before {
+        .calc_otdelka  .param_5.param_5_3::before {
             background-image: url(../img/calc_otdelka/param_5_3_.png);
         }
     
     
-        .calc_otdelka .calc_otdelka__right .param_6 {
-            width: 70px;
-            height: 66px;
-            margin: 0 auto;
-            cursor: pointer
-        }
+        
     
-        .calc_otdelka .calc_otdelka__right .param_6.param_6_1_1::before {
+        .calc_otdelka  .param_6.param_6_1_1::before {
             background-image: url(../img/calc_otdelka/param_6_1_1.png);
         }
     
         
     
-        .calc_otdelka .calc_otdelka__right .param_6.param_6_1_2::before {
+        .calc_otdelka  .param_6.param_6_1_2::before {
             background-image: url(../img/calc_otdelka/param_6_1_2.png);
         }
     
        
     
-        .calc_otdelka .calc_otdelka__right .param_6.param_6_1_3::before {
+        .calc_otdelka  .param_6.param_6_1_3::before {
             background-image: url(../img/calc_otdelka/param_6_1_3.png);
         }
     
         
     
-        .calc_otdelka .calc_otdelka__right .param_6.param_6_1_4::before {
+        .calc_otdelka  .param_6.param_6_1_4::before {
             background-image: url(../img/calc_otdelka/param_6_1_4.png);
         }
     
         
     
-        .calc_otdelka .calc_otdelka__right .param_6.param_6_2_1::before {
+        .calc_otdelka  .param_6.param_6_2_1::before {
             background-image: url(../img/calc_otdelka/param_6_2_1.png);
         }
     
         
     
-        .calc_otdelka .calc_otdelka__right .param_6.param_6_2_2::before {
+        .calc_otdelka  .param_6.param_6_2_2::before {
             background-image: url(../img/calc_otdelka/param_6_2_2.png);
         }
     
         
     
-        .calc_otdelka .calc_otdelka__right .param_6.param_6_2_3::before {
+        .calc_otdelka  .param_6.param_6_2_3::before {
             background-image: url(../img/calc_otdelka/param_6_2_3.png);
         }
     
         
     
-        .calc_otdelka .calc_otdelka__right .param_6.param_6_2_4::before {
+        .calc_otdelka  .param_6.param_6_2_4::before {
             background-image: url(../img/calc_otdelka/param_6_2_4.png);
         }
     
         
     
-        .calc_otdelka .calc_otdelka__right .param_6.param_6_3_1::before {
+        .calc_otdelka  .param_6.param_6_3_1::before {
             background-image: url(../img/calc_otdelka/param_6_3_1.png);
             
         }
     
         
     
-        .calc_otdelka .calc_otdelka__right .param_6_link {
-            color: #9e9e9e;
-            font-family: 'Roboto', sans-serif;
-            font-size: 1.4em;
-            font-weight: bold;
-            margin-bottom: 10px;
-            display: inline-block;
-            border-bottom: 0px dotted #9e9e9e;
-            cursor: pointer;
-            line-height: 1.1
-        }
+       
+        
     
         .calc_otdelka .calc_otdelka__right .param_6_link.param_6_link_act {
             color: #0d0d0d;
@@ -808,7 +803,7 @@
             cursor: text
         }
     
-        .calc_otdelka .calc_otdelka__right .param_6_block_2,.calc_otdelka .calc_otdelka__right .param_6_block_3 {
+        .calc_otdelka  .param_6_block_2,.calc_otdelka  .param_6_block_3 {
             display: none
         }
     
@@ -863,46 +858,10 @@
             position: relative
         }
     
-        .calc_otdelka .calc_otdelka__center .tsena_base_bg_block .tsena_base_bg {
-            background: url(../img/calc_otdelka/tsena_base_bg.png) no-repeat center top;
-            width: 380px;
-            height: 200px;
-            margin: 0px 0px 0px 75px;
-            text-align: center
-        }
-    
-        .calc_otdelka .calc_otdelka__center .tsena_base_bg_block .tsena_base_bg .costonsale {
-            padding-top: 30px;
-            font-size: 2em;
-            font-family: 'Roboto', sans-serif;
-            font-weight: bold
-        }
-    
-        .calc_otdelka .calc_otdelka__center .tsena_base_bg_block .tsena_base_bg .tsena_base_cost {
-            margin-bottom: 15px;
-            text-align: center
-        }
-    
-        .calc_otdelka .calc_otdelka__center .tsena_base_bg_block .tsena_base_bg .tsena_base_cost span {
-            color: #f72727;
-            font-size: 8em;
-            text-shadow: -3px -3px 0 #fff,3px -3px 0 #fff,-3px 3px 0 #fff,3px 3px 0 #fff,0.02em 0.03em 0.18em rgba(0,0,0,0.8);
-            font-family: 'Roboto', sans-serif;
-            font-weight: bold;
-            font-style: italic;
-            line-height: 1
-        }
-    
-        .calc_otdelka .calc_otdelka__center .tsena_base_bg_block .tsena_base_bg .tsena_base_cost img {
-            vertical-align: top;
-            margin-right: -10px
-        }
-    
-        .calc_otdelka .calc_otdelka__center .tsena_base_bg_block .tsena_base_bg .only15days {
-            font-size: 3em;
-            font-family: 'Roboto', sans-serif;
-            font-weight: bold
-        }
+       
+        
+        
+        
     
         .calc_otdelka .plash_line_1,.calc_otdelka .plash_line_2,.calc_otdelka .plash_line_3,.calc_otdelka .plash_line_4,.calc_otdelka .plash_line_5,.calc_otdelka .plash_line_6 {
             display: none
@@ -915,25 +874,11 @@
             margin-left: 20px
         }
     
-        .calc_otdelka .calc_otdelka__left_2 .calc_otdelka__left_2_zag {
-            
-            font-size: 3.2em;
-            text-transform: uppercase
-        }
-    
-        .calc_otdelka .calc_otdelka__left_2 .calc_otdelka__left_2_text {
-            font-family: 'Roboto', sans-serif;
-            font-size: 1.8em;
-            line-height: 1.2
-        }
-    
-        .calc_otdelka .calc_otdelka__left_2 img {
-            float: left;
-            margin: 6px 20px 30px 0px
-        }
+        
+        
     
         .calc_otdelka .calc_otdelka__right_2 {
-            width: 349px;
+            width: 340px;
             float: right;
             margin-top: -140px;
             margin-right: 20px
@@ -991,13 +936,13 @@
         
         
     
-        .calc_otdelka .calc_otdelka__left .param_1.param_1_1::before {
+        .calc_otdelka .balcony_roof .param_1.param_1_1::before {
             background-image: url(../img/calc_otdelka/param_1_1.png);
         }
     
         
     
-        .calc_otdelka .calc_otdelka__left .param_1.param_1_2::before {
+        .calc_otdelka .balcony_roof .param_1.param_1_2::before {
             background-image: url(../img/calc_otdelka/param_1_2.png);
         }
     
@@ -1006,13 +951,13 @@
        
         
     
-        .calc_otdelka .calc_otdelka__left .param_2.param_2_1::before {
+        .calc_otdelka .glazing_type .param_2.param_2_1::before {
             background-image: url(../img/calc_otdelka/param_2_1.png);
         }
     
         
     
-        .calc_otdelka .calc_otdelka__left .param_2.param_2_2::before {
+        .calc_otdelka .glazing_type .param_2.param_2_2::before {
             background-image: url(../img/calc_otdelka/param_2_2.png);
         }
     
@@ -1021,13 +966,13 @@
         
         
     
-        .calc_otdelka .calc_otdelka__left .param_3.param_3_1::before {
+        .calc_otdelka .exterior_finish .param_3.param_3_1::before {
             background-image: url(../img/calc_otdelka/param_3_1.png);
         }
     
         
     
-        .calc_otdelka .calc_otdelka__left .param_3.param_3_2::before {
+        .calc_otdelka .exterior_finish .param_3.param_3_2::before {
             background-image: url(../img/calc_otdelka/param_3_2.png);
         }
     
@@ -1057,49 +1002,49 @@
         
         
     
-        .calc_otdelka .calc_otdelka__right .param_4.param_4_1_1::before {
+        .calc_otdelka .wall_decoration .param_4.param_4_1_1::before {
             background-image: url(../img/calc_otdelka/param_4_1_1.png);
         }
     
         
     
-        .calc_otdelka .calc_otdelka__right .param_4.param_4_1_2::before {
+        .calc_otdelka .wall_decoration .param_4.param_4_1_2::before {
             background-image: url(../img/calc_otdelka/param_4_1_2.png);
         }
     
         
     
-        .calc_otdelka .calc_otdelka__right .param_4.param_4_1_3::before {
+        .calc_otdelka .wall_decoration .param_4.param_4_1_3::before {
             background-image: url(../img/calc_otdelka/param_4_1_3.png);
         }
     
         
     
-        .calc_otdelka .calc_otdelka__right .param_4.param_4_1_4::before {
+        .calc_otdelka .wall_decoration .param_4.param_4_1_4::before {
             background-image: url(../img/calc_otdelka/param_4_1_4.png);
         }
     
        
     
-        .calc_otdelka .calc_otdelka__right .param_4.param_4_2_1::before {
+        .calc_otdelka  .param_4.param_4_2_1::before {
             background-image: url(../img/calc_otdelka/param_4_2_1.png);
         }
     
         
     
-        .calc_otdelka .calc_otdelka__right .param_4.param_4_2_2::before {
+        .calc_otdelka  .param_4.param_4_2_2::before {
             background-image: url(../img/calc_otdelka/param_4_2_2.png);
         }
     
         
     
-        .calc_otdelka .calc_otdelka__right .param_4.param_4_2_3::before {
+        .calc_otdelka  .param_4.param_4_2_3::before {
             background-image: url(../img/calc_otdelka/param_4_2_3.png);
         }
     
         
     
-        .calc_otdelka .calc_otdelka__right .param_4.param_4_2_4::before {
+        .calc_otdelka  .param_4.param_4_2_4::before {
             background-image: url(../img/calc_otdelka/param_4_2_4.png);
         }
     
@@ -1107,103 +1052,87 @@
     
         
     
-        .calc_otdelka .calc_otdelka__right .param_4_link.param_4_link_act {
+        .calc_otdelka  .param_4_link.param_4_link_act {
             color: #0d0d0d;
             border-bottom: 0px dotted #fff;
             cursor: text
         }
     
-        .calc_otdelka .calc_otdelka__right .param_4_block_2 {
+        .calc_otdelka  .param_4_block_2 {
             display: none
         }
     
-        .calc_otdelka .calc_otdelka__right .param_5 {
-            width: 70px;
-            height: 80px;
-            margin: 0 auto;
-            padding-top: 59px;
-            font-size: 1.4em;
-            font-family: 'Roboto', sans-serif;
-            font-weight: 300;
-            color: #3d3d3d;
-            text-align: center;
-            cursor: pointer
-        }
+        
     
-        .calc_otdelka .calc_otdelka__right .param_5.param_5_1::before {
+        .calc_otdelka .param_5.param_5_1::before {
             background-image: url(../img/calc_otdelka/param_5_1_.png);
         }
     
         
     
-        .calc_otdelka .calc_otdelka__right .param_5.param_5_2::before {
+        .calc_otdelka  .param_5.param_5_2::before {
             background-image: url(../img/calc_otdelka/param_5_2_.png);
         }
     
         
     
-        .calc_otdelka .calc_otdelka__right .param_5.param_5_3::before {
+        .calc_otdelka  .param_5.param_5_3::before {
             background-image: url(../img/calc_otdelka/param_5_3_.png);
         }
     
         
     
-        .calc_otdelka .calc_otdelka__right .param_6 {
-            width: 70px;
-            height: 66px;
-            margin: 0 auto;
-            cursor: pointer
-        }
+        
     
-        .calc_otdelka .calc_otdelka__right .param_6.param_6_1_1::before {
+        .calc_otdelka  .param_6.param_6_1_1::before {
             background-image: url(../img/calc_otdelka/param_6_1_1.png);
         }
     
         
     
-        .calc_otdelka .calc_otdelka__right .param_6.param_6_1_2::before {
+        .calc_otdelka  .param_6.param_6_1_2::before {
             background-image: url(../img/calc_otdelka/param_6_1_2.png);
         }
     
         
     
-        .calc_otdelka .calc_otdelka__right .param_6.param_6_1_3::before {
+        .calc_otdelka  .param_6.param_6_1_3::before {
             background-image: url(../img/calc_otdelka/param_6_1_3.png);
         }
     
        
     
-        .calc_otdelka .calc_otdelka__right .param_6.param_6_1_4::before {
+        .calc_otdelka  .param_6.param_6_1_4::before {
             background-image: url(../img/calc_otdelka/param_6_1_4.png);
         }
     
         
     
-        .calc_otdelka .calc_otdelka__right .param_6.param_6_2_1::before {
+        .calc_otdelka  .param_6.param_6_2_1::before {
             background-image: url(../img/calc_otdelka/param_6_2_1.png);
         }
     
        
     
-        .calc_otdelka .calc_otdelka__right .param_6.param_6_2_2::before {
+        .calc_otdelka  .param_6.param_6_2_2::before {
             background-image: url(../img/calc_otdelka/param_6_2_2.png);
         }
     
         
     
-        .calc_otdelka .calc_otdelka__right .param_6.param_6_2_3::before {
+        .calc_otdelka  .param_6.param_6_2_3::before {
             background-image: url(../img/calc_otdelka/param_6_2_3.png);
         }
     
         
     
-        .calc_otdelka .calc_otdelka__right .param_6.param_6_2_4::before {
+        .calc_otdelka  .param_6.param_6_2_4::before {
             background-image: url(../img/calc_otdelka/param_6_2_4.png);
         }
     
         
     
-        .calc_otdelka .calc_otdelka__right .param_6.param_6_3_1::before {
+        .calc_otdelka  .param_6.param_6_3_1::before {
             background-image: url(../img/calc_otdelka/param_6_3_1.png);
            
             
@@ -1211,25 +1140,15 @@
     
         
     
-        .calc_otdelka .calc_otdelka__right .param_6_link {
-            color: #9e9e9e;
-            font-family: 'Roboto', sans-serif;
-            font-size: 1.4em;
-            font-weight: bold;
-            margin-bottom: 10px;
-            display: inline-block;
-            border-bottom: 0px dotted #9e9e9e;
-            cursor: pointer;
-            line-height: 1.1
-        }
+        
     
-        .calc_otdelka .calc_otdelka__right .param_6_link.param_6_link_act {
+        .calc_otdelka  .param_6_link.param_6_link_act {
             color: #0d0d0d;
             border-bottom: 0px dotted #fff;
             cursor: text
         }
     
-        .calc_otdelka .calc_otdelka__right .param_6_block_2,.calc_otdelka .calc_otdelka__right .param_6_block_3 {
+        .calc_otdelka  .param_6_block_2,.calc_otdelka  .param_6_block_3 {
             display: none
         }
     
@@ -1286,46 +1205,10 @@
             position: relative
         }
     
-        .calc_otdelka .calc_otdelka__center .tsena_base_bg_block .tsena_base_bg {
-            background: url(../img/calc_otdelka/tsena_base_bg.png) no-repeat center top;
-            width: 380px;
-            height: 200px;
-            margin: 0px 0px 0px 35px;
-            text-align: center
-        }
-    
-        .calc_otdelka .calc_otdelka__center .tsena_base_bg_block .tsena_base_bg .costonsale {
-            padding-top: 30px;
-            font-size: 2em;
-            font-family: 'Roboto', sans-serif;
-            font-weight: bold
-        }
-    
-        .calc_otdelka .calc_otdelka__center .tsena_base_bg_block .tsena_base_bg .tsena_base_cost {
-            margin-bottom: 15px;
-            text-align: center
-        }
-    
-        .calc_otdelka .calc_otdelka__center .tsena_base_bg_block .tsena_base_bg .tsena_base_cost span {
-            color: #f72727;
-            font-size: 8em;
-            text-shadow: -3px -3px 0 #fff,3px -3px 0 #fff,-3px 3px 0 #fff,3px 3px 0 #fff,0.02em 0.03em 0.18em rgba(0,0,0,0.8);
-            font-family: 'Roboto', sans-serif;
-            font-weight: bold;
-            font-style: italic;
-            line-height: 1
-        }
-    
-        .calc_otdelka .calc_otdelka__center .tsena_base_bg_block .tsena_base_bg .tsena_base_cost img {
-            vertical-align: top;
-            margin-right: -10px
-        }
-    
-        .calc_otdelka .calc_otdelka__center .tsena_base_bg_block .tsena_base_bg .only15days {
-            font-size: 3em;
-            font-family: 'Roboto', sans-serif;
-            font-weight: bold
-        }
+      
+        
+        
+        
     
         .calc_otdelka .plash_line_1,.calc_otdelka .plash_line_2,.calc_otdelka .plash_line_3,.calc_otdelka .plash_line_4,.calc_otdelka .plash_line_5,.calc_otdelka .plash_line_6 {
             display: none
@@ -1340,22 +1223,8 @@
             display: none
         }
     
-        .calc_otdelka .calc_otdelka__left_2 .calc_otdelka__left_2_zag {
-            
-            font-size: 2.2em;
-            text-transform: uppercase
-        }
-    
-        .calc_otdelka .calc_otdelka__left_2 .calc_otdelka__left_2_text {
-            font-family: 'Roboto', sans-serif;
-            font-size: 1.8em;
-            line-height: 1.2
-        }
-    
-        .calc_otdelka .calc_otdelka__left_2 img {
-            float: left;
-            margin: 6px 20px 30px 0px
-        }
+       
+        
     
         .calc_otdelka .calc_otdelka__right_2 {
             width: 100%;
@@ -1366,7 +1235,7 @@
         }
     
         .calc_otdelka .calc_otdelka__right_2 .input_bg {
-            width: 349px;
+            width: 340px;
             height: 55px;
             background: url(../img/calc_otdelka/input_bg.png) no-repeat center center;
             margin: 0px auto 10px auto
@@ -1416,13 +1285,13 @@
         
         
     
-        .calc_otdelka .calc_otdelka__left .param_1.param_1_1::before {
+        .calc_otdelka .balcony_roof .param_1.param_1_1::before {
             background-image: url(../img/calc_otdelka/param_1_1.png);
         }
     
         
     
-        .calc_otdelka .calc_otdelka__left .param_1.param_1_2::before {
+        .calc_otdelka .balcony_roof .param_1.param_1_2::before {
             background-image: url(../img/calc_otdelka/param_1_2.png);
         }
     
@@ -1431,13 +1300,13 @@
         
         
     
-        .calc_otdelka .calc_otdelka__left .param_2.param_2_1::before {
+        .calc_otdelka .glazing_type .param_2.param_2_1::before {
             background-image: url(../img/calc_otdelka/param_2_1.png);
         }
     
        
     
-        .calc_otdelka .calc_otdelka__left .param_2.param_2_2::before {
+        .calc_otdelka .glazing_type .param_2.param_2_2::before {
             background-image: url(../img/calc_otdelka/param_2_2.png);
         }
     
@@ -1446,13 +1315,13 @@
       
         
     
-        .calc_otdelka .calc_otdelka__left .param_3.param_3_1::before {
+        .calc_otdelka .exterior_finish .param_3.param_3_1::before {
             background-image: url(../img/calc_otdelka/param_3_1.png);
         }
     
         
     
-        .calc_otdelka .calc_otdelka__left .param_3.param_3_2::before {
+        .calc_otdelka .exterior_finish .param_3.param_3_2::before {
             background-image: url(../img/calc_otdelka/param_3_2.png);
         }
     
@@ -1482,49 +1351,49 @@
         
         
     
-        .calc_otdelka .calc_otdelka__right .param_4.param_4_1_1::before {
+        .calc_otdelka .wall_decoration .param_4.param_4_1_1::before {
             background-image: url(../img/calc_otdelka/param_4_1_1.png);
         }
     
         
     
-        .calc_otdelka .calc_otdelka__right .param_4.param_4_1_2::before {
+        .calc_otdelka .wall_decoration .param_4.param_4_1_2::before {
             background-image: url(../img/calc_otdelka/param_4_1_2.png);
         }
     
         
     
-        .calc_otdelka .calc_otdelka__right .param_4.param_4_1_3::before {
+        .calc_otdelka .wall_decoration .param_4.param_4_1_3::before {
             background-image: url(../img/calc_otdelka/param_4_1_3.png);
         }
     
         
     
-        .calc_otdelka .calc_otdelka__right .param_4.param_4_1_4::before {
+        .calc_otdelka .wall_decoration .param_4.param_4_1_4::before {
             background-image: url(../img/calc_otdelka/param_4_1_4.png);
         }
     
         
     
-        .calc_otdelka .calc_otdelka__right .param_4.param_4_2_1::before {
+        .calc_otdelka  .param_4.param_4_2_1::before {
             background-image: url(../img/calc_otdelka/param_4_2_1.png);
         }
     
         
     
-        .calc_otdelka .calc_otdelka__right .param_4.param_4_2_2::before {
+        .calc_otdelka  .param_4.param_4_2_2::before {
             background-image: url(../img/calc_otdelka/param_4_2_2.png);
         }
     
         
     
-        .calc_otdelka .calc_otdelka__right .param_4.param_4_2_3::before {
+        .calc_otdelka  .param_4.param_4_2_3::before {
             background-image: url(../img/calc_otdelka/param_4_2_3.png);
         }
     
         
     
-        .calc_otdelka .calc_otdelka__right .param_4.param_4_2_4::before {
+        .calc_otdelka  .param_4.param_4_2_4::before {
             background-image: url(../img/calc_otdelka/param_4_2_4.png);
         }
     
@@ -1533,128 +1402,103 @@
         
         
     
-        .calc_otdelka .calc_otdelka__right .param_4_link.param_4_link_act {
+        .calc_otdelka  .param_4_link.param_4_link_act {
             color: #0d0d0d;
             border-bottom: 0px dotted #fff;
             cursor: text
         }
     
-        .calc_otdelka .calc_otdelka__right .param_4_block_2 {
+        .calc_otdelka  .param_4_block_2 {
             display: none
         }
     
-        .calc_otdelka .calc_otdelka__right .param_5 {
-            width: 70px;
-            height: 80px;
-            margin: 0 auto;
-            padding-top: 59px;
-            font-size: 1.4em;
-            font-family: 'Roboto', sans-serif;
-            font-weight: 300;
-            color: #3d3d3d;
-            text-align: center;
-            cursor: pointer
-        }
+        
     
-        .calc_otdelka .calc_otdelka__right .param_5.param_5_1::before {
+        .calc_otdelka .param_5.param_5_1::before {
             background-image: url(../img/calc_otdelka/param_5_1_.png);
         }
     
        
     
-        .calc_otdelka .calc_otdelka__right .param_5.param_5_2::before {
+        .calc_otdelka   .param_5.param_5_2::before {
             background-image: url(../img/calc_otdelka/param_5_2_.png);
         }
     
        
     
-        .calc_otdelka .calc_otdelka__right .param_5.param_5_3::before {
+        .calc_otdelka  .param_5.param_5_3::before {
             background-image: url(../img/calc_otdelka/param_5_3_.png);
         }
     
         
     
-        .calc_otdelka .calc_otdelka__right .param_6 {
-            width: 70px;
-            height: 66px;
-            margin: 0 auto;
-            cursor: pointer
-        }
+        
     
-        .calc_otdelka .calc_otdelka__right .param_6.param_6_1_1::before {
+        .calc_otdelka  .param_6.param_6_1_1::before {
             background-image: url(../img/calc_otdelka/param_6_1_1.png);
         }
     
         
     
-        .calc_otdelka .calc_otdelka__right .param_6.param_6_1_2::before {
+        .calc_otdelka  .param_6.param_6_1_2::before {
             background-image: url(../img/calc_otdelka/param_6_1_2.png);
         }
     
         
     
-        .calc_otdelka .calc_otdelka__right .param_6.param_6_1_3::before {
+        .calc_otdelka  .param_6.param_6_1_3::before {
             background-image: url(../img/calc_otdelka/param_6_1_3.png);
         }
     
        
     
-        .calc_otdelka .calc_otdelka__right .param_6.param_6_1_4::before {
+        .calc_otdelka  .param_6.param_6_1_4::before {
             background-image: url(../img/calc_otdelka/param_6_1_4.png);
         }
     
         
     
-        .calc_otdelka .calc_otdelka__right .param_6.param_6_2_1::before {
+        .calc_otdelka  .param_6.param_6_2_1::before {
             background-image: url(../img/calc_otdelka/param_6_2_1.png);
         }
     
         
     
-        .calc_otdelka .calc_otdelka__right .param_6.param_6_2_2::before {
+        .calc_otdelka  .param_6.param_6_2_2::before {
             background-image: url(../img/calc_otdelka/param_6_2_2.png);
         }
     
         
     
-        .calc_otdelka .calc_otdelka__right .param_6.param_6_2_3::before {
+        .calc_otdelka  .param_6.param_6_2_3::before {
             background-image: url(../img/calc_otdelka/param_6_2_3.png);
         }
     
         
     
-        .calc_otdelka .calc_otdelka__right .param_6.param_6_2_4::before {
+        .calc_otdelka  .param_6.param_6_2_4::before {
             background-image: url(../img/calc_otdelka/param_6_2_4.png);
         }
     
         
     
-        .calc_otdelka .calc_otdelka__right .param_6.param_6_3_1::before {
+        .calc_otdelka  .param_6.param_6_3_1::before {
             background-image: url(../img/calc_otdelka/param_6_3_1.png);
             
         }
     
         
     
-        .calc_otdelka .calc_otdelka__right .param_6_link {
-            color: #9e9e9e;
-            font-family: 'Roboto', sans-serif;
-            font-size: 1.4em;
-            font-weight: bold;
-            margin-bottom: 10px;
-            display: inline-block;
-            border-bottom: 0px dotted #9e9e9e;
-            cursor: pointer;
-            line-height: 1.1
-        }
+      
+        
     
-        .calc_otdelka .calc_otdelka__right .param_6_link.param_6_link_act {
+        .calc_otdelka  .param_6_link.param_6_link_act {
             color: #0d0d0d;
             border-bottom: 0px dotted #fff;
             cursor: text
         }
     
-        .calc_otdelka .calc_otdelka__right .param_6_block_2,.calc_otdelka .calc_otdelka__right .param_6_block_3 {
+        .calc_otdelka  .param_6_block_2,.calc_otdelka  .param_6_block_3 {
             display: none
         }
     
@@ -1711,46 +1555,11 @@
             position: relative
         }
     
-        .calc_otdelka .calc_otdelka__center .tsena_base_bg_block .tsena_base_bg {
-            background: url(../img/calc_otdelka/tsena_base_bg.png) no-repeat center top;
-            width: 380px;
-            height: 200px;
-            margin: 0px 0px 0px 35px;
-            text-align: center
-        }
+       
+        
     
-        .calc_otdelka .calc_otdelka__center .tsena_base_bg_block .tsena_base_bg .costonsale {
-            padding-top: 30px;
-            font-size: 2em;
-            font-family: 'Roboto', sans-serif;
-            font-weight: bold
-        }
-    
-        .calc_otdelka .calc_otdelka__center .tsena_base_bg_block .tsena_base_bg .tsena_base_cost {
-            margin-bottom: 15px;
-            text-align: center
-        }
-    
-        .calc_otdelka .calc_otdelka__center .tsena_base_bg_block .tsena_base_bg .tsena_base_cost span {
-            color: #f72727;
-            font-size: 8em;
-            text-shadow: -3px -3px 0 #fff,3px -3px 0 #fff,-3px 3px 0 #fff,3px 3px 0 #fff,0.02em 0.03em 0.18em rgba(0,0,0,0.8);
-            font-family: 'Roboto', sans-serif;
-            font-weight: bold;
-            font-style: italic;
-            line-height: 1
-        }
-    
-        .calc_otdelka .calc_otdelka__center .tsena_base_bg_block .tsena_base_bg .tsena_base_cost img {
-            vertical-align: top;
-            margin-right: -10px
-        }
-    
-        .calc_otdelka .calc_otdelka__center .tsena_base_bg_block .tsena_base_bg .only15days {
-            font-size: 3em;
-            font-family: 'Roboto', sans-serif;
-            font-weight: bold
-        }
+        
+        
     
         .calc_otdelka .plash_line_1,.calc_otdelka .plash_line_2,.calc_otdelka .plash_line_3,.calc_otdelka .plash_line_4,.calc_otdelka .plash_line_5,.calc_otdelka .plash_line_6 {
             display: none
@@ -1765,22 +1574,8 @@
             display: none
         }
     
-        .calc_otdelka .calc_otdelka__left_2 .calc_otdelka__left_2_zag {
-            
-            font-size: 2.2em;
-            text-transform: uppercase
-        }
-    
-        .calc_otdelka .calc_otdelka__left_2 .calc_otdelka__left_2_text {
-            font-family: 'Roboto', sans-serif;
-            font-size: 1.8em;
-            line-height: 1.2
-        }
-    
-        .calc_otdelka .calc_otdelka__left_2 img {
-            float: left;
-            margin: 6px 20px 30px 0px
-        }
+        
+        
     
         .calc_otdelka .calc_otdelka__right_2 {
             width: 100%;
@@ -1848,13 +1643,13 @@
        
         
     
-        .calc_otdelka .calc_otdelka__left .param_1.param_1_1::before {
+        .calc_otdelka .balcony_roof .param_1.param_1_1::before {
             background-image: url(../img/calc_otdelka/param_1_1.png);
         }
     
         
     
-        .calc_otdelka .calc_otdelka__left .param_1.param_1_2::before {
+        .calc_otdelka .balcony_roof .param_1.param_1_2::before {
             background-image: url(../img/calc_otdelka/param_1_2.png);
         }
     
@@ -1863,13 +1658,13 @@
         
         
     
-        .calc_otdelka .calc_otdelka__left .param_2.param_2_1::before {
+        .calc_otdelka .glazing_type .param_2.param_2_1::before {
             background-image: url(../img/calc_otdelka/param_2_1.png);
         }
     
        
     
-        .calc_otdelka .calc_otdelka__left .param_2.param_2_2::before {
+        .calc_otdelka .glazing_type .param_2.param_2_2::before {
             background-image: url(../img/calc_otdelka/param_2_2.png);
         }
     
@@ -1878,13 +1673,13 @@
         
         
     
-        .calc_otdelka .calc_otdelka__left .param_3.param_3_1::before {
+        .calc_otdelka .exterior_finish .param_3.param_3_1::before {
             background-image: url(../img/calc_otdelka/param_3_1.png);
         }
     
        
     
-        .calc_otdelka .calc_otdelka__left .param_3.param_3_2::before {
+        .calc_otdelka .exterior_finish .param_3.param_3_2::before {
             background-image: url(../img/calc_otdelka/param_3_2.png);
         }
     
@@ -1914,49 +1709,49 @@
         
         
     
-        .calc_otdelka .calc_otdelka__right .param_4.param_4_1_1::before {
+        .calc_otdelka .wall_decoration .param_4.param_4_1_1::before {
             background-image: url(../img/calc_otdelka/param_4_1_1.png);
         }
     
         
     
-        .calc_otdelka .calc_otdelka__right .param_4.param_4_1_2::before {
+        .calc_otdelka .wall_decoration .param_4.param_4_1_2::before {
             background-image: url(../img/calc_otdelka/param_4_1_2.png);
         }
     
        
     
-        .calc_otdelka .calc_otdelka__right .param_4.param_4_1_3::before {
+        .calc_otdelka .wall_decoration .param_4.param_4_1_3::before {
             background-image: url(../img/calc_otdelka/param_4_1_3.png);
         }
     
         
     
-        .calc_otdelka .calc_otdelka__right .param_4.param_4_1_4::before {
+        .calc_otdelka .wall_decoration .param_4.param_4_1_4::before {
             background-image: url(../img/calc_otdelka/param_4_1_4.png);
         }
     
         
     
-        .calc_otdelka .calc_otdelka__right .param_4.param_4_2_1::before {
+        .calc_otdelka  .param_4.param_4_2_1::before {
             background-image: url(../img/calc_otdelka/param_4_2_1.png) ;
         }
     
         
     
-        .calc_otdelka .calc_otdelka__right .param_4.param_4_2_2::before {
+        .calc_otdelka  .param_4.param_4_2_2::before {
             background-image: url(../img/calc_otdelka/param_4_2_2.png);
         }
     
        
     
-        .calc_otdelka .calc_otdelka__right .param_4.param_4_2_3::before {
+        .calc_otdelka  .param_4.param_4_2_3::before {
             background-image: url(../img/calc_otdelka/param_4_2_3.png);
         }
     
         
     
-        .calc_otdelka .calc_otdelka__right .param_4.param_4_2_4::before {
+        .calc_otdelka  .param_4.param_4_2_4::before {
             background-image: url(../img/calc_otdelka/param_4_2_4.png);
         }
     
@@ -1969,112 +1764,87 @@
             cursor: text
         }
     
-        .calc_otdelka .calc_otdelka__right .param_4_block_2 {
+        .calc_otdelka  .param_4_block_2 {
             display: none
         }
     
-        .calc_otdelka .calc_otdelka__right .param_5 {
-            width: 70px;
-            height: 80px;
-            margin: 0 auto;
-            padding-top: 59px;
-            font-size: 1.4em;
-            font-family: 'Roboto', sans-serif;
-            font-weight: 300;
-            color: #3d3d3d;
-            text-align: center;
-            cursor: pointer
-        }
+       
     
-        .calc_otdelka .calc_otdelka__right .param_5.param_5_1::before {
+        .calc_otdelka .param_5.param_5_1::before {
             background-image: url(../img/calc_otdelka/param_5_1_.png);
         }
     
         
     
-        .calc_otdelka .calc_otdelka__right .param_5.param_5_2::before {
+        .calc_otdelka .param_5.param_5_2::before {
             background-image: url(../img/calc_otdelka/param_5_2_.png);
         }
     
         
-        .calc_otdelka .calc_otdelka__right .param_5.param_5_3::before {
+        .calc_otdelka .param_5.param_5_3::before {
             background-image: url(../img/calc_otdelka/param_5_3_.png);
         }
     
        
     
-        .calc_otdelka .calc_otdelka__right .param_6 {
-            width: 70px;
-            height: 66px;
-            margin: 0 auto;
-            cursor: pointer
-        }
+        
     
-        .calc_otdelka .calc_otdelka__right .param_6.param_6_1_1::before {
+        .calc_otdelka  .param_6.param_6_1_1::before {
             background-image: url(../img/calc_otdelka/param_6_1_1.png);
         }
     
         
     
-        .calc_otdelka .calc_otdelka__right .param_6.param_6_1_2::before {
+        .calc_otdelka  .param_6.param_6_1_2::before {
             background-image: url(../img/calc_otdelka/param_6_1_2.png);
         }
     
         
     
-        .calc_otdelka .calc_otdelka__right .param_6.param_6_1_3::before {
+        .calc_otdelka  .param_6.param_6_1_3::before {
             background-image: url(../img/calc_otdelka/param_6_1_3.png);
         }
     
         
     
-        .calc_otdelka .calc_otdelka__right .param_6.param_6_1_4::before {
+        .calc_otdelka  .param_6.param_6_1_4::before {
             background-image: url(../img/calc_otdelka/param_6_1_4.png)  ;
         }
     
         
     
-        .calc_otdelka .calc_otdelka__right .param_6.param_6_2_1::before {
+        .calc_otdelka  .param_6.param_6_2_1::before {
             background-image: url(../img/calc_otdelka/param_6_2_1.png);
         }
     
       
         
-        .calc_otdelka .calc_otdelka__right .param_6.param_6_2_2::before {
+        .calc_otdelka  .param_6.param_6_2_2::before {
             background-image: url(../img/calc_otdelka/param_6_2_2.png);
         }
     
         
     
-        .calc_otdelka .calc_otdelka__right .param_6.param_6_2_3::before {
+        .calc_otdelka  .param_6.param_6_2_3::before {
             background-image: url(../img/calc_otdelka/param_6_2_3.png);
         }
     
        
     
-        .calc_otdelka .calc_otdelka__right .param_6.param_6_2_4::before {
+        .calc_otdelka  .param_6.param_6_2_4::before {
             background-image: url(../img/calc_otdelka/param_6_2_4.png) ;
         }
     
         
     
-        .calc_otdelka .calc_otdelka__right .param_6.param_6_3_1::before {
+        .calc_otdelka  .param_6.param_6_3_1::before {
             background-image: url(../img/calc_otdelka/param_6_3_1.png);
             
         }
     
         
-        .calc_otdelka .calc_otdelka__right .param_6_link {
-            color: #9e9e9e;
-            font-family: 'Roboto', sans-serif;
-            font-size: 1.4em;
-            font-weight: bold;
-            margin-bottom: 10px;
-            display: inline-block;
-            border-bottom: 0px dotted #9e9e9e;
-            cursor: pointer;
-            line-height: 1.1
-        }
+        
+        
     
         .calc_otdelka .calc_otdelka__right .param_6_link.param_6_link_act {
             color: #0d0d0d;
@@ -2082,7 +1852,7 @@
             cursor: text
         }
     
-        .calc_otdelka .calc_otdelka__right .param_6_block_2,.calc_otdelka .calc_otdelka__right .param_6_block_3 {
+        .calc_otdelka  .param_6_block_2,.calc_otdelka  .param_6_block_3 {
             display: none
         }
     
@@ -2139,48 +1909,9 @@
             position: relative
         }
     
-        .calc_otdelka .calc_otdelka__center .tsena_base_bg_block .tsena_base_bg {
-            background: url(../img/calc_otdelka/tsena_base_bg.png) no-repeat center -15px;
-            width: 260px;
-            height: 200px;
-            margin: 10px auto;
-            text-align: center
-        }
-    
-        .calc_otdelka .calc_otdelka__center .tsena_base_bg_block .tsena_base_bg .costonsale {
-            padding-top: 20px;
-            font-size: 1.8em;
-            font-family: 'Roboto', sans-serif;
-            font-weight: bold;
-            margin-bottom: 10px
-        }
-    
-        .calc_otdelka .calc_otdelka__center .tsena_base_bg_block .tsena_base_bg .tsena_base_cost {
-            margin-bottom: 15px;
-            text-align: center
-        }
-    
-        .calc_otdelka .calc_otdelka__center .tsena_base_bg_block .tsena_base_bg .tsena_base_cost span {
-            color: #f72727;
-            font-size: 6.4em;
-            text-shadow: -3px -3px 0 #fff,3px -3px 0 #fff,-3px 3px 0 #fff,3px 3px 0 #fff,0.02em 0.03em 0.18em rgba(0,0,0,0.8);
-            font-family: 'Roboto', sans-serif;
-            font-weight: bold;
-            font-style: italic;
-            line-height: 1
-        }
-    
-        .calc_otdelka .calc_otdelka__center .tsena_base_bg_block .tsena_base_bg .tsena_base_cost img {
-            vertical-align: top;
-            margin-right: -10px;
-            width: 70px
-        }
-    
-        .calc_otdelka .calc_otdelka__center .tsena_base_bg_block .tsena_base_bg .only15days {
-            font-size: 3em;
-            font-family: 'Roboto', sans-serif;
-            font-weight: bold
-        }
+        
+       
+        
     
         .calc_otdelka .plash_line_1,.calc_otdelka .plash_line_2,.calc_otdelka .plash_line_3,.calc_otdelka .plash_line_4,.calc_otdelka .plash_line_5,.calc_otdelka .plash_line_6 {
             display: none
@@ -2195,22 +1926,8 @@
             display: none
         }
     
-        .calc_otdelka .calc_otdelka__left_2 .calc_otdelka__left_2_zag {
-            
-            font-size: 2.2em;
-            text-transform: uppercase
-        }
-    
-        .calc_otdelka .calc_otdelka__left_2 .calc_otdelka__left_2_text {
-            font-family: 'Roboto', sans-serif;
-            font-size: 1.8em;
-            line-height: 1.2
-        }
-    
-        .calc_otdelka .calc_otdelka__left_2 img {
-            float: left;
-            margin: 6px 20px 30px 0px
-        }
+        
+        
     
         .calc_otdelka .calc_otdelka__right_2 {
             width: 100%;
