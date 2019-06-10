@@ -1,0 +1,25 @@
+.rassr_balcons.rassr_bg.es1{
+    background-image: url(../img/rassr_balcons.jpg);
+    .decor_0{
+        position: relative;
+        display: flex;
+        &::after{
+            content: "0%";
+            //display: block;
+            //position: absolute;
+            font-weight: bold;
+            font-size: 96px;
+            line-height: 90px;
+            text-transform: uppercase;
+            color: #DD0053;
+            padding-left: 15px;
+            
+        }
+    }
+    .text{
+        max-width: 445px;
+    }
+    .es1__block {
+        padding-bottom: 26px;
+    }
+}

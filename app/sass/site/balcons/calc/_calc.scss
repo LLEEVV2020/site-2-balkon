@@ -1,3269 +1,388 @@
 .calc_block{
-    
-}
-
-.calc_block2 {
-    
-    
-.b-calc-bg {
-    background: url(../img/es1balkon_bg.jpg) center top no-repeat
-}
-
-.b-calc {
-    width: 1190px;
-    margin: 0 auto
-}
-
-.b-calc__zag {
-    text-align: center;
-    font-family: 'ALSSchlangesans-Black';
-    font-size: 4.9em;
-    text-transform: uppercase;
-    line-height: 1.2;
-    margin-bottom: 40px;
-    padding-top: 30px
-}
-
-.b-calc__left {
-    width: 660px;
-    float: left
-}
-
-.b-calc__left .b-calc__ul_onoff {
-    position: absolute;
-    margin-left: 190px
-}
-
-.b-calc__left .b-calc__ul_onoff li {
-    list-style: none;
-    display: inline;
-    line-height: 52px;
-    font-family: 'ALSSchlangesans-Black';
-    font-size: 3em;
-    text-transform: uppercase;
-    color: #01d2e9;
-    margin-right: 35px;
-    white-space: nowrap
-}
-
-.b-calc__left .b-calc__ul_onoff li img {
-    margin-top: 5px
-}
-
-.b-calc__left .b-calc__ul_onoff li a {
-    color: #000;
-    text-decoration: none
-}
-
-.b-calc__left .oknofull {
-    width: 483px;
-    height: 331px;
-    position: absolute;
-    margin: 210px 0px 0px 180px
-}
-
-.b-calc__left .oknofull img {
-    width: 100%
-}
-
-.b-calc__left .oknofullbalk {
-    margin-top: 235px
-}
-
-.b-calc__left .tabletipokna {
-    position: absolute;
-    margin: 80px 0px 0px 210px
-}
-
-.b-calc__left .tipokna1,.b-calc__left .tipokna2,.b-calc__left .tipokna3,.b-calc__left .tipokna4 {
-    float: left;
-    margin-right: 12px;
-    margin-left: 12px
-}
-
-.b-calc__left .tipokna1 {
-    width: 47px;
-    height: 74px;
-    background: url(../img/calc/okno/ok1_1.png);
-    background-position: center top;
-    background-repeat: no-repeat;
-    cursor: pointer
-}
-
-.b-calc__left .tipokna2 {
-    width: 84px;
-    height: 74px;
-    background: url(../img/calc/okno/ok2_1.png);
-    background-position: center top;
-    background-repeat: no-repeat;
-    cursor: pointer
-}
-
-.b-calc__left .tipokna2.actok {
-    background: url(../img/calc/okno/ok2_1_act.png)
-}
-
-.b-calc__left .tipokna3 {
-    width: 122px;
-    height: 74px;
-    background: url(../img/calc/okno/ok3_1.png);
-    background-position: center top;
-    background-repeat: no-repeat;
-    cursor: pointer
-}
-
-.b-calc__left .tipokna4 {
-    width: 93px;
-    height: 104px;
-    background: url(../img/calc/okno/ok4_1.png);
-    background-position: left top;
-    background-repeat: no-repeat;
-    cursor: pointer
-}
-
-.b-calc__left .tabletipbalk {
-    width: 440px
-}
-
-.b-calc__left .tipbalk1 {
-    width: 67px;
-    height: 48px;
-    float: left;
-    background: url(../img/calc/balk/b1.png);
-    background-repeat: no-repeat;
-    cursor: pointer;
-    margin-right: 25px;
-    margin-bottom: 15px
-}
-
-.b-calc__left .tipbalk1.okact,.b-calc__left .tipbalk1:hover {
-    background: url(../img/calc/balk/b1_act.png);
-    background-repeat: no-repeat
-}
-
-.b-calc__left .tipbalk2 {
-    width: 78px;
-    height: 48px;
-    float: left;
-    background: url(../img/calc/balk/b2.png);
-    background-repeat: no-repeat;
-    cursor: pointer;
-    margin-right: 25px;
-    margin-bottom: 15px
-}
-
-.b-calc__left .tipbalk2.okact,.b-calc__left .tipbalk2:hover {
-    background: url(../img/calc/balk/b2_act.png);
-    background-repeat: no-repeat
-}
-
-.b-calc__left .tipbalk3 {
-    width: 73px;
-    height: 48px;
-    float: left;
-    background: url(../img/calc/balk/b3.png);
-    background-repeat: no-repeat;
-    cursor: pointer;
-    margin-right: 25px;
-    margin-bottom: 15px
-}
-
-.b-calc__left .tipbalk3.okact,.b-calc__left .tipbalk3:hover {
-    background: url(../img/calc/balk/b3_act.png);
-    background-repeat: no-repeat
-}
-
-.b-calc__left .tipbalk4 {
-    width: 93px;
-    height: 48px;
-    float: left;
-    background: url(../img/calc/balk/b4.png);
-    background-repeat: no-repeat;
-    cursor: pointer;
-    margin-bottom: 15px
-}
-
-.b-calc__left .tipbalk4.okact,.b-calc__left .tipbalk4:hover {
-    background: url(../img/calc/balk/b4_act.png);
-    background-repeat: no-repeat
-}
-
-.b-calc__left .tipbalk5 {
-    width: 101px;
-    height: 48px;
-    float: left;
-    background: url(../img/calc/balk/b5.png);
-    background-repeat: no-repeat;
-    cursor: pointer;
-    margin-right: 45px
-}
-
-.b-calc__left .tipbalk5.okact,.b-calc__left .tipbalk5:hover {
-    background: url(../img/calc/balk/b5_act.png);
-    background-repeat: no-repeat
-}
-
-.b-calc__left .tipbalk6 {
-    width: 100px;
-    height: 48px;
-    float: left;
-    background: url(../img/calc/balk/b6.png);
-    background-repeat: no-repeat;
-    cursor: pointer;
-    margin-right: 45px
-}
-
-.b-calc__left .tipbalk6.okact,.b-calc__left .tipbalk6:hover {
-    background: url(../img/calc/balk/b6_act.png);
-    background-repeat: no-repeat
-}
-
-.b-calc__left .tipbalk7 {
-    width: 97px;
-    height: 48px;
-    float: left;
-    background: url(../img/calc/balk/b7.png);
-    background-repeat: no-repeat;
-    cursor: pointer
-}
-
-.b-calc__left .tipbalk7.okact,.b-calc__left .tipbalk7:hover {
-    background: url(../img/calc/balk/b7_act.png);
-    background-repeat: no-repeat
-}
-
-.b-calc__left .popok1 {
-    position: absolute;
-    margin-left: -24px;
-    margin-top: -16px
-}
-
-.b-calc__left .popok2 {
-    position: absolute;
-    margin-left: -24px;
-    margin-top: -16px
-}
-
-.b-calc__left .popok3 {
-    position: absolute;
-    margin-left: -24px;
-    margin-top: -16px
-}
-
-.b-calc__left .popok4 {
-    position: absolute;
-    margin-left: -24px;
-    margin-top: -16px
-}
-
-.b-calc__left .tipoknapopcenter {
-    border: 1px solid #e7e7e8;
-    padding: 15px 23px 15px 23px;
-    position: relative;
-    z-index: 5;
-    border-radius: 7px;
-    background: #fff;
-    background: #fff;
-    box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.1)
-}
-
-.b-calc__left .tipoknapopcenter .ok1_1,.b-calc__left .tipoknapopcenter .ok1_2,.b-calc__left .tipoknapopcenter .ok2_1,.b-calc__left .tipoknapopcenter .ok2_2,.b-calc__left .tipoknapopcenter .ok2_3,.b-calc__left .tipoknapopcenter .ok3_1,.b-calc__left .tipoknapopcenter .ok3_2,.b-calc__left .tipoknapopcenter .ok4_1 {
-    margin-bottom: 25px
-}
-
-.b-calc__left .ok1_1 {
-    background: url(../img/calc/okno/ok1_1.png);
-    width: 47px;
-    height: 74px
-}
-
-.b-calc__left .ok1_1:hover,.b-calc__left .ok1_1.actok {
-    background: url(../img/calc/okno/ok1_1_act.png)
-}
-
-.b-calc__left .ok1_2 {
-    background: url(../img/calc/okno/ok1_2.png);
-    width: 47px;
-    height: 74px
-}
-
-.b-calc__left .ok1_2:hover,.b-calc__left .ok1_2.actok {
-    background: url(../img/calc/okno/ok1_2_act.png)
-}
-
-.b-calc__left .ok1_3 {
-    background: url(../img/calc/okno/ok1_3.png);
-    width: 47px;
-    height: 74px
-}
-
-.b-calc__left .ok1_3:hover,.b-calc__left .ok1_3.actok {
-    background: url(../img/calc/okno/ok1_3_act.png)
-}
-
-.b-calc__left .ok2_1 {
-    background: url(../img/calc/okno/ok2_1.png);
-    width: 84px;
-    height: 74px
-}
-
-.b-calc__left .ok2_1:hover,.b-calc__left .ok2_1.actok {
-    background: url(../img/calc/okno/ok2_1_act.png)
-}
-
-.b-calc__left .ok2_2 {
-    background: url(../img/calc/okno/ok2_2.png);
-    width: 84px;
-    height: 74px
-}
-
-.b-calc__left .ok2_2:hover,.b-calc__left .ok2_2.actok {
-    background: url(../img/calc/okno/ok2_2_act.png)
-}
-
-.b-calc__left .ok2_3 {
-    background: url(../img/calc/okno/ok2_3.png);
-    width: 84px;
-    height: 74px
-}
-
-.b-calc__left .ok2_3:hover,.b-calc__left .ok2_3.actok {
-    background: url(../img/calc/okno/ok2_3_act.png)
-}
-
-.b-calc__left .ok2_4 {
-    background: url(../img/calc/okno/ok2_4.png);
-    width: 84px;
-    height: 74px
-}
-
-.b-calc__left .ok2_4:hover,.b-calc__left .ok2_4.actok {
-    background: url(../img/calc/okno/ok2_4_act.png)
-}
-
-.b-calc__left .ok3_1 {
-    background: url(../img/calc/okno/ok3_1.png);
-    width: 122px;
-    height: 74px
-}
-
-.b-calc__left .ok3_1:hover,.b-calc__left .ok3_1.actok {
-    background: url(../img/calc/okno/ok3_1_act.png)
-}
-
-.b-calc__left .ok3_2 {
-    background: url(../img/calc/okno/ok3_2.png);
-    width: 122px;
-    height: 74px
-}
-
-.b-calc__left .ok3_2:hover,.b-calc__left .ok3_2.actok {
-    background: url(../img/calc/okno/ok3_2_act.png)
-}
-
-.b-calc__left .ok3_3 {
-    background: url(../img/calc/okno/ok3_3.png);
-    width: 122px;
-    height: 74px
-}
-
-.b-calc__left .ok3_3:hover,.b-calc__left .ok3_3.actok {
-    background: url(../img/calc/okno/ok3_3_act.png)
-}
-
-.b-calc__left .ok4_1 {
-    background: url(../img/calc/okno/ok4_1.png);
-    width: 47px;
-    height: 104px
-}
-
-.b-calc__left .ok4_1:hover,.b-calc__left .ok4_1.actok {
-    background: url(../img/calc/okno/ok4_1_act.png)
-}
-
-.b-calc__left .ok4_2 {
-    background: url(../img/calc/okno/ok4_2.png);
-    width: 93px;
-    height: 104px
-}
-
-.b-calc__left .ok4_2:hover,.b-calc__left .ok4_2.actok {
-    background: url(../img/calc/okno/ok4_2_act.png)
-}
-
-.b-calc__right {
-    width: 380px;
-    float: right;
-    margin-right: 90px;
-    margin-bottom: 50px
-}
-
-.b-calc__right .dostavka {
-    width: 372px;
-    height: 80px;
-    background: url(../img/calc/dostavka.png) no-repeat center center
-}
-
-.b-calc__right .underdostavka {
-    font-size: 1.8em;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
-    padding-left: 113px;
-    color: #0d0d0d;
-    margin-bottom: 30px
-}
-
-.b-calc__right .proc {
-    height: 132px;
-    margin-bottom: 15px
-}
-
-.b-calc__right .proc div {
-    width: 437px;
-    height: 132px;
-    background: url(../img/calc/proc.png) no-repeat center center;
-    position: absolute
-}
-
-.b-calc__right .basechek {
-    width: 380px;
-    height: 193px;
-    font-size: 2em;
-    font-family: 'Roboto', sans-serif;
-    background: url(../img/calc/basechek.png) no-repeat center center;
-    padding-top: 17px
-}
-
-.b-calc__right .basechek .basechek__zag {
-    font-family: 'Roboto', sans-serif;
-    margin-bottom: 8px;
-    margin-left: 30px
-}
-
-.b-calc__right .basechek table {
-    width: 200px;
-    margin: 0 auto
-}
-
-.b-calc__right .basechek .basechek__line {
-    border-bottom: 1px solid #b8c3c9;
-    margin: 14px 30px 9px 30px
-}
-
-.b-calc__right .basetsena {
-    width: 380px;
-    height: 157px;
-    margin-top: -14px;
-    background: url(../img/calc/basetsena.png) no-repeat center center;
-    text-align: center;
-    margin-bottom: 16px
-}
-
-.b-calc__right .basetsena .costonsale {
-    padding-top: 30px;
-    font-size: 2em;
-    font-family: 'Roboto', sans-serif;
-    font-weight: bold;
-    text-transform: uppercase
-}
-
-.b-calc__right .basetsena .tsena_base_cost {
-    margin-bottom: 15px;
-    text-align: center
-}
-
-.b-calc__right .basetsena .tsena_base_cost span {
-    color: #f72727;
-    font-size: 8em;
-    text-shadow: -3px -3px 0 #fff,3px -3px 0 #fff,-3px 3px 0 #fff,3px 3px 0 #fff,0.02em 0.03em 0.18em rgba(0,0,0,0.8);
-    font-family: 'Roboto', sans-serif;
-    font-weight: bold;
-    font-style: italic;
-    line-height: 1
-}
-
-.b-calc__right .basetsena .tsena_base_cost img {
-    vertical-align: top;
-    margin-right: -10px
-}
-
-.b-calc__right .basetsena .only15days {
-    font-size: 3em;
-    font-family: 'Roboto', sans-serif;
-    font-weight: bold
-}
-
-.b-calc__right .calc_but {
-    text-align: center;
-    margin-bottom: 30px
-}
-
-.b-calc__right .calc_but img {
-    cursor: pointer
-}
-
-.b-calc__right .calc_rassr {
-    text-align: center;
-    text-transform: uppercase;
-    font-family: 'Roboto', sans-serif;
-    font-size: 3em;
-    line-height: 1.2
-}
-
-.b-calc__right .calc_rassr .credd {
-    color: #ff0000
-}
-
-.tipoknachek {
-    width: 29px;
-    height: 30px;
-    background: url(../img/calc/chek.png) no-repeat left top;
-    cursor: pointer
-}
-
-.tipoknachekact {
-    width: 29px;
-    height: 30px;
-    background: url(../img/calc/chek_act.png) no-repeat left top;
-    cursor: pointer
-}
-
-#sliderhor {
-    width: 400px;
-    position: absolute;
-    margin: 580px 0px 0px 225px !important
-}
-
-#sliderhor span.ui-slider-handle {
-    display: none
-}
-
-#sliderhor span.ui-slider-handle:last-child {
-    display: block
-}
-
-#sliderver {
-    height: 340px;
-    position: absolute;
-    margin: 205px 0px 0px 130px !important
-}
-
-#sliderver span.ui-slider-handle {
-    display: none
-}
-
-#sliderver span.ui-slider-handle:last-child {
-    display: block
-}
-
-.ui-slider {
-    position: relative
-}
-
-.ui-slider-horizontal .ui-slider-handle {
-    position: absolute;
-    z-index: 2;
-    margin-top: -4px;
-    width: 23px;
-    height: 24px;
-    background: url(../img/calc/slider_polz.png) no-repeat;
-    cursor: pointer
-}
-
-.ui-slider-vertical .ui-slider-handle {
-    position: absolute;
-    z-index: 2;
-    width: 23px;
-    height: 24px;
-    background: url(../img/calc/slider_polz.png) no-repeat;
-    cursor: pointer
-}
-
-.ui-slider .ui-slider-range {
-    position: absolute;
-    z-index: 1;
-    font-size: .7em;
-    display: block;
-    background: #03c1d7;
-    border-radius: 6px;
-    overflow: hidden
-}
-
-.ui-slider-horizontal {
-    height: 11px;
-    width: 400px;
-    border: 1px solid #d5dbdf;
-    background: #f5f6f7
-}
-
-.ui-slider-vertical {
-    width: 11px;
-    height: 340px;
-    border: 1px solid #d5dbdf;
-    background: #f5f6f7
-}
-
-.verbalk .ui-slider-vertical {
-    width: 3px;
-    height: 100px !important
-}
-
-.ui-slider-horizontal .ui-slider-handle {
-    top: -3px;
-    margin-left: -10px
-}
-
-.ui-slider-vertical .ui-slider-handle {
-    margin-bottom: -15px;
-    margin-left: -7px
-}
-
-.ui-slider-horizontal .ui-slider-range {
-    top: 0;
-    height: 100%
-}
-
-.ui-slider-horizontal .ui-slider-range-min {
-    left: 0
-}
-
-.ui-slider-horizontal .ui-slider-range-max {
-    right: 0
-}
-
-.ui-slider-vertical .ui-slider-range {
-    left: 0;
-    width: 100%
-}
-
-.ui-slider-vertical .ui-slider-range-min {
-    bottom: 0
-}
-
-.ui-slider-vertical .ui-slider-range-max {
-    top: 0
-}
-
-.ui-widget-header {
-    border: 1px solid #D4D4D4;
-    background: url(../img/ui-widget-header.png)
-}
-
-.ui-corner-all {
-    border-radius: 4px
-}
-
-.Costhor11_block {
-    width: 100px;
-    height: 51px;
-    background: url(../img/calc/znachgor.png);
-    position: absolute;
-    margin: 24px 0px 0px -37px;
-    text-align: center;
-    font-size: 2.4em;
-    color: #161616
-}
-
-.Costhor11_block input {
-    width: 48px;
-    height: 35px;
-    text-align: center;
-    margin-left: 0px;
-    margin-top: 10px;
-    color: #161616;
-    padding: 0 !important;
-    font-size: 1em;
-    background: none;
-    border: 0
-}
-
-.Costver11_block {
-    width: 110px;
-    height: 43px;
-    background: url(../img/calc/znachvert.png);
-    position: absolute;
-    margin: -9px 0px 0px -110px;
-    text-align: center;
-    font-size: 2.4em;
-    color: #161616
-}
-
-.Costver11_block input {
-    width: 48px;
-    height: 35px;
-    text-align: center;
-    margin-left: -12px;
-    margin-top: 3px;
-    color: #161616;
-    padding: 0 !important;
-    border: 0px solid #ccc;
-    font-size: 1em;
-    background: none
-}
-
-.b-calc__left .stage1 {
-    width: 182px;
-    height: 39px;
-    background: url(../img/calc/stage1.png);
-    position: absolute;
-    margin: 90px 0px 0px 0px
-}
-
-.b-calc__left .stage2 {
-    width: 129px;
-    height: 80px;
-    background: url(../img/calc/stage2.png);
-    position: absolute;
-    margin: 160px 0px 0px 0px
-}
-
-.b-calc__left .stage3 {
-    width: 166px;
-    height: 42px;
-    background: url(../img/calc/stage3.png);
-    position: absolute;
-    margin: 725px 0px 0px 0px
-}
-
-.b-calc__left .block_econom {
-    width: 465px;
-    text-align: center;
-    position: absolute;
-    margin: 675px 0px 0px 185px
-}
-
-.b-calc__left .block_econom .block_econom_text {
-    font-size: 2em;
-    font-family: 'Roboto', sans-serif;
-    margin-bottom: 10px
-}
-
-.b-calc__left .block_econom .block_econom_bg {
-    height: 80px;
-    line-height: 80px;
-    text-align: center;
-    background: url(../img/b_market_filtr_bg.png);
-    border-radius: 5px;
-    font-size: 3em;
-    font-family: 'ALSSchlangesans-Black';
-    color: #fff
-}
-
-.b-calc__left .block_econom .block_econom_bg span {
-    font-size: 1.2em
-}
-
-.b-calc__left .markver {
-    width: 5px;
-    background: url(../img/calc/markver.png) no-repeat;
-    height: 271px;
-    position: absolute;
-    margin: 230px 0px 0px 155px
-}
-
-.b-calc__left .markhor {
-    width: 391px;
-    background: url(../img/calc/markhor.png) no-repeat;
-    height: 5px;
-    position: absolute;
-    margin: 565px 0px 0px 229px
-}
-
-@media only screen and (max-width: 1200px) {
-    .b-calc {
-        width:960px;
-        margin: 0 auto
-    }
-
-    .b-calc__zag {
-        text-align: center;
-        font-family: 'ALSSchlangesans-Black';
-        font-size: 4.9em;
-        text-transform: uppercase;
-        line-height: 1.2;
-        margin-bottom: 40px;
-        padding-top: 30px
-    }
-
-    .b-calc__left {
-        width: 200px;
-        float: left
-    }
-
-    .b-calc__left .b-calc__ul_onoff {
-        position: absolute;
-        margin-left: 10px
-    }
-
-    .b-calc__left .b-calc__ul_onoff li {
-        list-style: none;
-        display: inline;
-        line-height: 52px;
-        font-family: 'ALSSchlangesans-Black';
-        font-size: 3em;
-        text-transform: uppercase;
-        color: #01d2e9;
-        margin-right: 35px;
-        white-space: nowrap
-    }
-
-    .b-calc__left .b-calc__ul_onoff li img {
-        margin-top: 5px
-    }
-
-    .b-calc__left .b-calc__ul_onoff li a {
-        color: #000;
-        text-decoration: none
-    }
-
-    .b-calc__left .oknofull {
-        width: 483px;
-        height: 331px;
-        position: absolute;
-        margin: 210px 0px 0px 40px
-    }
-
-    .b-calc__left .oknofull img {
-        width: 100%
-    }
-
-    .b-calc__left .oknofullbalk {
-        margin-top: 235px
-    }
-
-    .b-calc__left .tabletipokna {
-        position: absolute;
-        margin: 80px 0px 0px 70px
-    }
-
-    .b-calc__left .tipokna1,.b-calc__left .tipokna2,.b-calc__left .tipokna3,.b-calc__left .tipokna4 {
-        float: left;
-        margin-right: 12px;
-        margin-left: 12px
-    }
-
-    .b-calc__left .tipokna1 {
-        width: 47px;
-        height: 74px;
-        background: url(../img/calc/okno/ok1_1.png);
-        background-position: center top;
-        background-repeat: no-repeat;
-        cursor: pointer
-    }
-
-    .b-calc__left .tipokna2 {
-        width: 84px;
-        height: 74px;
-        background: url(../img/calc/okno/ok2_1.png);
-        background-position: center top;
-        background-repeat: no-repeat;
-        cursor: pointer
-    }
-
-    .b-calc__left .tipokna2.actok {
-        background: url(../img/calc/okno/ok2_1_act.png)
-    }
-
-    .b-calc__left .tipokna3 {
-        width: 122px;
-        height: 74px;
-        background: url(../img/calc/okno/ok3_1.png);
-        background-position: center top;
-        background-repeat: no-repeat;
-        cursor: pointer
-    }
-
-    .b-calc__left .tipokna4 {
-        width: 93px;
-        height: 104px;
-        background: url(../img/calc/okno/ok4_1.png);
-        background-position: left top;
-        background-repeat: no-repeat;
-        cursor: pointer
-    }
-
-    .b-calc__left .tabletipbalk {
-        width: 440px
-    }
-
-    .b-calc__left .popok1 {
-        position: absolute;
-        margin-left: -24px;
-        margin-top: -16px
-    }
-
-    .b-calc__left .popok2 {
-        position: absolute;
-        margin-left: -24px;
-        margin-top: -16px
-    }
-
-    .b-calc__left .popok3 {
-        position: absolute;
-        margin-left: -24px;
-        margin-top: -16px
-    }
-
-    .b-calc__left .popok4 {
-        position: absolute;
-        margin-left: -24px;
-        margin-top: -16px
-    }
-
-    .b-calc__left .tipoknapopcenter {
-        border: 1px solid #e7e7e8;
-        padding: 15px 23px 15px 23px;
-        position: relative;
-        z-index: 5;
-        border-radius: 7px;
-        background: #fff;
-        background: rgba(255,255,255,0.9);
-        box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.1)
-    }
-
-    .b-calc__left .tipoknapopcenter .ok1_1,.b-calc__left .tipoknapopcenter .ok1_2,.b-calc__left .tipoknapopcenter .ok2_1,.b-calc__left .tipoknapopcenter .ok2_2,.b-calc__left .tipoknapopcenter .ok2_3,.b-calc__left .tipoknapopcenter .ok3_1,.b-calc__left .tipoknapopcenter .ok3_2,.b-calc__left .tipoknapopcenter .ok4_1 {
-        margin-bottom: 25px
-    }
-
-    .b-calc__left .ok1_1 {
-        background: url(../img/calc/okno/ok1_1.png);
-        width: 47px;
-        height: 74px
-    }
-
-    .b-calc__left .ok1_1:hover,.b-calc__left .ok1_1.actok {
-        background: url(../img/calc/okno/ok1_1_act.png)
-    }
-
-    .b-calc__left .ok1_2 {
-        background: url(../img/calc/okno/ok1_2.png);
-        width: 47px;
-        height: 74px
-    }
-
-    .b-calc__left .ok1_2:hover,.b-calc__left .ok1_2.actok {
-        background: url(../img/calc/okno/ok1_2_act.png)
-    }
-
-    .b-calc__left .ok1_3 {
-        background: url(../img/calc/okno/ok1_3.png);
-        width: 47px;
-        height: 74px
-    }
-
-    .b-calc__left .ok1_3:hover,.b-calc__left .ok1_3.actok {
-        background: url(../img/calc/okno/ok1_3_act.png)
-    }
-
-    .b-calc__left .ok2_1 {
-        background: url(../img/calc/okno/ok2_1.png);
-        width: 84px;
-        height: 74px
-    }
-
-    .b-calc__left .ok2_1:hover,.b-calc__left .ok2_1.actok {
-        background: url(../img/calc/okno/ok2_1_act.png)
-    }
-
-    .b-calc__left .ok2_2 {
-        background: url(../img/calc/okno/ok2_2.png);
-        width: 84px;
-        height: 74px
-    }
-
-    .b-calc__left .ok2_2:hover,.b-calc__left .ok2_2.actok {
-        background: url(../img/calc/okno/ok2_2_act.png)
-    }
-
-    .b-calc__left .ok2_3 {
-        background: url(../img/calc/okno/ok2_3.png);
-        width: 84px;
-        height: 74px
-    }
-
-    .b-calc__left .ok2_3:hover,.b-calc__left .ok2_3.actok {
-        background: url(../img/calc/okno/ok2_3_act.png)
-    }
-
-    .b-calc__left .ok2_4 {
-        background: url(../img/calc/okno/ok2_4.png);
-        width: 84px;
-        height: 74px
-    }
-
-    .b-calc__left .ok2_4:hover,.b-calc__left .ok2_4.actok {
-        background: url(../img/calc/okno/ok2_4_act.png)
-    }
-
-    .b-calc__left .ok3_1 {
-        background: url(../img/calc/okno/ok3_1.png);
-        width: 122px;
-        height: 74px
-    }
-
-    .b-calc__left .ok3_1:hover,.b-calc__left .ok3_1.actok {
-        background: url(../img/calc/okno/ok3_1_act.png)
-    }
-
-    .b-calc__left .ok3_2 {
-        background: url(../img/calc/okno/ok3_2.png);
-        width: 122px;
-        height: 74px
-    }
-
-    .b-calc__left .ok3_2:hover,.b-calc__left .ok3_2.actok {
-        background: url(../img/calc/okno/ok3_2_act.png)
-    }
-
-    .b-calc__left .ok3_3 {
-        background: url(../img/calc/okno/ok3_3.png);
-        width: 122px;
-        height: 74px
-    }
-
-    .b-calc__left .ok3_3:hover,.b-calc__left .ok3_3.actok {
-        background: url(../img/calc/okno/ok3_3_act.png)
-    }
-
-    .b-calc__left .ok4_1 {
-        background: url(../img/calc/okno/ok4_1.png);
-        width: 47px;
-        height: 104px
-    }
-
-    .b-calc__left .ok4_1:hover,.b-calc__left .ok4_1.actok {
-        background: url(../img/calc/okno/ok4_1_act.png)
-    }
-
-    .b-calc__left .ok4_2 {
-        background: url(../img/calc/okno/ok4_2.png);
-        width: 93px;
-        height: 104px
-    }
-
-    .b-calc__left .ok4_2:hover,.b-calc__left .ok4_2.actok {
-        background: url(../img/calc/okno/ok4_2_act.png)
-    }
-
-    .b-calc__right {
-        width: 380px;
-        float: right;
-        margin-right: 0px;
-        margin-bottom: 50px
-    }
-
-    .b-calc__right .dostavka {
-        width: 372px;
-        height: 80px;
-        background: url(../img/calc/dostavka.png) no-repeat center center
-    }
-
-    .b-calc__right .underdostavka {
-        font-size: 1.8em;
-        font-family: 'Roboto', sans-serif;
-        font-weight: 300;
-        padding-left: 113px;
-        color: #0d0d0d;
-        margin-bottom: 30px
-    }
-
-    .b-calc__right .proc {
-        height: 115px;
-        margin-bottom: 15px
-    }
-
-    .b-calc__right .proc div {
-        width: 380px;
-        height: 115px;
-        background: url(../img/calc/proc.png) no-repeat center center;
-        background-size: cover;
-        position: absolute
-    }
-
-    .b-calc__right .basechek {
-        width: 380px;
-        height: 193px;
-        font-size: 2em;
-        font-family: 'Roboto', sans-serif;
-        background: url(../img/calc/basechek.png) no-repeat center center;
-        padding-top: 17px
-    }
-
-    .b-calc__right .basechek .basechek__zag {
-        font-family: 'Roboto', sans-serif;
-        margin-bottom: 8px;
-        margin-left: 30px
-    }
-
-    .b-calc__right .basechek table {
-        width: 200px;
-        margin: 0 auto
-    }
-
-    .b-calc__right .basechek .basechek__line {
-        border-bottom: 1px solid #b8c3c9;
-        margin: 14px 30px 9px 30px
-    }
-
-    .b-calc__right .basetsena {
-        width: 380px;
-        height: 157px;
-        margin-top: -14px;
-        background: url(../img/calc/basetsena.png) no-repeat center center;
-        text-align: center;
-        margin-bottom: 16px
-    }
-
-    .b-calc__right .basetsena .costonsale {
-        padding-top: 30px;
-        font-size: 2em;
-        font-family: 'Roboto', sans-serif;
+    h1{
         font-weight: bold;
-        text-transform: uppercase
-    }
-
-    .b-calc__right .basetsena .tsena_base_cost {
-        margin-bottom: 15px;
-        text-align: center
-    }
-
-    .b-calc__right .basetsena .tsena_base_cost span {
-        color: #f72727;
-        font-size: 8em;
-        text-shadow: -3px -3px 0 #fff,3px -3px 0 #fff,-3px 3px 0 #fff,3px 3px 0 #fff,0.02em 0.03em 0.18em rgba(0,0,0,0.8);
-        font-family: 'Roboto', sans-serif;
-        font-weight: bold;
-        font-style: italic;
-        line-height: 1
-    }
-
-    .b-calc__right .basetsena .tsena_base_cost img {
-        vertical-align: top;
-        margin-right: -10px
-    }
-
-    .b-calc__right .basetsena .only15days {
-        font-size: 3em;
-        font-family: 'Roboto', sans-serif;
-        font-weight: bold
-    }
-
-    .b-calc__right .calc_but {
-        text-align: center;
-        margin-bottom: 30px
-    }
-
-    .b-calc__right .calc_but img {
-        cursor: pointer
-    }
-
-    .b-calc__right .calc_rassr {
-        text-align: center;
+        font-size: 32px;
+        line-height: 39px;
+        /* identical to box height */
         text-transform: uppercase;
-        font-family: 'Roboto', sans-serif;
-        font-size: 3em;
-        line-height: 1.2
-    }
-
-    .b-calc__right .calc_rassr .credd {
-        color: #ff0000
-    }
-
-    .tipoknachek {
-        width: 29px;
-        height: 30px;
-        background: url(../img/calc/chek.png) no-repeat left top;
-        cursor: pointer
-    }
-
-    .tipoknachekact {
-        width: 29px;
-        height: 30px;
-        background: url(../img/calc/chek_act.png) no-repeat left top;
-        cursor: pointer
-    }
-
-    #sliderhor {
-        width: 400px;
-        position: absolute;
-        margin: 580px 0px 0px 75px !important
-    }
-
-    #sliderhor span.ui-slider-handle {
-        display: none
-    }
-
-    #sliderhor span.ui-slider-handle:last-child {
-        display: block
-    }
-
-    #sliderver {
-        height: 340px;
-        position: absolute;
-        margin: 205px 0px 0px 15px !important
-    }
-
-    #sliderver span.ui-slider-handle {
-        display: none
-    }
-
-    #sliderver span.ui-slider-handle:last-child {
-        display: block
-    }
-
-    .ui-slider {
-        position: relative
-    }
-
-    .ui-slider-horizontal .ui-slider-handle {
-        position: absolute;
-        z-index: 2;
-        margin-top: -4px;
-        width: 23px;
-        height: 24px;
-        background: url(../img/calc/slider_polz.png) no-repeat;
-        cursor: pointer
-    }
-
-    .ui-slider-vertical .ui-slider-handle {
-        position: absolute;
-        z-index: 2;
-        width: 23px;
-        height: 24px;
-        background: url(../img/calc/slider_polz.png) no-repeat;
-        cursor: pointer
-    }
-
-    .ui-slider .ui-slider-range {
-        position: absolute;
-        z-index: 1;
-        font-size: .7em;
-        display: block;
-        background: #03c1d7;
-        border-radius: 6px;
-        overflow: hidden
-    }
-
-    .ui-slider-horizontal {
-        height: 11px;
-        width: 400px;
-        border: 1px solid #d5dbdf;
-        background: #f5f6f7
-    }
-
-    .ui-slider-vertical {
-        width: 11px;
-        height: 340px;
-        border: 1px solid #d5dbdf;
-        background: #f5f6f7
-    }
-
-    .verbalk .ui-slider-vertical {
-        width: 3px;
-        height: 100px !important
-    }
-
-    .ui-slider-horizontal .ui-slider-handle {
-        top: -3px;
-        margin-left: -10px
-    }
-
-    .ui-slider-vertical .ui-slider-handle {
-        margin-bottom: -15px;
-        margin-left: -7px
-    }
-
-    .ui-slider-horizontal .ui-slider-range {
-        top: 0;
-        height: 100%
-    }
-
-    .ui-slider-horizontal .ui-slider-range-min {
-        left: 0
-    }
-
-    .ui-slider-horizontal .ui-slider-range-max {
-        right: 0
-    }
-
-    .ui-slider-vertical .ui-slider-range {
-        left: 0;
-        width: 100%
-    }
-
-    .ui-slider-vertical .ui-slider-range-min {
-        bottom: 0
-    }
-
-    .ui-slider-vertical .ui-slider-range-max {
-        top: 0
-    }
-
-    .ui-widget-header {
-        border: 1px solid #D4D4D4;
-        background: url(../img/ui-widget-header.png)
-    }
-
-    .ui-corner-all {
-        border-radius: 4px
-    }
-
-    .Costhor11_block {
-        width: 100px;
-        height: 51px;
-        background: url(../img/calc/znachgor.png);
-        position: absolute;
-        margin: 24px 0px 0px -37px
-    }
-
-    .Costhor11_block input {
-        width: 48px;
-        height: 35px;
         text-align: center;
-        margin-left: 5px;
-        margin-top: 10px;
-        color: #161616;
-        padding: 0 !important;
-        border: 0;
-        font-size: 1em;
-        background: none
+            margin-bottom: 40px;
+        color: #000000;
+         
     }
-
-    .Costver11_block {
-        width: 100px;
-        height: 51px;
-        background: url(../img/calc/znachgor.png);
-        position: absolute;
-        margin: 24px 0px 0px -37px
+    .b-calc2{
+        padding-top: 40px;
     }
-
-    .Costver11_block input {
-        width: 48px;
-        height: 35px;
-        text-align: center;
-        margin-left: 5px;
-        margin-top: 10px;
-        color: #161616;
-        padding: 0 !important;
-        border: 0;
-        font-size: 1em;
-        background: none
-    }
-
-    .b-calc__left .stage1 {
-        display: none
-    }
-
-    .b-calc__left .stage2 {
-        display: none
-    }
-
-    .b-calc__left .stage3 {
-        display: none
-    }
-
-    .b-calc__left .block_econom {
-        width: 465px;
-        text-align: center;
-        position: absolute;
-        margin: 675px 0px 0px 45px
-    }
-
-    .b-calc__left .block_econom .block_econom_text {
-        font-size: 2em;
-        font-family: 'Roboto', sans-serif;
-        margin-bottom: 10px
-    }
-
-    .b-calc__left .block_econom .block_econom_bg {
-        height: 80px;
-        line-height: 80px;
-        text-align: center;
-        background: url(../img/b_market_filtr_bg.png);
-        border-radius: 5px;
-        font-size: 3em;
-        font-family: 'ALSSchlangesans-Black';
-        color: #fff
-    }
-
-    .b-calc__left .block_econom .block_econom_bg span {
-        font-size: 1.2em
-    }
-
-    .b-calc__left .markver {
-        display: none
-    }
-
-    .b-calc__left .markhor {
-        display: none
-    }
-}
-
-@media only screen and (max-width: 992px) {
-    .b-calc {
-        width:700px;
-        margin: 0 auto
-    }
-
-    .b-calc__zag {
-        text-align: center;
-        font-family: 'ALSSchlangesans-Black';
-        font-size: 4.9em;
-        text-transform: uppercase;
-        line-height: 1.2;
-        margin-bottom: 40px;
-        padding-top: 30px
-    }
-
-    .b-calc__left {
-        width: 550px;
-        float: none;
-        height: 680px;
-        margin: 0 auto
-    }
-
-    .b-calc__left .b-calc__ul_onoff {
-        position: absolute;
-        margin-left: 70px
-    }
-
-    .b-calc__left .b-calc__ul_onoff li {
-        list-style: none;
-        display: inline;
-        line-height: 52px;
-        font-family: 'ALSSchlangesans-Black';
-        font-size: 3em;
-        text-transform: uppercase;
-        color: #01d2e9;
-        margin-right: 35px;
-        white-space: nowrap
-    }
-
-    .b-calc__left .b-calc__ul_onoff li img {
-        margin-top: 5px
-    }
-
-    .b-calc__left .b-calc__ul_onoff li a {
-        color: #000;
-        text-decoration: none
-    }
-
-    .b-calc__left .oknofull {
-        width: 483px;
-        height: 331px;
-        position: absolute;
-        margin: 210px 0px 0px 40px
-    }
-
-    .b-calc__left .oknofull img {
-        width: 100%
-    }
-
-    .b-calc__left .oknofullbalk {
-        margin-top: 235px
-    }
-
-    .b-calc__left .tabletipokna {
-        position: absolute;
-        margin: 80px 0px 0px 70px
-    }
-
-    .b-calc__left .tipokna1,.b-calc__left .tipokna2,.b-calc__left .tipokna3,.b-calc__left .tipokna4 {
-        float: left;
-        margin-right: 12px;
-        margin-left: 12px
-    }
-
-    .b-calc__left .tipokna1 {
-        width: 47px;
-        height: 74px;
-        background: url(../img/calc/okno/ok1_1.png);
-        background-position: center top;
-        background-repeat: no-repeat;
-        cursor: pointer
-    }
-
-    .b-calc__left .tipokna2 {
-        width: 84px;
-        height: 74px;
-        background: url(../img/calc/okno/ok2_1.png);
-        background-position: center top;
-        background-repeat: no-repeat;
-        cursor: pointer
-    }
-
-    .b-calc__left .tipokna2.actok {
-        background: url(../img/calc/okno/ok2_1_act.png)
-    }
-
-    .b-calc__left .tipokna3 {
-        width: 122px;
-        height: 74px;
-        background: url(../img/calc/okno/ok3_1.png);
-        background-position: center top;
-        background-repeat: no-repeat;
-        cursor: pointer
-    }
-
-    .b-calc__left .tipokna4 {
-        width: 93px;
-        height: 104px;
-        background: url(../img/calc/okno/ok4_1.png);
-        background-position: left top;
-        background-repeat: no-repeat;
-        cursor: pointer
-    }
-
-    .b-calc__left .tabletipbalk {
-        width: 440px
-    }
-
-    .b-calc__left .popok1 {
-        position: absolute;
-        margin-left: -24px;
-        margin-top: -16px
-    }
-
-    .b-calc__left .popok2 {
-        position: absolute;
-        margin-left: -24px;
-        margin-top: -16px
-    }
-
-    .b-calc__left .popok3 {
-        position: absolute;
-        margin-left: -24px;
-        margin-top: -16px
-    }
-
-    .b-calc__left .popok4 {
-        position: absolute;
-        margin-left: -24px;
-        margin-top: -16px
-    }
-
-    .b-calc__left .tipoknapopcenter {
-        border: 1px solid #e7e7e8;
-        padding: 15px 23px 15px 23px;
-        position: relative;
-        z-index: 5;
-        border-radius: 7px;
-        background: #fff;
-        background: rgba(255,255,255,0.9);
-        box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.1)
-    }
-
-    .b-calc__left .tipoknapopcenter .ok1_1,.b-calc__left .tipoknapopcenter .ok1_2,.b-calc__left .tipoknapopcenter .ok2_1,.b-calc__left .tipoknapopcenter .ok2_2,.b-calc__left .tipoknapopcenter .ok2_3,.b-calc__left .tipoknapopcenter .ok3_1,.b-calc__left .tipoknapopcenter .ok3_2,.b-calc__left .tipoknapopcenter .ok4_1 {
-        margin-bottom: 25px
-    }
-
-    .b-calc__left .ok1_1 {
-        background: url(../img/calc/okno/ok1_1.png);
-        width: 47px;
-        height: 74px
-    }
-
-    .b-calc__left .ok1_1:hover,.b-calc__left .ok1_1.actok {
-        background: url(../img/calc/okno/ok1_1_act.png)
-    }
-
-    .b-calc__left .ok1_2 {
-        background: url(../img/calc/okno/ok1_2.png);
-        width: 47px;
-        height: 74px
-    }
-
-    .b-calc__left .ok1_2:hover,.b-calc__left .ok1_2.actok {
-        background: url(../img/calc/okno/ok1_2_act.png)
-    }
-
-    .b-calc__left .ok1_3 {
-        background: url(../img/calc/okno/ok1_3.png);
-        width: 47px;
-        height: 74px
-    }
-
-    .b-calc__left .ok1_3:hover,.b-calc__left .ok1_3.actok {
-        background: url(../img/calc/okno/ok1_3_act.png)
-    }
-
-    .b-calc__left .ok2_1 {
-        background: url(../img/calc/okno/ok2_1.png);
-        width: 84px;
-        height: 74px
-    }
-
-    .b-calc__left .ok2_1:hover,.b-calc__left .ok2_1.actok {
-        background: url(../img/calc/okno/ok2_1_act.png)
-    }
-
-    .b-calc__left .ok2_2 {
-        background: url(../img/calc/okno/ok2_2.png);
-        width: 84px;
-        height: 74px
-    }
-
-    .b-calc__left .ok2_2:hover,.b-calc__left .ok2_2.actok {
-        background: url(../img/calc/okno/ok2_2_act.png)
-    }
-
-    .b-calc__left .ok2_3 {
-        background: url(../img/calc/okno/ok2_3.png);
-        width: 84px;
-        height: 74px
-    }
-
-    .b-calc__left .ok2_3:hover,.b-calc__left .ok2_3.actok {
-        background: url(../img/calc/okno/ok2_3_act.png)
-    }
-
-    .b-calc__left .ok2_4 {
-        background: url(../img/calc/okno/ok2_4.png);
-        width: 84px;
-        height: 74px
-    }
-
-    .b-calc__left .ok2_4:hover,.b-calc__left .ok2_4.actok {
-        background: url(../img/calc/okno/ok2_4_act.png)
-    }
-
-    .b-calc__left .ok3_1 {
-        background: url(../img/calc/okno/ok3_1.png);
-        width: 122px;
-        height: 74px
-    }
-
-    .b-calc__left .ok3_1:hover,.b-calc__left .ok3_1.actok {
-        background: url(../img/calc/okno/ok3_1_act.png)
-    }
-
-    .b-calc__left .ok3_2 {
-        background: url(../img/calc/okno/ok3_2.png);
-        width: 122px;
-        height: 74px
-    }
-
-    .b-calc__left .ok3_2:hover,.b-calc__left .ok3_2.actok {
-        background: url(../img/calc/okno/ok3_2_act.png)
-    }
-
-    .b-calc__left .ok3_3 {
-        background: url(../img/calc/okno/ok3_3.png);
-        width: 122px;
-        height: 74px
-    }
-
-    .b-calc__left .ok3_3:hover,.b-calc__left .ok3_3.actok {
-        background: url(../img/calc/okno/ok3_3_act.png)
-    }
-
-    .b-calc__left .ok4_1 {
-        background: url(../img/calc/okno/ok4_1.png);
-        width: 47px;
-        height: 104px
-    }
-
-    .b-calc__left .ok4_1:hover,.b-calc__left .ok4_1.actok {
-        background: url(../img/calc/okno/ok4_1_act.png)
-    }
-
-    .b-calc__left .ok4_2 {
-        background: url(../img/calc/okno/ok4_2.png);
-        width: 93px;
-        height: 104px
-    }
-
-    .b-calc__left .ok4_2:hover,.b-calc__left .ok4_2.actok {
-        background: url(../img/calc/okno/ok4_2_act.png)
-    }
-
-    .b-calc__right {
-        width: 380px;
-        float: none;
-        margin: 0 auto 50px auto
-    }
-
-    .b-calc__right .dostavka {
-        display: none
-    }
-
-    .b-calc__right .underdostavka {
-        display: none
-    }
-
-    .b-calc__right .proc {
-        display: none
-    }
-
-    .b-calc__right .proc div {
-        width: 380px;
-        height: 115px;
-        background: url(../img/calc/proc.png) no-repeat center center;
-        background-size: cover;
-        position: absolute
-    }
-
-    .b-calc__right .basechek {
-        width: 380px;
-        height: 193px;
-        font-size: 2em;
-        font-family: 'Roboto', sans-serif;
-        background: url(../img/calc/basechek.png) no-repeat center center;
-        padding-top: 17px
-    }
-
-    .b-calc__right .basechek .basechek__zag {
-        font-family: 'Roboto', sans-serif;
-        margin-bottom: 8px;
-        margin-left: 30px
-    }
-
-    .b-calc__right .basechek table {
-        width: 200px;
-        margin: 0 auto
-    }
-
-    .b-calc__right .basechek .basechek__line {
-        border-bottom: 1px solid #b8c3c9;
-        margin: 14px 30px 9px 30px
-    }
-
-    .b-calc__right .basetsena {
-        width: 380px;
-        height: 157px;
-        margin-top: -14px;
-        background: url(../img/calc/basetsena.png) no-repeat center center;
-        text-align: center;
-        margin-bottom: 16px
-    }
-
-    .b-calc__right .basetsena .costonsale {
-        padding-top: 30px;
-        font-size: 2em;
-        font-family: 'Roboto', sans-serif;
-        font-weight: bold;
-        text-transform: uppercase
-    }
-
-    .b-calc__right .basetsena .tsena_base_cost {
-        margin-bottom: 15px;
-        text-align: center
-    }
-
-    .b-calc__right .basetsena .tsena_base_cost span {
-        color: #f72727;
-        font-size: 8em;
-        text-shadow: -3px -3px 0 #fff,3px -3px 0 #fff,-3px 3px 0 #fff,3px 3px 0 #fff,0.02em 0.03em 0.18em rgba(0,0,0,0.8);
-        font-family: 'Roboto', sans-serif;
-        font-weight: bold;
-        font-style: italic;
-        line-height: 1
-    }
-
-    .b-calc__right .basetsena .tsena_base_cost img {
-        vertical-align: top;
-        margin-right: -10px
-    }
-
-    .b-calc__right .basetsena .only15days {
-        font-size: 3em;
-        font-family: 'Roboto', sans-serif;
-        font-weight: bold
-    }
-
-    .b-calc__right .calc_but {
-        text-align: center;
-        margin-bottom: 30px
-    }
-
-    .b-calc__right .calc_but img {
-        cursor: pointer
-    }
-
-    .b-calc__right .calc_rassr {
-        text-align: center;
-        text-transform: uppercase;
-        font-family: 'Roboto', sans-serif;
-        font-size: 3em;
-        line-height: 1.2
-    }
-
-    .b-calc__right .calc_rassr .credd {
-        color: #ff0000
-    }
-
-    .tipoknachek {
-        width: 29px;
-        height: 30px;
-        background: url(../img/calc/chek.png) no-repeat left top;
-        cursor: pointer
-    }
-
-    .tipoknachekact {
-        width: 29px;
-        height: 30px;
-        background: url(../img/calc/chek_act.png) no-repeat left top;
-        cursor: pointer
-    }
-
-    #sliderhor {
-        width: 400px;
-        position: absolute;
-        margin: 580px 0px 0px 75px !important
-    }
-
-    #sliderhor span.ui-slider-handle {
-        display: none
-    }
-
-    #sliderhor span.ui-slider-handle:last-child {
-        display: block
-    }
-
-    #sliderver {
-        height: 340px;
-        position: absolute;
-        margin: 205px 0px 0px 15px !important
-    }
-
-    #sliderver span.ui-slider-handle {
-        display: none
-    }
-
-    #sliderver span.ui-slider-handle:last-child {
-        display: block
-    }
-
-    .ui-slider {
-        position: relative
-    }
-
-    .ui-slider-horizontal .ui-slider-handle {
-        position: absolute;
-        z-index: 2;
-        margin-top: -4px;
-        width: 23px;
-        height: 24px;
-        background: url(../img/calc/slider_polz.png) no-repeat;
-        cursor: pointer
-    }
-
-    .ui-slider-vertical .ui-slider-handle {
-        position: absolute;
-        z-index: 2;
-        width: 23px;
-        height: 24px;
-        background: url(../img/calc/slider_polz.png) no-repeat;
-        cursor: pointer
-    }
-
-    .ui-slider .ui-slider-range {
-        position: absolute;
-        z-index: 1;
-        font-size: .7em;
-        display: block;
-        background: #03c1d7;
-        border-radius: 6px;
-        overflow: hidden
-    }
-
-    .ui-slider-horizontal {
-        height: 11px;
-        width: 400px;
-        border: 1px solid #d5dbdf;
-        background: #f5f6f7
-    }
-
-    .ui-slider-vertical {
-        width: 11px;
-        height: 340px;
-        border: 1px solid #d5dbdf;
-        background: #f5f6f7
-    }
-
-    .verbalk .ui-slider-vertical {
-        width: 3px;
-        height: 100px !important
-    }
-
-    .ui-slider-horizontal .ui-slider-handle {
-        top: -3px;
-        margin-left: -10px
-    }
-
-    .ui-slider-vertical .ui-slider-handle {
-        margin-bottom: -15px;
-        margin-left: -7px
-    }
-
-    .ui-slider-horizontal .ui-slider-range {
-        top: 0;
-        height: 100%
-    }
-
-    .ui-slider-horizontal .ui-slider-range-min {
-        left: 0
-    }
-
-    .ui-slider-horizontal .ui-slider-range-max {
-        right: 0
-    }
-
-    .ui-slider-vertical .ui-slider-range {
-        left: 0;
-        width: 100%
-    }
-
-    .ui-slider-vertical .ui-slider-range-min {
-        bottom: 0
-    }
-
-    .ui-slider-vertical .ui-slider-range-max {
-        top: 0
-    }
-
-    .ui-widget-header {
-        border: 1px solid #D4D4D4;
-        background: url(../img/ui-widget-header.png)
-    }
-
-    .ui-corner-all {
-        border-radius: 4px
-    }
-
-    .Costhor11_block {
-        width: 100px;
-        height: 51px;
-        background: url(../img/calc/znachgor.png);
-        position: absolute;
-        margin: 24px 0px 0px -37px
-    }
-
-    .Costhor11_block input {
-        width: 48px;
-        height: 35px;
-        text-align: center;
-        margin-left: 5px;
-        margin-top: 10px;
-        color: #161616;
-        padding: 0 !important;
-        border: 0;
-        font-size: 1em;
-        background: none
-    }
-
-    .Costver11_block {
-        width: 100px;
-        height: 51px;
-        background: url(../img/calc/znachgor.png);
-        position: absolute;
-        margin: 24px 0px 0px -37px
-    }
-
-    .Costver11_block input {
-        width: 48px;
-        height: 35px;
-        text-align: center;
-        margin-left: 5px;
-        margin-top: 10px;
-        color: #161616;
-        padding: 0 !important;
-        border: 0;
-        font-size: 1em;
-        background: none
-    }
-
-    .b-calc__left .stage1 {
-        display: none
-    }
-
-    .b-calc__left .stage2 {
-        display: none
-    }
-
-    .b-calc__left .stage3 {
-        display: none
-    }
-
-    .b-calc__left .block_econom {
-        display: none
-    }
-
-    .b-calc__left .block_econom .block_econom_text {
-        font-size: 2em;
-        font-family: 'Roboto', sans-serif;
-        margin-bottom: 10px
-    }
-
-    .b-calc__left .block_econom .block_econom_bg {
-        height: 80px;
-        line-height: 80px;
-        text-align: center;
-        background: url(../img/b_market_filtr_bg.png);
-        border-radius: 5px;
-        font-size: 3em;
-        font-family: 'ALSSchlangesans-Black';
-        color: #fff
-    }
-
-    .b-calc__left .block_econom .block_econom_bg span {
-        font-size: 1.2em
-    }
-
-    .b-calc__left .markver {
-        display: none
-    }
-
-    .b-calc__left .markhor {
-        display: none
-    }
-}
-
-@media only screen and (max-width: 768px) {
-    .b-calc {
-        width:100%;
-        margin: 0 auto
-    }
-
-    .b-calc__zag {
-        text-align: center;
-        font-family: 'ALSSchlangesans-Black';
-        font-size: 4em;
-        text-transform: uppercase;
-        line-height: 1.2;
-        margin-bottom: 40px;
-        padding-top: 30px
-    }
-
-    .b-calc__left {
-        width: 460px;
-        float: none;
-        height: 610px;
-        margin: 0 auto
-    }
-
-    .b-calc__left .b-calc__ul_onoff {
-        position: absolute;
-        margin-left: 25px
-    }
-
-    .b-calc__left .b-calc__ul_onoff li {
-        list-style: none;
-        display: inline;
-        line-height: 52px;
-        font-family: 'ALSSchlangesans-Black';
-        font-size: 3em;
-        text-transform: uppercase;
-        color: #01d2e9;
-        margin-right: 35px;
-        white-space: nowrap
-    }
-
-    .b-calc__left .b-calc__ul_onoff li img {
-        margin-top: 5px
-    }
-
-    .b-calc__left .b-calc__ul_onoff li a {
-        color: #000;
-        text-decoration: none
-    }
-
-    .b-calc__left .oknofull {
-        width: 360px;
-        height: 331px;
-        position: absolute;
-        margin: 210px 0px 0px 80px
-    }
-
-    .b-calc__left .oknofull img {
-        width: 100%
-    }
-
-    .b-calc__left .oknofullbalk {
-        margin-top: 235px
-    }
-
-    .b-calc__left .tabletipokna {
-        position: absolute;
-        margin: 80px 0px 0px 25px
-    }
-
-    .b-calc__left .tipokna1,.b-calc__left .tipokna2,.b-calc__left .tipokna3,.b-calc__left .tipokna4 {
-        float: left;
-        margin-right: 12px;
-        margin-left: 12px
-    }
-
-    .b-calc__left .tipokna1 {
-        width: 47px;
-        height: 74px;
-        background: url(../img/calc/okno/ok1_1.png);
-        background-position: center top;
-        background-repeat: no-repeat;
-        cursor: pointer
-    }
-
-    .b-calc__left .tipokna2 {
-        width: 84px;
-        height: 74px;
-        background: url(../img/calc/okno/ok2_1.png);
-        background-position: center top;
-        background-repeat: no-repeat;
-        cursor: pointer
-    }
-
-    .b-calc__left .tipokna2.actok {
-        background: url(../img/calc/okno/ok2_1_act.png)
-    }
-
-    .b-calc__left .tipokna3 {
-        width: 122px;
-        height: 74px;
-        background: url(../img/calc/okno/ok3_1.png);
-        background-position: center top;
-        background-repeat: no-repeat;
-        cursor: pointer
-    }
-
-    .b-calc__left .tipokna4 {
-        width: 93px;
-        height: 104px;
-        background: url(../img/calc/okno/ok4_1.png);
-        background-position: left top;
-        background-repeat: no-repeat;
-        cursor: pointer
-    }
-
-    .b-calc__left .popok1 {
-        position: absolute;
-        margin-left: -24px;
-        margin-top: -16px
-    }
-
-    .b-calc__left .popok2 {
-        position: absolute;
-        margin-left: -24px;
-        margin-top: -16px
-    }
-
-    .b-calc__left .popok3 {
-        position: absolute;
-        margin-left: -24px;
-        margin-top: -16px
-    }
-
-    .b-calc__left .popok4 {
-        position: absolute;
-        margin-left: -24px;
-        margin-top: -16px
-    }
-
-    .b-calc__left .tipoknapopcenter {
-        border: 1px solid #e7e7e8;
-        padding: 15px 23px 15px 23px;
-        position: relative;
-        z-index: 5;
-        border-radius: 7px;
-        background: #fff;
-        background: rgba(255,255,255,0.9);
-        box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.1)
-    }
-
-    .b-calc__left .tipoknapopcenter .ok1_1,.b-calc__left .tipoknapopcenter .ok1_2,.b-calc__left .tipoknapopcenter .ok2_1,.b-calc__left .tipoknapopcenter .ok2_2,.b-calc__left .tipoknapopcenter .ok2_3,.b-calc__left .tipoknapopcenter .ok3_1,.b-calc__left .tipoknapopcenter .ok3_2,.b-calc__left .tipoknapopcenter .ok4_1 {
-        margin-bottom: 25px
-    }
-
-    .b-calc__left .ok1_1 {
-        background: url(../img/calc/okno/ok1_1.png);
-        width: 47px;
-        height: 74px
-    }
-
-    .b-calc__left .ok1_1:hover,.b-calc__left .ok1_1.actok {
-        background: url(../img/calc/okno/ok1_1_act.png)
-    }
-
-    .b-calc__left .ok1_2 {
-        background: url(../img/calc/okno/ok1_2.png);
-        width: 47px;
-        height: 74px
-    }
-
-    .b-calc__left .ok1_2:hover,.b-calc__left .ok1_2.actok {
-        background: url(../img/calc/okno/ok1_2_act.png)
-    }
-
-    .b-calc__left .ok1_3 {
-        background: url(../img/calc/okno/ok1_3.png);
-        width: 47px;
-        height: 74px
-    }
-
-    .b-calc__left .ok1_3:hover,.b-calc__left .ok1_3.actok {
-        background: url(../img/calc/okno/ok1_3_act.png)
-    }
-
-    .b-calc__left .ok2_1 {
-        background: url(../img/calc/okno/ok2_1.png);
-        width: 84px;
-        height: 74px
-    }
-
-    .b-calc__left .ok2_1:hover,.b-calc__left .ok2_1.actok {
-        background: url(../img/calc/okno/ok2_1_act.png)
-    }
-
-    .b-calc__left .ok2_2 {
-        background: url(../img/calc/okno/ok2_2.png);
-        width: 84px;
-        height: 74px
-    }
-
-    .b-calc__left .ok2_2:hover,.b-calc__left .ok2_2.actok {
-        background: url(../img/calc/okno/ok2_2_act.png)
-    }
-
-    .b-calc__left .ok2_3 {
-        background: url(../img/calc/okno/ok2_3.png);
-        width: 84px;
-        height: 74px
-    }
-
-    .b-calc__left .ok2_3:hover,.b-calc__left .ok2_3.actok {
-        background: url(../img/calc/okno/ok2_3_act.png)
-    }
-
-    .b-calc__left .ok2_4 {
-        background: url(../img/calc/okno/ok2_4.png);
-        width: 84px;
-        height: 74px
-    }
-
-    .b-calc__left .ok2_4:hover,.b-calc__left .ok2_4.actok {
-        background: url(../img/calc/okno/ok2_4_act.png)
-    }
-
-    .b-calc__left .ok3_1 {
-        background: url(../img/calc/okno/ok3_1.png);
-        width: 122px;
-        height: 74px
-    }
-
-    .b-calc__left .ok3_1:hover,.b-calc__left .ok3_1.actok {
-        background: url(../img/calc/okno/ok3_1_act.png)
-    }
-
-    .b-calc__left .ok3_2 {
-        background: url(../img/calc/okno/ok3_2.png);
-        width: 122px;
-        height: 74px
-    }
-
-    .b-calc__left .ok3_2:hover,.b-calc__left .ok3_2.actok {
-        background: url(../img/calc/okno/ok3_2_act.png)
-    }
-
-    .b-calc__left .ok3_3 {
-        background: url(../img/calc/okno/ok3_3.png);
-        width: 122px;
-        height: 74px
-    }
-
-    .b-calc__left .ok3_3:hover,.b-calc__left .ok3_3.actok {
-        background: url(../img/calc/okno/ok3_3_act.png)
-    }
-
-    .b-calc__left .ok4_1 {
-        background: url(../img/calc/okno/ok4_1.png);
-        width: 47px;
-        height: 104px
-    }
-
-    .b-calc__left .ok4_1:hover,.b-calc__left .ok4_1.actok {
-        background: url(../img/calc/okno/ok4_1_act.png)
-    }
-
-    .b-calc__left .ok4_2 {
-        background: url(../img/calc/okno/ok4_2.png);
-        width: 93px;
-        height: 104px
-    }
-
-    .b-calc__left .ok4_2:hover,.b-calc__left .ok4_2.actok {
-        background: url(../img/calc/okno/ok4_2_act.png)
-    }
-
-    .b-calc__right {
-        width: 380px;
-        float: none;
-        margin: 0 auto 50px auto
-    }
-
-    .b-calc__right .dostavka {
-        display: none
-    }
-
-    .b-calc__right .underdostavka {
-        display: none
-    }
-
-    .b-calc__right .proc {
-        display: none
-    }
-
-    .b-calc__right .proc div {
-        width: 380px;
-        height: 115px;
-        background: url(../img/calc/proc.png) no-repeat center center;
-        background-size: cover;
-        position: absolute
-    }
-
-    .b-calc__right .basechek {
-        width: 380px;
-        height: 193px;
-        font-size: 2em;
-        font-family: 'Roboto', sans-serif;
-        background: url(../img/calc/basechek.png) no-repeat center center;
-        padding-top: 17px
-    }
-
-    .b-calc__right .basechek .basechek__zag {
-        font-family: 'Roboto', sans-serif;
-        margin-bottom: 8px;
-        margin-left: 30px
-    }
-
-    .b-calc__right .basechek table {
-        width: 200px;
-        margin: 0 auto
-    }
-
-    .b-calc__right .basechek .basechek__line {
-        border-bottom: 1px solid #b8c3c9;
-        margin: 14px 30px 9px 30px
-    }
-
-    .b-calc__right .basetsena {
-        width: 380px;
-        height: 157px;
-        margin-top: -14px;
-        background: url(../img/calc/basetsena.png) no-repeat center center;
-        text-align: center;
-        margin-bottom: 16px
-    }
-
-    .b-calc__right .basetsena .costonsale {
-        padding-top: 30px;
-        font-size: 2em;
-        font-family: 'Roboto', sans-serif;
-        font-weight: bold;
-        text-transform: uppercase
-    }
-
-    .b-calc__right .basetsena .tsena_base_cost {
-        margin-bottom: 15px;
-        text-align: center
-    }
-
-    .b-calc__right .basetsena .tsena_base_cost span {
-        color: #f72727;
-        font-size: 8em;
-        text-shadow: -3px -3px 0 #fff,3px -3px 0 #fff,-3px 3px 0 #fff,3px 3px 0 #fff,0.02em 0.03em 0.18em rgba(0,0,0,0.8);
-        font-family: 'Roboto', sans-serif;
-        font-weight: bold;
-        font-style: italic;
-        line-height: 1
-    }
-
-    .b-calc__right .basetsena .tsena_base_cost img {
-        vertical-align: top;
-        margin-right: -10px
-    }
-
-    .b-calc__right .basetsena .only15days {
-        font-size: 3em;
-        font-family: 'Roboto', sans-serif;
-        font-weight: bold
-    }
-
-    .b-calc__right .calc_but {
-        text-align: center;
-        margin-bottom: 30px
-    }
-
-    .b-calc__right .calc_but img {
-        cursor: pointer
-    }
-
-    .b-calc__right .calc_rassr {
-        text-align: center;
-        text-transform: uppercase;
-        font-family: 'Roboto', sans-serif;
-        font-size: 3em;
-        line-height: 1.2
-    }
-
-    .b-calc__right .calc_rassr .credd {
-        color: #ff0000
-    }
-
-    .tipoknachek {
-        width: 29px;
-        height: 30px;
-        background: url(../img/calc/chek.png) no-repeat left top;
-        cursor: pointer
-    }
-
-    .tipoknachekact {
-        width: 29px;
-        height: 30px;
-        background: url(../img/calc/chek_act.png) no-repeat left top;
-        cursor: pointer
-    }
-
-    #sliderhor {
-        width: 340px;
-        position: absolute;
-        margin: 500px 0px 0px 85px !important
-    }
-
-    #sliderhor span.ui-slider-handle {
-        display: none
-    }
-
-    #sliderhor span.ui-slider-handle:last-child {
-        display: block
-    }
-
-    #sliderver {
-        height: 270px;
-        position: absolute;
-        margin: 205px 0px 0px 35px !important
-    }
-
-    #sliderver span.ui-slider-handle {
-        display: none
-    }
-
-    #sliderver span.ui-slider-handle:last-child {
-        display: block
-    }
-
-    .ui-slider {
-        position: relative
-    }
-
-    .ui-slider-horizontal .ui-slider-handle {
-        position: absolute;
-        z-index: 2;
-        margin-top: -4px;
-        width: 23px;
-        height: 24px;
-        background: url(../img/calc/slider_polz.png) no-repeat;
-        cursor: pointer
-    }
-
-    .ui-slider-vertical .ui-slider-handle {
-        position: absolute;
-        z-index: 2;
-        width: 23px;
-        height: 24px;
-        background: url(../img/calc/slider_polz.png) no-repeat;
-        cursor: pointer
-    }
-
-    .ui-slider .ui-slider-range {
-        position: absolute;
-        z-index: 1;
-        font-size: .7em;
-        display: block;
-        background: #03c1d7;
-        border-radius: 6px;
-        overflow: hidden
-    }
-
-    .ui-slider-horizontal {
-        height: 11px;
-        width: 400px;
-        border: 1px solid #d5dbdf;
-        background: #f5f6f7
-    }
-
-    .ui-slider-vertical {
-        width: 11px;
-        height: 340px;
-        border: 1px solid #d5dbdf;
-        background: #f5f6f7
-    }
-
-    .verbalk .ui-slider-vertical {
-        width: 3px;
-        height: 100px !important
-    }
-
-    .ui-slider-horizontal .ui-slider-handle {
-        top: -3px;
-        margin-left: -10px
-    }
-
-    .ui-slider-vertical .ui-slider-handle {
-        margin-bottom: -15px;
-        margin-left: -7px
-    }
-
-    .ui-slider-horizontal .ui-slider-range {
-        top: 0;
-        height: 100%
-    }
-
-    .ui-slider-horizontal .ui-slider-range-min {
-        left: 0
-    }
-
-    .ui-slider-horizontal .ui-slider-range-max {
-        right: 0
-    }
-
-    .ui-slider-vertical .ui-slider-range {
-        left: 0;
-        width: 100%
-    }
-
-    .ui-slider-vertical .ui-slider-range-min {
-        bottom: 0
-    }
-
-    .ui-slider-vertical .ui-slider-range-max {
-        top: 0
-    }
-
-    .ui-widget-header {
-        border: 1px solid #D4D4D4;
-        background: url(../img/ui-widget-header.png)
-    }
-
-    .ui-corner-all {
-        border-radius: 4px
-    }
-
-    .Costhor11_block {
-        width: 100px;
-        height: 51px;
-        background: url(../img/calc/znachgor.png);
-        position: absolute;
-        margin: 24px 0px 0px -37px
-    }
-
-    .Costhor11_block input {
-        width: 48px;
-        height: 35px;
-        text-align: center;
-        margin-left: 5px;
-        margin-top: 10px;
-        color: #161616;
-        padding: 0 !important;
-        border: 0;
-        font-size: 1em;
-        background: none
-    }
-
-    .Costver11_block {
-        width: 100px;
-        height: 51px;
-        background: url(../img/calc/znachgor.png);
-        position: absolute;
-        margin: 24px 0px 0px -37px
-    }
-
-    .Costver11_block input {
-        width: 48px;
-        height: 35px;
-        text-align: center;
-        margin-left: 5px;
-        margin-top: 10px;
-        color: #161616;
-        padding: 0 !important;
-        border: 0;
-        font-size: 1em;
-        background: none
-    }
-
-    .b-calc__left .stage1 {
-        display: none
-    }
-
-    .b-calc__left .stage2 {
-        display: none
-    }
-
-    .b-calc__left .stage3 {
-        display: none
-    }
-
-    .b-calc__left .block_econom {
-        display: none
-    }
-
-    .b-calc__left .block_econom .block_econom_text {
-        font-size: 2em;
-        font-family: 'Roboto', sans-serif;
-        margin-bottom: 10px
-    }
-
-    .b-calc__left .block_econom .block_econom_bg {
-        height: 80px;
-        line-height: 80px;
-        text-align: center;
-        background: url(../img/b_market_filtr_bg.png);
-        border-radius: 5px;
-        font-size: 3em;
-        font-family: 'ALSSchlangesans-Black';
-        color: #fff
-    }
-
-    .b-calc__left .block_econom .block_econom_bg span {
-        font-size: 1.2em
-    }
-
-    .b-calc__left .markver {
-        display: none
-    }
-
-    .b-calc__left .markhor {
-        display: none
-    }
-}
-
-@media only screen and (max-width: 480px) {
-    .b-calc {
-        width:100%;
-        margin: 0 auto
-    }
-
-    .b-calc__zag {
-        text-align: center;
-        font-family: 'ALSSchlangesans-Black';
-        font-size: 3.6em;
-        text-transform: uppercase;
-        line-height: 1.2;
-        margin-bottom: 40px;
-        padding-top: 30px
-    }
-
-    .b-calc__left {
-        width: 300px;
-        float: none;
-        height: 590px;
-        margin: 0 auto
-    }
-
-    .b-calc__left .b-calc__ul_onoff {
-        position: absolute;
-        margin-left: 10px
-    }
-
-    .b-calc__left .b-calc__ul_onoff li {
-        list-style: none;
-        display: inline;
-        line-height: 52px;
-        font-family: 'ALSSchlangesans-Black';
-        font-size: 2em;
-        text-transform: uppercase;
-        color: #01d2e9;
-        margin-right: 10px;
-        white-space: nowrap
-    }
-
-    .b-calc__left .b-calc__ul_onoff li img {
-        margin-top: 5px
-    }
-
-    .b-calc__left .b-calc__ul_onoff li a {
-        color: #000;
-        text-decoration: none
-    }
-
-    .b-calc__left .oknofull {
-        width: 240px;
-        height: 331px;
-        position: absolute;
-        margin: 300px 0px 0px 60px
-    }
-
-    .b-calc__left .oknofull img {
-        width: 100%
-    }
-
-    .b-calc__left .oknofullbalk {
-        margin-top: 325px
-    }
-
-    .b-calc__left .tabletipokna {
-        position: absolute;
-        margin: 80px 0px 0px 0px
-    }
-
-    .b-calc__left .tipokna1,.b-calc__left .tipokna2,.b-calc__left .tipokna3,.b-calc__left .tipokna4 {
-        float: left;
-        margin-right: 5px;
-        margin-left: 5px;
-        margin-bottom: 20px
-    }
-
-    .b-calc__left .tipokna1 {
-        width: 47px;
-        height: 74px;
-        background: url(../img/calc/okno/ok1_1.png);
-        background-position: center top;
-        background-repeat: no-repeat;
-        cursor: pointer
-    }
-
-    .b-calc__left .tipokna2 {
-        width: 84px;
-        height: 74px;
-        background: url(../img/calc/okno/ok2_1.png);
-        background-position: center top;
-        background-repeat: no-repeat;
-        cursor: pointer
-    }
-
-    .b-calc__left .tipokna2.actok {
-        background: url(../img/calc/okno/ok2_1_act.png)
-    }
-
-    .b-calc__left .tipokna3 {
-        width: 122px;
-        height: 74px;
-        background: url(../img/calc/okno/ok3_1.png);
-        background-position: center top;
-        background-repeat: no-repeat;
-        cursor: pointer
-    }
-
-    .b-calc__left .tipokna4 {
-        width: 93px;
-        height: 104px;
-        background: url(../img/calc/okno/ok4_1.png);
-        background-position: left top;
-        background-repeat: no-repeat;
-        cursor: pointer
-    }
-
-    .b-calc__left .tabletipbalk {
-        width: 290px
-    }
-
-    .b-calc__left .tipbalk1,.b-calc__left .tipbalk2,.b-calc__left .tipbalk3,.b-calc__left .tipbalk4,.b-calc__left .tipbalk5,.b-calc__left .tipbalk6,.b-calc__left .tipbalk7 {
-        margin: 0px 15px 15px 0px !important
-    }
-
-    .b-calc__left .popok1 {
-        position: absolute;
-        margin-left: -24px;
-        margin-top: -16px
-    }
-
-    .b-calc__left .popok2 {
-        position: absolute;
-        margin-left: -24px;
-        margin-top: -16px
-    }
-
-    .b-calc__left .popok3 {
-        position: absolute;
-        margin-left: -24px;
-        margin-top: -16px
-    }
-
-    .b-calc__left .popok4 {
-        position: absolute;
-        margin-left: -24px;
-        margin-top: -16px
-    }
-
-    .b-calc__left .tipoknapopcenter {
-        border: 1px solid #e7e7e8;
-        padding: 15px 23px 15px 23px;
-        position: relative;
-        z-index: 5;
-        border-radius: 7px;
-        background: #fff;
-        background: rgba(255,255,255,0.9);
-        box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.1)
-    }
-
-    .b-calc__left .tipoknapopcenter .ok1_1,.b-calc__left .tipoknapopcenter .ok1_2,.b-calc__left .tipoknapopcenter .ok2_1,.b-calc__left .tipoknapopcenter .ok2_2,.b-calc__left .tipoknapopcenter .ok2_3,.b-calc__left .tipoknapopcenter .ok3_1,.b-calc__left .tipoknapopcenter .ok3_2,.b-calc__left .tipoknapopcenter .ok4_1 {
-        margin-bottom: 25px
-    }
-
-    .b-calc__left .ok1_1 {
-        background: url(../img/calc/okno/ok1_1.png);
-        width: 47px;
-        height: 74px
-    }
-
-    .b-calc__left .ok1_1:hover,.b-calc__left .ok1_1.actok {
-        background: url(../img/calc/okno/ok1_1_act.png)
-    }
-
-    .b-calc__left .ok1_2 {
-        background: url(../img/calc/okno/ok1_2.png);
-        width: 47px;
-        height: 74px
-    }
-
-    .b-calc__left .ok1_2:hover,.b-calc__left .ok1_2.actok {
-        background: url(../img/calc/okno/ok1_2_act.png)
-    }
-
-    .b-calc__left .ok1_3 {
-        background: url(../img/calc/okno/ok1_3.png);
-        width: 47px;
-        height: 74px
-    }
-
-    .b-calc__left .ok1_3:hover,.b-calc__left .ok1_3.actok {
-        background: url(../img/calc/okno/ok1_3_act.png)
-    }
-
-    .b-calc__left .ok2_1 {
-        background: url(../img/calc/okno/ok2_1.png);
-        width: 84px;
-        height: 74px
-    }
-
-    .b-calc__left .ok2_1:hover,.b-calc__left .ok2_1.actok {
-        background: url(../img/calc/okno/ok2_1_act.png)
-    }
-
-    .b-calc__left .ok2_2 {
-        background: url(../img/calc/okno/ok2_2.png);
-        width: 84px;
-        height: 74px
-    }
-
-    .b-calc__left .ok2_2:hover,.b-calc__left .ok2_2.actok {
-        background: url(../img/calc/okno/ok2_2_act.png)
-    }
-
-    .b-calc__left .ok2_3 {
-        background: url(../img/calc/okno/ok2_3.png);
-        width: 84px;
-        height: 74px
-    }
-
-    .b-calc__left .ok2_3:hover,.b-calc__left .ok2_3.actok {
-        background: url(../img/calc/okno/ok2_3_act.png)
-    }
-
-    .b-calc__left .ok2_4 {
-        background: url(../img/calc/okno/ok2_4.png);
-        width: 84px;
-        height: 74px
-    }
-
-    .b-calc__left .ok2_4:hover,.b-calc__left .ok2_4.actok {
-        background: url(../img/calc/okno/ok2_4_act.png)
-    }
-
-    .b-calc__left .ok3_1 {
-        background: url(../img/calc/okno/ok3_1.png);
-        width: 122px;
-        height: 74px
-    }
-
-    .b-calc__left .ok3_1:hover,.b-calc__left .ok3_1.actok {
-        background: url(../img/calc/okno/ok3_1_act.png)
-    }
-
-    .b-calc__left .ok3_2 {
-        background: url(../img/calc/okno/ok3_2.png);
-        width: 122px;
-        height: 74px
-    }
-
-    .b-calc__left .ok3_2:hover,.b-calc__left .ok3_2.actok {
-        background: url(../img/calc/okno/ok3_2_act.png)
-    }
-
-    .b-calc__left .ok3_3 {
-        background: url(../img/calc/okno/ok3_3.png);
-        width: 122px;
-        height: 74px
-    }
-
-    .b-calc__left .ok3_3:hover,.b-calc__left .ok3_3.actok {
-        background: url(../img/calc/okno/ok3_3_act.png)
-    }
-
-    .b-calc__left .ok4_1 {
-        background: url(../img/calc/okno/ok4_1.png);
-        width: 47px;
-        height: 104px
-    }
-
-    .b-calc__left .ok4_1:hover,.b-calc__left .ok4_1.actok {
-        background: url(../img/calc/okno/ok4_1_act.png)
-    }
-
-    .b-calc__left .ok4_2 {
-        background: url(../img/calc/okno/ok4_2.png);
-        width: 93px;
-        height: 104px
-    }
-
-    .b-calc__left .ok4_2:hover,.b-calc__left .ok4_2.actok {
-        background: url(../img/calc/okno/ok4_2_act.png)
-    }
-
-    .b-calc__right {
-        width: 100%;
-        float: none;
-        margin: 0 auto 50px auto
-    }
-
-    .b-calc__right .dostavka {
-        display: none
-    }
-
-    .b-calc__right .underdostavka {
-        display: none
-    }
-
-    .b-calc__right .proc {
-        display: none
-    }
-
-    .b-calc__right .proc div {
-        width: 100%;
-        height: 115px;
-        background: url(../img/calc/proc.png) no-repeat center center;
-        background-size: cover;
-        position: absolute
-    }
-
-    .b-calc__right .basechek {
-        width: 290px;
-        margin: 0 auto;
-        height: auto;
-        font-size: 2em;
-        font-family: 'Roboto', sans-serif;
+    .b-calc-bg{
         background: none;
-        padding-top: 17px;
-        padding-bottom: 10px;
-        border: 1px solid #ccc;
-        border-radius: 5px
+        margin: auto;
     }
-
-    .b-calc__right .basechek .basechek__zag {
-        font-family: 'Roboto', sans-serif;
-        margin-bottom: 8px;
-        margin-left: 30px
+    .b-calc__wrapper {
+        .b-calc__ul_onoff {
+            li{
+                margin-right: 21px;
+            }
+        }
+        
     }
+    .b-calc__ul_onoff{
+        display: flex;
+        align-items: center;
+        margin-left: 0;
+        margin-bottom: 32px;
+        @media only screen and (max-width: 1201px){
+            justify-content: center;
+        }
+        li{
+            font-weight: bold;
+            font-size: 32px;
+            line-height: 39px;
+            text-transform: uppercase;
+            /* identical to box height */
 
-    .b-calc__right .basechek table {
-        width: 200px;
-        margin: 0 auto
+            text-align: center;
+            color: #DD0053;
+            
+            a{
+              color: #9A9A9A;  
+            }
+        }
+        .perekluchatel{
+            width: 80px;
+            height: 30px;
+            position: relative;
+            background: #FBC035;
+            -webkit-box-shadow: inset 1px 1px 2px rgba(0, 0, 0, 0.15);
+            box-shadow: inset 1px 1px 2px rgba(0, 0, 0, 0.15);
+            border-radius: 20px;
+            display: block;
+            
+            &::before {
+                content: "";
+                position: absolute;
+                top: 1px;
+                right: 1px;
+                background: #FFFFFF;
+                -webkit-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
+                box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
+                border-radius: 50%;
+                width: 28px;
+                height: 28px;
+            }
+        }
     }
-
-    .b-calc__right .basechek .basechek__line {
-        border-bottom: 1px solid #b8c3c9;
-        margin: 14px 30px 9px 30px
+    
+    .b-calc__wrapper{
+        .actii_calc{
+            width: 619px;
+            height: 80px;
+            @media only screen and (max-width: 1201px){
+                margin-left: auto;
+                margin-right: auto;
+                max-width: 619px;
+                width: 100%;
+                height: auto;
+            }
+        }
     }
-
-    .b-calc__right .basetsena {
-        width: 290px;
-        height: 120px;
-        margin: -10px auto 0 auto;
-        background: url(../img/calc/basetsena.png) no-repeat center center;
-        background-size: cover;
-        text-align: center;
-        margin-bottom: 16px
+    .actii_calc{
+        float: right;
+        @media only screen and (max-width: 1201px){
+            float: none;
+            margin-bottom: 20px;
+        }
     }
-
-    .b-calc__right .basetsena .costonsale {
-        padding-top: 25px;
-        font-size: 1.4em;
-        font-family: 'Roboto', sans-serif;
+    p.flex{
         font-weight: bold;
-        text-transform: uppercase
-    }
-
-    .b-calc__right .basetsena .tsena_base_cost {
-        margin-bottom: 15px;
-        text-align: center
-    }
-
-    .b-calc__right .basetsena .tsena_base_cost span {
-        color: #f72727;
-        font-size: 6em;
-        text-shadow: -3px -3px 0 #fff,3px -3px 0 #fff,-3px 3px 0 #fff,3px 3px 0 #fff,0.02em 0.03em 0.18em rgba(0,0,0,0.8);
-        font-family: 'Roboto', sans-serif;
-        font-weight: bold;
-        font-style: italic;
-        line-height: 1
-    }
-
-    .b-calc__right .basetsena .tsena_base_cost img {
-        vertical-align: top;
-        margin-right: -10px;
-        width: 63px
-    }
-
-    .b-calc__right .basetsena .only15days {
-        font-size: 3em;
-        font-family: 'Roboto', sans-serif;
-        font-weight: bold
-    }
-
-    .b-calc__right .calc_but {
-        text-align: center;
-        margin-bottom: 30px
-    }
-
-    .b-calc__right .calc_but img {
-        cursor: pointer
-    }
-
-    .b-calc__right .calc_rassr {
-        text-align: center;
+        font-size: 24px;
+        line-height: 29px;
         text-transform: uppercase;
-        font-family: 'Roboto', sans-serif;
-        font-size: 2.4em;
-        line-height: 1.2
+        color: #000000;
+        display: flex;
+        align-items: center;
+        margin-bottom: 38px;
+        span{
+            width: 40px;
+            height: 40px;
+            background: #DD0053;
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 29px;
+            border-radius: 50%;
+            color: #FFFFFF;
+            display: block;
+            margin-right: 13px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
     }
-
-    .b-calc__right .calc_rassr .credd {
-        color: #ff0000
+    .tabletipokna {
+        display: flex;
+            justify-content: space-between;
+        align-items: center;
+        margin-bottom: 40px;
+        & > div{
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
     }
-
-    .tipoknachek {
-        width: 29px;
-        height: 30px;
-        background: url(../img/calc/chek.png) no-repeat left top;
-        cursor: pointer
-    }
-
-    .tipoknachekact {
-        width: 29px;
-        height: 30px;
-        background: url(../img/calc/chek_act.png) no-repeat left top;
-        cursor: pointer
-    }
-
-    #sliderhor {
-        width: 230px;
-        position: absolute;
-        margin: 490px 0px 0px 65px !important
-    }
-
-    #sliderhor span.ui-slider-handle {
-        display: none
-    }
-
-    #sliderhor span.ui-slider-handle:last-child {
-        display: block
-    }
-
-    #sliderver {
-        height: 170px;
-        position: absolute;
-        margin: 295px 0px 0px 35px !important
-    }
-
-    #sliderver span.ui-slider-handle {
-        display: none
-    }
-
-    #sliderver span.ui-slider-handle:last-child {
-        display: block
-    }
-
-    .ui-slider {
-        position: relative
-    }
-
-    .ui-slider-horizontal .ui-slider-handle {
-        position: absolute;
-        z-index: 2;
-        margin-top: -4px;
-        width: 23px;
-        height: 24px;
-        background: url(../img/calc/slider_polz.png) no-repeat;
-        cursor: pointer
-    }
-
-    .ui-slider-vertical .ui-slider-handle {
-        position: absolute;
-        z-index: 2;
-        width: 23px;
-        height: 24px;
-        background: url(../img/calc/slider_polz.png) no-repeat;
-        cursor: pointer
-    }
-
-    .ui-slider .ui-slider-range {
-        position: absolute;
-        z-index: 1;
-        font-size: .7em;
-        display: block;
-        background: #03c1d7;
-        border-radius: 6px;
-        overflow: hidden
-    }
-
-    .ui-slider-horizontal {
-        height: 11px;
-        width: 400px;
-        border: 1px solid #d5dbdf;
-        background: #f5f6f7
-    }
-
-    .ui-slider-vertical {
-        width: 11px;
-        height: 340px;
-        border: 1px solid #d5dbdf;
-        background: #f5f6f7
-    }
-
-    .verbalk .ui-slider-vertical {
-        width: 3px;
-        height: 100px !important
-    }
-
-    .ui-slider-horizontal .ui-slider-handle {
-        top: -3px;
-        margin-left: -10px
-    }
-
-    .ui-slider-vertical .ui-slider-handle {
-        margin-bottom: -15px;
-        margin-left: -7px
-    }
-
-    .ui-slider-horizontal .ui-slider-range {
-        top: 0;
-        height: 100%
-    }
-
-    .ui-slider-horizontal .ui-slider-range-min {
-        left: 0
-    }
-
-    .ui-slider-horizontal .ui-slider-range-max {
-        right: 0
-    }
-
-    .ui-slider-vertical .ui-slider-range {
-        left: 0;
-        width: 100%
-    }
-
-    .ui-slider-vertical .ui-slider-range-min {
-        bottom: 0
-    }
-
-    .ui-slider-vertical .ui-slider-range-max {
-        top: 0
-    }
-
-    .ui-widget-header {
-        border: 1px solid #D4D4D4;
-        background: url(../img/ui-widget-header.png)
-    }
-
-    .ui-corner-all {
-        border-radius: 4px
-    }
-
-    .Costhor11_block {
+    
+    .tipbalk1{
+        background-image: url(../img/calc/balk/b1.png);
         width: 100px;
-        height: 51px;
-        background: url(../img/calc/znachgor.png);
-        position: absolute;
-        margin: 24px 0px 0px -37px
+        height: 63px;
+        &.okact, &:hover{
+            background-image: url(../img/calc/balk/b1_act.png);
+        }
+    }
+    .tipbalk2{
+        background-image: url(../img/calc/balk/b2.png);
+        width: 109px;
+        height: 68px;
+        &.okact, &:hover{
+            background-image: url(../img/calc/balk/b2_act.png);
+        }
+    }
+    .tipbalk3{
+        background-image: url(../img/calc/balk/b3.png);
+        width: 118px;
+        height: 72px;
+        width: 115px;
+        height: 70px;
+        &.okact, &:hover{
+            background-image: url(../img/calc/balk/b3_act.png);
+        }
+    }
+    .tipbalk4{
+        background-image: url(../img/calc/balk/b4.png);
+        width: 139px;
+        height: 68px;
+        &.okact, &:hover{
+            background-image: url(../img/calc/balk/b4_act.png);
+        }
+    }
+    .tipbalk5{
+        background-image: url(../img/calc/balk/b5.png);
+        width: 152px;
+        height: 68px;
+        &.okact, &:hover{
+            background-image: url(../img/calc/balk/b5_act.png);
+        }
+    }
+    .tipbalk6{
+        background-image: url(../img/calc/balk/b6.png);
+        //width: 145px;
+        width: 151px;
+        height: 68px;
+        &.okact, &:hover{
+            background-image: url(../img/calc/balk/b6_act.png);
+        }
+    }
+    .tipbalk7{
+        background-image: url(../img/calc/balk/b7.png);
+        width: 153px;
+        height: 68px;
+        &.okact, &:hover{
+            background-image: url(../img/calc/balk/b7_act.png);
+        }
+    }
+    
+    
+    
+    .Costhor11_block,
+    .Costver11_block{
+        display: flex;
+        align-items: center;
+        margin-bottom: 40px;
+        input{
+            width: 106px;
+            height: 50px;
+            background-color: #fff;
+            border: 1px solid #D0D0D0;
+            box-sizing: border-box;
+            border-radius: 5px;
+            font-size: 24px;
+            line-height: 29px;
+            padding-left: 10px;
+            margin-left: 15px;
+
+            margin-right: 15px;
+        }
+        &::before{
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 29px;
+            min-width: 110px;
+            color: #000000;
+        }
+        &::after{
+            content: "см";
+            font-size: 24px;
+            line-height: 29px;
+
+            color: #000000;
+        }
+    }
+    .Costhor11_block{
+        &::before{
+            content: "Ширина";
+        }
+    }
+    .Costver11_block{
+        &::before{
+            content: "Высота";
+        }
     }
 
-    .Costhor11_block input {
-        width: 48px;
-        height: 35px;
-        text-align: center;
-        margin-left: 5px;
-        margin-top: 10px;
-        color: #161616;
-        padding: 0 !important;
-        border: 0;
-        font-size: 1em;
-        background: none
+    .ui-slider-range{
+        display: none;
     }
 
-    .Costver11_block {
-        width: 100px;
-        height: 51px;
-        background: url(../img/calc/znachgor.png);
-        position: absolute;
-        margin: 24px 0px 0px -37px
+    .wrapper_oknofull{
+     display: flex;
+        & > div{
+            flex: 1;
+        }
+    }
+    .basechek{
+       background: #EDEDED;
+        border-radius: 5px; 
+        padding: 39px 45px;
+        max-width: 558px;
+    }
+    .flex-wrapper-line{
+      display: flex;
+        align-items: center;
+        font-size: 24px;
+        line-height: 29px;
+        color: #000000;
+        margin-bottom: 55px;
+        .basechek__zag{
+            font-weight: bold;
+            min-width: 261px;
+            margin-right: 8px;
+        }
+        .yes{
+            margin-right: 30px;
+        }
+        &:last-child{
+            margin-bottom: 0;
+        }
     }
 
-    .Costver11_block input {
-        width: 48px;
-        height: 35px;
-        text-align: center;
-        margin-left: 5px;
-        margin-top: 10px;
-        color: #161616;
-        padding: 0 !important;
-        border: 0;
-        font-size: 1em;
-        background: none
+    .tipoknachek,
+    .tipoknachekact{
+        width: 30px;
+        height: 30px;
+        background: #FFFFFF;
+        border: 1px solid #D0D0D0;
+        box-sizing: border-box;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center; 
+        margin-right: 8px;
     }
-
-    .b-calc__left .stage1 {
-        display: none
+    .tipoknachekact{
+        &::before{
+            content: "";
+            display: block;
+            width: 20px;
+            height: 20px;
+            background: #FBC035;
+            border-radius: 20px;
+        }
     }
-
-    .b-calc__left .stage2 {
-        display: none
+    .block_econom_text{
+        font-size: 24px;
+        line-height: 29px;
+        color: #000000; 
+        margin-bottom: 14px;
     }
-
-    .b-calc__left .stage3 {
-        display: none
-    }
-
-    .b-calc__left .block_econom {
-        display: none
-    }
-
-    .b-calc__left .block_econom .block_econom_text {
-        font-size: 2em;
-        font-family: 'Roboto', sans-serif;
-        margin-bottom: 10px
-    }
-
-    .b-calc__left .block_econom .block_econom_bg {
-        height: 80px;
-        line-height: 80px;
-        text-align: center;
-        background: url(../img/b_market_filtr_bg.png);
+    .block_econom_bg{
+        background: linear-gradient(180deg, #FBC035 0%, #F2AD27 100%);
         border-radius: 5px;
-        font-size: 3em;
-        font-family: 'ALSSchlangesans-Black';
-        color: #fff
+        
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 44px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        padding: 8px 10px;
+        display: inline-block;
+        & > span{
+            color: #000;
+        }
     }
-
-    .b-calc__left .block_econom .block_econom_bg span {
-        font-size: 1.2em
+    .basetsena{
+        width: 525px;
+        height: 173px;
+        background-image: url(../img/calc_accii_bg.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: #fff;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 44px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        text-align: right;
+        padding-top: 19px;
+        padding-right: 20px;
+        transform: translate(6px, 10px);
+        .tsena_base_cost{
+            font-size: 96px;
+            line-height: 97px;
+        }
+        .costonsale{
+                margin-right: 10px;
+        }
     }
-
-    .b-calc__left .markver {
-        display: none
+    .flex-container{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 40px;
+        margin-bottom: 40px;
     }
-
-    .b-calc__left .markhor {
-        display: none
+    
+    .calc_rassr{
+        background: #EDEDED;
+        border-radius: 5px;
+        font-weight: bold;
+        font-size: 32px;
+        line-height: 39px;
+        min-height: 78px;
+        color: #000000;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 40px;
+        .credd{
+            margin-right: 20px;
+        }
+        .red-button{
+            background: linear-gradient(180deg, #1B809D 0%, #015B77 100%);
+            
+        }
+        
     }
+    
+    
 }
 
+// calc_accii_bg.png
+//////////////////////////
+.es7_new_temp{
+        background-image: url(../img/b_market_filtr_bg.png);
+    background-color: #015B77;
+    color: #fff;
+    .sketch .sketch-text,
+    .text, p{
+        color: #fff;
+    }
+    .red-button{
+        background: linear-gradient(180deg, #FFD054 0%, #F2AD27 100%);
+        color: #000;
+    }
 }
