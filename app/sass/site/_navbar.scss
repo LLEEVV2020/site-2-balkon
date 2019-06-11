@@ -76,6 +76,7 @@
                     padding: 12px 10px 11px;
                     color: #000000;
                     display: block;
+                    text-transform: uppercase;
                     &:hover{
                         background-color: #d9d9d9;
                     }
@@ -153,7 +154,7 @@
         & > li:last-child:hover {
             
             
-            a{
+            & > a{
                 @media only screen and (max-width: 767px) {
                     background-color: #1C819E !important;
                     color: #FFFFFF;
@@ -165,7 +166,7 @@
             background-image: url(../img/menu_aksii_active.png);
         }
         & > li.current_page_item{
-            a{
+           & >  a{
                 @media only screen and (min-width: 768px) {
                     background-color: #1C819E !important;
                     color: #FFFFFF;
@@ -194,6 +195,30 @@
             
         }
     }
+
+    .navbar-nav {
+        /*hack menu wordpress*/
+        .menu-item-has-children{
+            position: relative;
+            & > a{
+                position: absolute;
+                left: 0;
+                top: 0;
+            }
+            & > button{
+                position: relative;
+                width: 100%;
+                opacity: 0;
+            }
+            .sub-menu{
+                width: 100%;
+                li:first-child{
+                    display: none;
+                }
+            }
+        }
+    }
+    
 } 
 .navbar{
     height: auto;

@@ -95,3 +95,7 @@ s.b-zamer:before {
 .es16_bg .zoom-gallery-info-text{
     bottom: -40px !important;
 }
+
+.es13_bg .countSeconds ~ span {
+    display: none !important;
+}
