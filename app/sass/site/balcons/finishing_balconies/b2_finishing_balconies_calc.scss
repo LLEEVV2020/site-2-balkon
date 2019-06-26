@@ -476,53 +476,7 @@ box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
       
     
     
-    
-    .calc_otdelka .plash_line_1 {
-        width: 48px;
-        height: 48px;
-        position: absolute;
-        background: url(../img/calc_otdelka/plash_line_1.png);
-        margin: 28px 0px 0px 270px;
-        z-index: 1
-    }
-    
-    .calc_otdelka .plash_line_2 {
-        width: 95px;
-        height: 36px;
-        position: absolute;
-        background: url(../img/calc_otdelka/plash_line_2.png);
-        margin: 0px 0px 0px 270px;
-        z-index: 1
-    }
-    
-    .calc_otdelka .plash_line_3 {
-        width: 74px;
-        height: 44px;
-        position: absolute;
-        background: url(../img/calc_otdelka/plash_line_3.png);
-        margin: 27px 0px 0px 270px;
-        z-index: 1
-    }
-    
-    
-    
-    .calc_otdelka .plash_line_5 {
-        width: 217px;
-        height: 118px;
-        position: absolute;
-        background: url(../img/calc_otdelka/plash_line_5.png);
-        margin: 27px 0px 0px -235px;
-        z-index: 1
-    }
-    
-    .calc_otdelka .plash_line_6 {
-        width: 185px;
-        height: 87px;
-        position: absolute;
-        background: url(../img/calc_otdelka/plash_line_6.png);
-        margin: 27px 0px 0px -200px;
-        z-index: 1
-    }
+
     
     .calc_otdelka .calc_otdelka__left_2 {
         width: 390px;
@@ -1956,4 +1910,89 @@ box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
         }
     }
 
+
+    .red-button{
+        position: relative;
+
+        /*дополнительный бэграунд кнопки*/
+        &:before{
+            content: "";
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(180deg, #DF0054 0%, #A4164A 100%);
+            z-index: 34;
+            border-radius: 50px;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        /*круглишок*/
+        & > div > div{
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            width: 25px;
+            height: 25px;
+            border-radius: 50%;
+            border: 7px solid rgba(221, 0, 83, 0.3);
+            transform: translate(13px, 12px);
+            &::before{
+                content: "";
+                background: #DD0053;
+                width: 12px;
+                height: 12px;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                border-radius: 50%;
+            }
+
+        }
+        & > div{
+            border: 2px solid #DD0053;
+            z-index: 33;
+            position: absolute;
+        }
+        .plash_line_4{
+            transform: rotate(25.79deg);
+            bottom: -87px;
+            left: 229px;
+            width: 455.68px;
+        }
+        .plash_line_1{
+            bottom: 16px;
+            right: 144px;
+            width: 334px;
+            transform: rotate(180deg);
+        }
+        .plash_line_2{
+            top: 50%;
+            transform: translateY(-50%);
+            left: 229px;
+            width: 182px;
+        }
+        .plash_line_3{
+            top: 50%;
+            transform: translateY(-50%);
+            left: 229px;
+            width: 148px;
+        }
+        .plash_line_5{
+            transform: rotate(136.67deg);
+            bottom: -97px;
+            right: 186px;
+            width: 395.68px;
+        }
+        .plash_line_6{
+            bottom: -6px;
+            right: 180px;
+            width: 334px;
+            transform: rotate(165.13deg);
+        }
+        span{
+            z-index: 35;
+            position: relative;
+        }
+    }
 }
