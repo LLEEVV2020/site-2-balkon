@@ -21,7 +21,7 @@
                         <div class="es12_ico">
                             <div class="es12_ico__img"><img src="//<?php echo $_SERVER['SERVER_NAME']; ?>/img/es12_ico2.png" alt="" /></div>
                             <div class="es12_ico__lenta">экономия
-                                <span>2 500 р.</span>
+                                <span>1 250 р.</span>
                             </div>
                         </div>
                         <div class="es12_ico_name">За лишние бренды</div>

@@ -1,5 +1,5 @@
        <!-- b-sms_bg -->
-        <div class="b-sms_bg sms-discount es3_balcons template" style="margin-top: -1px;">
+        <div class="b-sms_bg sms-discount es3_balcons template" style="margin-top: 40px;">
             <div class="container ">
                 <div class="flex-container">
                     <div class="b-sms_phone">

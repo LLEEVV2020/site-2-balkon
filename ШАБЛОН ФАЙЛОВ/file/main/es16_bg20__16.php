@@ -14,7 +14,7 @@
                             <ul class="align-left">
                                 <li class="10x208"
                                     style="background-color: none; color: #464545; font-size:2.4em; line-height:30px; height:auto;">
-                                    Балкон в новостройке. Цена от<span>11 800 </span>р.<br />
+                                    Балкон в новостройке. Цена от <span>19 250 </span>р.<br />
                                     <div class="none">Выполнен за <span>3 дня</span>!</div>
                                 </li>
                             </ul>
@@ -25,7 +25,7 @@
                             <ul class="align-left">
                                 <li class="10x208"
                                     style="background-color: none; color: #464545; font-size:2.4em; line-height:30px; height:auto;">
-                                    Балкон в старом доме. Цена  <span>19 800 </span>р.<br />
+                                    Балкон в старом доме. Цена  <span>19 250 </span>р.<br />
                                     <div class="none">Выполнен за <span>3 дня</span>!</div>
                                 </li>
                             </ul>
@@ -39,7 +39,7 @@
                             <ul class="align-left">
                                 <li class="10x208"
                                     style="background-color: none; color: #464545; font-size:2.4em; line-height:30px; height:auto;">
-                                    Балкон со шкафом. Цена  <span>19 800 </span>р.<br />
+                                    Балкон со шкафом. Цена  <span>19 250 </span>р.<br />
                                     <div class="none">Выполнен за <span>3 дня</span>!</div>
                                 </li>
                             </ul>
@@ -50,7 +50,7 @@
                             <ul class="align-left">
                                 <li class="10x208"
                                     style="background-color: none; color: #464545; font-size:2.4em; line-height:30px; height:auto;">
-                                    Балкон. Цена  <span>19 800 </span>р.<br />
+                                    Балкон. Цена  <span>19 250 </span>р.<br />
                                     <div class="none">Выполнен за <span>3 дня</span>!</div>
                                 </li>
                             </ul>
@@ -61,7 +61,7 @@
                             <ul class="align-left">
                                 <li class="10x208"
                                     style="background-color: none; color: #464545; font-size:2.4em; line-height:30px; height:auto;">
-                                    Балкон. Цена  <span>19 800 </span>р.<br />
+                                    Балкон. Цена  <span>19 250 </span>р.<br />
                                     <div class="none">Выполнен за <span>3 дня</span>!</div>
                                 </li>
                             </ul>
@@ -72,7 +72,7 @@
                             <ul class="align-left">
                                 <li class="10x208"
                                     style="background-color: none; color: #464545; font-size:2.4em; line-height:30px; height:auto;">
-                                    Внутренная и наружная отделка балкона. Цена  <span>19 800 </span>р.<br />
+                                    Внутренная и наружная отделка балкона. Цена  <span>19 250 </span>р.<br />
                                     <div class="none">Выполнен за <span>3 дня</span>!</div>
                                 </li>
                             </ul>
@@ -81,7 +81,7 @@
                             <ul class="align-left">
                                 <li class="10x208"
                                     style="background-color: none; color: #464545; font-size:2.4em; line-height:30px; height:auto;">
-                                    Лоджия под ключ. Цена  <span>19 800 </span>р.<br />
+                                    Лоджия под ключ. Цена  <span>19 250 </span>р.<br />
                                     <div class="none">Выполнен за <span>3 дня</span>!</div>
                                 </li>
                             </ul>
@@ -90,7 +90,7 @@
                             <ul class="align-left">
                                 <li class="10x208"
                                     style="background-color: none; color: #464545; font-size:2.4em; line-height:30px; height:auto;">
-                                    Лоджия с раздвижными стеклянными дверями. Цена  <span>19 800 </span>р.<br />
+                                    Лоджия с раздвижными стеклянными дверями. Цена  <span>19 250 </span>р.<br />
                                     <div class="none">Выполнен за <span>3 дня</span>!</div>
                                 </li>
                             </ul>
@@ -100,7 +100,7 @@
                             <ul class="align-left">
                                 <li class="10x208"
                                     style="background-color: none; color: #464545; font-size:2.4em; line-height:30px; height:auto;">
-                                    Объединение балкона с комнатой. Цена  <span>19 800 </span>р.<br />
+                                    Объединение балкона с комнатой. Цена  <span>19 250 </span>р.<br />
                                     <div class="none">Выполнен за <span>3 дня</span>!</div>
                                 </li>
                             </ul>
@@ -111,7 +111,7 @@
                             <ul class="align-left">
                                 <li class="10x208"
                                     style="background-color: none; color: #464545; font-size:2.4em; line-height:30px; height:auto;">
-                                    Остекление балкона. Цена  <span>19 800 </span>р.<br />
+                                    Остекление балкона. Цена  <span>19 250 </span>р.<br />
                                     <div class="none">Выполнен за <span>3 дня</span>!</div>
                                 </li>
                             </ul>
@@ -121,7 +121,7 @@
                             <ul class="align-left">
                                 <li class="10x208"
                                     style="background-color: none; color: #464545; font-size:2.4em; line-height:30px; height:auto;">
-                                    Отделка и остекление балкона. Цена  <span>19 800 </span>р.<br />
+                                    Отделка и остекление балкона. Цена  <span>19 250 </span>р.<br />
                                     <div class="none">Выполнен за <span>3 дня</span>!</div>
                                 </li>
                             </ul>
@@ -132,7 +132,7 @@
                             <ul class="align-left">
                                 <li class="10x208"
                                     style="background-color: none; color: #464545; font-size:2.4em; line-height:30px; height:auto;">
-                                    Панорамное остекление балкона. Цена  <span>19 800 </span>р.<br />
+                                    Панорамное остекление балкона. Цена  <span>19 250 </span>р.<br />
                                     <div class="none">Выполнен за <span>3 дня</span>!</div>
                                 </li>
                             </ul>

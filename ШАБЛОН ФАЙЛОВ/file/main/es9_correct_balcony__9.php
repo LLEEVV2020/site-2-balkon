@@ -148,8 +148,8 @@
                           $('.calc_outside_ico2').addClass('calc_outside_ico2_act');
                           $('.calc_outside_ico3').removeClass('calc_outside_ico3_act');
                           $('.calc_outside_ico4').removeClass('calc_outside_ico4_act');
-                          $('.hot').css("background","url(img/hot_1.jpg)");  /*1 - ая картинка*/
-                          $('.cold').css("background","url(img/cold_1.jpg)");/*1 - ая картинка*/
+                          $('.hot').css("background","url(img/hot_2.jpg)");  /*1 - ая картинка*/
+                          $('.cold').css("background","url(img/cold_2.jpg)");/*1 - ая картинка*/
                             $('.hot').css("background-size","cover");
                             $('.cold').css("background-size","cover");
                       });
@@ -159,8 +159,8 @@
                           $('.calc_outside_ico2').removeClass('calc_outside_ico2_act');
                           $('.calc_outside_ico3').addClass('calc_outside_ico3_act');
                           $('.calc_outside_ico4').removeClass('calc_outside_ico4_act');
-                          $('.hot').css("background","url(img/hot_1.jpg)"); /*2 - ая картинка*/
-                          $('.cold').css("background","url(img/cold_1.jpg)");/*2 - ая картинка*/
+                          $('.hot').css("background","url(img/hot_3.jpg)"); /*2 - ая картинка*/
+                          $('.cold').css("background","url(img/cold_3.jpg)");/*2 - ая картинка*/
                             $('.hot').css("background-size","cover");
                             $('.cold').css("background-size","cover");
                       });
@@ -170,8 +170,8 @@
                           $('.calc_outside_ico2').removeClass('calc_outside_ico2_act');
                           $('.calc_outside_ico3').removeClass('calc_outside_ico3_act');
                           $('.calc_outside_ico4').addClass('calc_outside_ico4_act');
-                          $('.hot').css("background","url(img/hot_1.jpg)"); /*3 - ая картинка*/
-                          $('.cold').css("background","url(img/cold_1.jpg)"); /*3 - ая картинка*/
+                          $('.hot').css("background","url(img/hot_4.jpg)"); /*3 - ая картинка*/
+                          $('.cold').css("background","url(img/cold_4.jpg)"); /*3 - ая картинка*/
                             $('.hot').css("background-size","cover");
                             $('.cold').css("background-size","cover");
                       });

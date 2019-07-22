@@ -7,7 +7,7 @@
                     <div class="b-sms_input b-sms_input_tel form-group">
                         <input type="text" class="phonemask input-phone" data-validation="required" placeholder="Ваш телефон" id="form_text_11" name="phone" value="" size="0">
                     </div>
-                    <div class="b-sms_input b-sms_input_tel form-group">
+                    <div class="b-sms_input b-sms_input_tel b-sms_input_people form-group">
                         <input type="text" class="" data-validation="required" placeholder="Ваше имя" id="form_text_11" name="phone" value="" size="0">
                     </div>
                     <div class="block-sketch-submit">

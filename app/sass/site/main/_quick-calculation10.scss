@@ -71,3 +71,81 @@
 
 
 }
+
+.shkafi-na-balcone{
+    margin-top: 40px;
+
+    .wrap-flex{
+        display: flex;
+        position: relative;
+        @media only screen and (max-width: 991px){
+            flex-wrap: wrap;
+        }
+        .zaglyshka-peredelat{
+            position: absolute;
+            bottom: 0;
+            left: 0;
+        }
+        .text{
+            max-width: 360px;
+            width: 100%;
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 29px;
+            margin-right: 33px;
+            @media only screen and (max-width: 991px){
+                max-width: 1000px;
+                margin-right: 0;
+                margin-bottom: 15px;
+            }
+        }
+        .block-img{
+            img{
+                width: 100%;
+            }
+        }
+    }
+
+    .tabs {
+        position: relative; /* Относительное позиционирование */
+       }
+       .tab{
+           display: flex;
+           flex-wrap: wrap;
+           justify-content: space-around;
+           justify-content: space-evenly;
+
+       }
+        .tab-title {
+        display: inline-block; /* Выстраиваем по горизонтали */
+        cursor: pointer;
+       }
+       .tab input[type="radio"] { display: none; }
+       .tab-title {
+        background: #ccc; /* Цвет фона */
+        padding: 5px 10px; /* Поля вокруг текста */
+        font-size: 24px;
+        line-height: 29px;
+        background: #EDEDED;
+        font-weight: 500;
+        text-align: center;
+        border-radius: 20px;
+        width: 200px;
+        height: 40px;
+        margin-bottom: 20px;
+       }
+       .tab-content {
+        padding: 10px; /* Поля вокруг текста */
+        width: 100%; /* Ширина содержимого */
+        display: none; /* Прячем вкладку */
+        order: 1;
+       }
+       .tab :checked + .tab-title {
+        position: relative; /* Относительное позиционирование */
+        background: linear-gradient(180deg, #FFD054 0%, #F2AD27 100%);
+        z-index: 1; /* Отображаем поверх содержимого */
+       }
+       .tab :checked + .tab-title + .tab-content {
+        display: block; /* Показываем активную вкладку */
+       }
+}

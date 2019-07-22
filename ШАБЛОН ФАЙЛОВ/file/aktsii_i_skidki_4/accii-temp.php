@@ -3,11 +3,8 @@
             <div class="container">
                
                 <div class="es1__block">
-                    <h1>СКИДКА НА ОТДЕЛКУ
-                        
-                        <span>БАЛКОНОВ</span>
-                        </h1>
-                        <div class="action-img"><img src="//<?php echo $_SERVER['SERVER_NAME']; ?>/img/accii.png" alt=""></div>
+                    <h1>СКИДКА  <br> НА <span>БАЛКОНЫ</span><br> <span>И ЛОДЖИИ</span> </h1>
+                    <div class="action-img"><img src="//<?php echo $_SERVER['SERVER_NAME']; ?>/img/accii.png" alt=""></div>
                     
                 </div>
 
@@ -16,3 +13,10 @@
             </div>
         </div>
         <!--/ Самый верхний блок -->
+
+<style>
+    .es1 h1 span {
+        color: #015B77;
+        display: inline-block;
+    }
+</style>

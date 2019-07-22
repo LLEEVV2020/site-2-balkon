@@ -3,7 +3,7 @@
     <div class="container">
 
         <div class="flex-container">
-            <div class="b_windownow_man"><img src="img/rasr_gerl2.png" alt=""></div>
+            <div class="b_windownow_man"><img src="//<?php echo $_SERVER['SERVER_NAME']; ?>/img/rasr_gerl2.png" alt=""></div>
             <div class="b_windownow_block">
                 <h4>ОСТЕКЛЕНИЕ БЕСПЛАТНО!</h4>
                 

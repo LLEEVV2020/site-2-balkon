@@ -17,7 +17,7 @@
                         <div class="es1_7day">Только 7 дней!</div>
                         <div class="es1-skidka">СКИДКА ДО</div>
                     </div>
-                    <div class="es1_sale">63% </div>
+                    <div class="es1_sale">67% </div>
                 </div>
 
                 <div class="b-top__zamer" data-toggle="modal" data-target="#kupitDeshevle">

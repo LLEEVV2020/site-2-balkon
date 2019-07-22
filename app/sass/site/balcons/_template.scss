@@ -30,7 +30,22 @@
             margin-left: 0;
         }
     }
+    .b-sms_input_people{
+        background-image: url(../img/piple-img.png);
+    }
 }
 .none{
     display: none;
+}
+
+.gorod-v{
+    position: relative;
+    &::before{
+        content: "в";
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: #fff;
+        padding-right: 3px;
+    }
 }

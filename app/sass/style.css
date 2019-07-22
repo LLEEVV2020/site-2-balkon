@@ -2149,6 +2149,121 @@ input::-webkit-input-placeholder {
   }
 }
 
+.shkafi-na-balcone {
+  margin-top: 40px;
+}
+
+.shkafi-na-balcone .wrap-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+
+@media only screen and (max-width: 991px) {
+  .shkafi-na-balcone .wrap-flex {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
+.shkafi-na-balcone .wrap-flex .zaglyshka-peredelat {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.shkafi-na-balcone .wrap-flex .text {
+  max-width: 360px;
+  width: 100%;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  margin-right: 33px;
+}
+
+@media only screen and (max-width: 991px) {
+  .shkafi-na-balcone .wrap-flex .text {
+    max-width: 1000px;
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
+}
+
+.shkafi-na-balcone .wrap-flex .block-img img {
+  width: 100%;
+}
+
+.shkafi-na-balcone .tabs {
+  position: relative;
+  /* Относительное позиционирование */
+}
+
+.shkafi-na-balcone .tab {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.shkafi-na-balcone .tab-title {
+  display: inline-block;
+  /* Выстраиваем по горизонтали */
+  cursor: pointer;
+}
+
+.shkafi-na-balcone .tab input[type="radio"] {
+  display: none;
+}
+
+.shkafi-na-balcone .tab-title {
+  background: #ccc;
+  /* Цвет фона */
+  padding: 5px 10px;
+  /* Поля вокруг текста */
+  font-size: 24px;
+  line-height: 29px;
+  background: #EDEDED;
+  font-weight: 500;
+  text-align: center;
+  border-radius: 20px;
+  width: 200px;
+  height: 40px;
+  margin-bottom: 20px;
+}
+
+.shkafi-na-balcone .tab-content {
+  padding: 10px;
+  /* Поля вокруг текста */
+  width: 100%;
+  /* Ширина содержимого */
+  display: none;
+  /* Прячем вкладку */
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+}
+
+.shkafi-na-balcone .tab :checked + .tab-title {
+  position: relative;
+  /* Относительное позиционирование */
+  background: -webkit-gradient(linear, left top, left bottom, from(#FFD054), to(#F2AD27));
+  background: linear-gradient(180deg, #FFD054 0%, #F2AD27 100%);
+  z-index: 1;
+  /* Отображаем поверх содержимого */
+}
+
+.shkafi-na-balcone .tab :checked + .tab-title + .tab-content {
+  display: block;
+  /* Показываем активную вкладку */
+}
+
 .b-raschet {
   background-image: url(../img/b_market_filtr_bg.png);
   background-color: #015B77;
@@ -3062,6 +3177,32 @@ input::-webkit-input-placeholder {
 
 .es16_bg .onmobile {
   padding-bottom: 30px;
+}
+
+.es16_bg #thanky-right-button, .es16_bg #thanky-left-button {
+  background: #fbc035;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+}
+
+.es16_bg #thanky-right-button::before, .es16_bg #thanky-left-button::before {
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/arrow-point-to-right.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  content: "";
+  position: absolute;
+  display: block;
+  display: block;
+  top: 0;
+  left: 0;
+}
+
+.es16_bg #thanky-left-button::before {
+  -webkit-transform: rotate(-180deg);
+          transform: rotate(-180deg);
 }
 
 .es17_bg {
@@ -5147,8 +5288,25 @@ input::-webkit-input-placeholder {
   margin-left: 0;
 }
 
+.template .b-sms_input_people {
+  background-image: url(../img/piple-img.png);
+}
+
 .none {
   display: none;
+}
+
+.gorod-v {
+  position: relative;
+}
+
+.gorod-v::before {
+  content: "в";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  padding-right: 3px;
 }
 
 .es1 .es1-wrapper-decor {
