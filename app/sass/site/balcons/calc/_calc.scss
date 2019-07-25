@@ -331,6 +331,17 @@
         padding-top: 19px;
         padding-right: 20px;
         transform: translate(6px, 10px);
+        position: relative;
+        &::before{
+            content: "";
+            position: absolute;
+            top: -88px;
+            left: -180px;
+            width: 226px;
+            height: 188.58px;
+            transform: rotate(-6.27deg);
+            background-image: url(../img/verevocka.png);
+        }
         .tsena_base_cost{
             font-size: 96px;
             line-height: 97px;

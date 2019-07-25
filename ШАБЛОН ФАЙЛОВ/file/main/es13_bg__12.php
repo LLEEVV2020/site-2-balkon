@@ -27,7 +27,7 @@
                         <div class="es13_item ">
                             <button class="red-pink-button" type="submit">Зафиксировать <span>цену на 3 дня</span></button>
                         </div>
-                        <p class="agreement white">Оставляя свои контактные данные, вы подтверждаете свое совершеннолетие, соглашаетесь на обработку персональных данных в соответствии с <a href="#legal-info" data-toggle="modal"  data-target="#legal-info">Правовой информацией</a></p>
+                        <p class="agreement white">Оставляя свои контактные данные, вы подтверждаете свое совершеннолетие, соглашаетесь на обработку персональных данных в соответствии с <a href="#legal-info" class="legal-info" data-toggle="modal"  data-target="#legal-info">Правовой информацией</a></p>
                     </div>
                 </form>
                 <!-- ######### Успей купить до подорожания! ######### -->

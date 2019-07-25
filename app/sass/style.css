@@ -779,8 +779,8 @@ table {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-left: 5vw;
-  margin-right: 5vw;
+  margin-left: 4vw;
+  margin-right: 4vw;
 }
 
 @media (max-width: 1200px) {
@@ -5292,6 +5292,10 @@ input::-webkit-input-placeholder {
   background-image: url(../img/piple-img.png);
 }
 
+.template .b-sms_input_tel-mini {
+  background-image: url(../img/tel-mini-img.png);
+}
+
 .none {
   display: none;
 }
@@ -5307,6 +5311,16 @@ input::-webkit-input-placeholder {
   left: 0;
   background-color: #fff;
   padding-right: 3px;
+}
+
+.legal-info {
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  color: #000000;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
 }
 
 .es1 .es1-wrapper-decor {
@@ -5779,6 +5793,7 @@ input::-webkit-input-placeholder {
 .es7_balcons .text {
   font-size: 24px;
   line-height: 29px;
+  font-weight: 500;
   text-align: center;
   margin-bottom: 34px;
   color: #000000;
@@ -5787,6 +5802,7 @@ input::-webkit-input-placeholder {
 .es7_balcons p {
   font-size: 12px;
   line-height: 15px;
+  font-weight: 500;
   color: #000000;
 }
 
@@ -6342,6 +6358,7 @@ input::-webkit-input-placeholder {
   display: flex;
   position: relative;
   color: #000000;
+  font-weight: 500;
 }
 
 @media only screen and (max-width: 992px) {
@@ -8333,6 +8350,19 @@ input::-webkit-input-placeholder {
   padding-right: 20px;
   -webkit-transform: translate(6px, 10px);
           transform: translate(6px, 10px);
+  position: relative;
+}
+
+.calc_block .basetsena::before {
+  content: "";
+  position: absolute;
+  top: -88px;
+  left: -180px;
+  width: 226px;
+  height: 188.58px;
+  -webkit-transform: rotate(-6.27deg);
+          transform: rotate(-6.27deg);
+  background-image: url(../img/verevocka.png);
 }
 
 .calc_block .basetsena .tsena_base_cost {

@@ -4,10 +4,10 @@
                     <div class="h2">РАССЧИТАЕМ ОТДЕЛКУ БАЛКОНА ЗА 3 МИНУТЫ</div>
                 
                 <form action="php/mail.php" method="POST">
-                    <div class="b-sms_input b-sms_input_tel form-group">
+                    <div class="b-sms_input b-sms_input_tel b-sms_input_tel-mini form-group">
                         <input type="text" class="phonemask input-phone" data-validation="required" placeholder="Ваш телефон" id="form_text_11" name="phone" value="" size="0">
                     </div>
-                    <div class="b-sms_input b-sms_input_tel form-group">
+                    <div class="b-sms_input b-sms_input_tel  b-sms_input_people form-group">
                         <input type="text" class="" data-validation="required" placeholder="Ваше имя" id="form_text_11" name="phone" value="" size="0">
                     </div>
                     <div class="block-sketch-submit">
@@ -23,6 +23,6 @@
                 <div class="text">Если у Вас нет эскизов, впишите номер телефона и менеджер перезвонит Вам для
                     выяснения размеров!</div>
                 <p>Оставляя свои контактные данные, вы подтверждаете свое совершеннолетие,
-                    соглашаетесь на обработку персональных данных в соответствии с Правовой информацией</p>
+                    соглашаетесь на обработку персональных данных в соответствии с <a href="#legal-info" class="legal-info"  data-toggle="modal"  data-target="#legal-info">Правовой информацией</a></p>
             </div>
         </div><!-- /.es13_14 -->

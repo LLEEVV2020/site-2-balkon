@@ -18,14 +18,14 @@
         <div class="template es21_balcony" style="background-color: #fff;">
             <div class="container">
                 <div class="flex-wrapper">
-                    <div class="item"> Остекление <br>    
-                        балконов</div>
-                    <div class="item">Отделка <br>
-                        балконов</div>
-                    <div class="item">Готовые  <br>
-                        балконы</div>
-                    <div class="item">Цены <br>
-                         на балконы</div>
+                    <a href="/" class="item"> Остекление <br>    
+                        балконов</a>
+                    <a href="<?php echo $_SERVER['SERVER_NAME']; ?>/otdelka-balkonov"  class="item">Отделка <br>
+                        балконов</a>
+                    <a href="/"  class="item">Готовые  <br>
+                        балконы</a>
+                    <a href="<?php echo $_SERVER['SERVER_NAME']; ?>/czeny-na-balkony"  class="item">Цены <br>
+                         на балконы</a>
                 </div>   
             </div>
         </div>

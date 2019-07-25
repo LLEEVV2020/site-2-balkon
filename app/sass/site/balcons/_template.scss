@@ -33,6 +33,9 @@
     .b-sms_input_people{
         background-image: url(../img/piple-img.png);
     }
+    .b-sms_input_tel-mini{
+        background-image: url(../img/tel-mini-img.png);
+    }
 }
 .none{
     display: none;
@@ -48,4 +51,12 @@
         background-color: #fff;
         padding-right: 3px;
     }
+}
+.legal-info{
+    text-decoration-line: underline;
+    color: #000000;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
 }
