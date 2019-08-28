@@ -84,6 +84,9 @@
         .cold_right{
             
             max-width: 460px;
+            @media only screen and (max-width: 500px){
+                width: 100%;
+            }
         }
         .redzag{
             position: relative;
@@ -101,6 +104,9 @@
             background: linear-gradient(180deg, #E21F69 0%, #A4164A 100%);
             padding-right: 20px;
             margin-bottom: 40px;
+            @media only screen and (max-width: 500px){
+                width: 100%;
+            }
             &::before{
                 position: absolute;
                 right: 0;
