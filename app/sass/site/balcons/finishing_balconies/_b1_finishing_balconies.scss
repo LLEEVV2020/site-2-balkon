@@ -31,6 +31,15 @@
         @media only screen and (max-width: 767px){
             img{
                 margin-left: 10vw;
+                margin-left: 9vw;
+            }
+        }
+        @media only screen and (max-width: 570px){
+            transform: translate(0);
+            width: 100%;
+            img{
+                margin-left: 0;
+                width: 100%;
             }
         }
     }

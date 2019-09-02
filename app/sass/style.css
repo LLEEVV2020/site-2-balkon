@@ -5682,6 +5682,18 @@ input::-webkit-input-placeholder {
   }
 }
 
+@media only screen and (max-width: 667px) {
+  .es7_balcons form {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
 .es7_balcons .sketch {
   position: relative;
   width: 158px;
@@ -5696,12 +5708,21 @@ input::-webkit-input-placeholder {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
+  margin-bottom: 10px;
 }
 
 @media only screen and (max-width: 1200px) {
   .es7_balcons .sketch {
     margin-left: 20px;
     margin-right: 20px;
+  }
+}
+
+@media only screen and (max-width: 667px) {
+  .es7_balcons .sketch {
+    margin-bottom: 10px;
+    margin-left: 0;
+    margin-right: 0;
   }
 }
 
@@ -5748,6 +5769,12 @@ input::-webkit-input-placeholder {
   margin-right: 15px;
 }
 
+@media only screen and (max-width: 667px) {
+  .es7_balcons .form-group {
+    margin: 0;
+  }
+}
+
 .es7_balcons .form-group + .form-group {
   margin-right: 30px;
 }
@@ -5755,6 +5782,12 @@ input::-webkit-input-placeholder {
 @media only screen and (max-width: 1200px) {
   .es7_balcons .form-group + .form-group {
     margin-right: 0;
+  }
+}
+
+@media only screen and (max-width: 667px) {
+  .es7_balcons .form-group + .form-group {
+    margin-top: 10px;
   }
 }
 
@@ -5790,6 +5823,18 @@ input::-webkit-input-placeholder {
 @media only screen and (max-width: 1200px) {
   .es7_balcons .block-sketch-submit {
     margin-top: 15px;
+  }
+}
+
+@media only screen and (max-width: 667px) {
+  .es7_balcons .block-sketch-submit {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
 }
 
@@ -5956,6 +6001,13 @@ input::-webkit-input-placeholder {
   max-width: 460px;
 }
 
+@media only screen and (max-width: 500px) {
+  .es9_correct_balcony .calc_outside_balkon .hot_right,
+  .es9_correct_balcony .calc_outside_balkon .cold_right {
+    width: 100%;
+  }
+}
+
 .es9_correct_balcony .calc_outside_balkon .redzag {
   position: relative;
   width: 460px;
@@ -5979,6 +6031,12 @@ input::-webkit-input-placeholder {
   background: linear-gradient(180deg, #E21F69 0%, #A4164A 100%);
   padding-right: 20px;
   margin-bottom: 40px;
+}
+
+@media only screen and (max-width: 500px) {
+  .es9_correct_balcony .calc_outside_balkon .redzag {
+    width: 100%;
+  }
 }
 
 .es9_correct_balcony .calc_outside_balkon .redzag::before {
@@ -6468,6 +6526,19 @@ input::-webkit-input-placeholder {
 @media only screen and (max-width: 767px) {
   .finishing_balconies._main .action-img img {
     margin-left: 10vw;
+    margin-left: 9vw;
+  }
+}
+
+@media only screen and (max-width: 570px) {
+  .finishing_balconies._main .action-img {
+    -webkit-transform: translate(0);
+            transform: translate(0);
+    width: 100%;
+  }
+  .finishing_balconies._main .action-img img {
+    margin-left: 0;
+    width: 100%;
   }
 }
 

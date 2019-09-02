@@ -46,6 +46,19 @@
 @media only screen and (max-width: 767px) {
   .finishing_balconies._main .action-img img {
     margin-left: 10vw;
+    margin-left: 9vw;
+  }
+}
+
+@media only screen and (max-width: 570px) {
+  .finishing_balconies._main .action-img {
+    -webkit-transform: translate(0);
+            transform: translate(0);
+    width: 100%;
+  }
+  .finishing_balconies._main .action-img img {
+    margin-left: 0;
+    width: 100%;
   }
 }
 
