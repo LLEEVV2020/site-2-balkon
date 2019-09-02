@@ -8515,6 +8515,14 @@ input::-webkit-input-placeholder {
   padding-right: 12px;
 }
 
+@media only screen and (max-width: 768px) {
+  .contact-wrap-balcon .flex-container .block-item {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
 .contact-wrap-balcon .flex-container .block-item .item .head {
   font-weight: bold;
   font-size: 24px;
