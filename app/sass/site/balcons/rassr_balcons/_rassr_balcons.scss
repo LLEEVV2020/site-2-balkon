@@ -3,6 +3,11 @@
     .decor_0{
         position: relative;
         display: flex;
+        @media only screen and (max-width: 600px) {
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        
         &::after{
             content: "0%";
             //display: block;

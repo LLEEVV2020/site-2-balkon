@@ -2194,6 +2194,12 @@ input::-webkit-input-placeholder {
   width: 100%;
 }
 
+@media only screen and (max-width: 767px) {
+  .shkafi-na-balcone .wrap-flex .block-img img {
+    width: 100% !important;
+  }
+}
+
 .shkafi-na-balcone .tabs {
   position: relative;
   /* Относительное позиционирование */
@@ -3247,6 +3253,13 @@ input::-webkit-input-placeholder {
   line-height: 59px;
   margin-bottom: 35px;
   color: #DD0053;
+}
+
+@media only screen and (max-width: 600px) {
+  .es17_bg .phone {
+    font-size: 28px;
+    line-height: 29px;
+  }
 }
 
 .es17_bg span {
@@ -6411,6 +6424,12 @@ input::-webkit-input-placeholder {
   }
 }
 
+@media only screen and (max-width: 600px) {
+  .es21_balcony .flex-wrapper {
+    margin-left: 20vw;
+  }
+}
+
 .es21_balcony .flex-wrapper .item {
   font-size: 24px;
   line-height: 29px;
@@ -6427,6 +6446,12 @@ input::-webkit-input-placeholder {
     -ms-flex-preferred-size: 40%;
         flex-basis: 40%;
     max-width: 250px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .es21_balcony .flex-wrapper .item {
+    min-width: 100%;
   }
 }
 
@@ -6474,6 +6499,12 @@ input::-webkit-input-placeholder {
 
 @media only screen and (max-width: 992px) {
   .es21_balcony .flex-wrapper .item:nth-child(3), .es21_balcony .flex-wrapper .item:nth-child(4) {
+    margin-top: 25px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .es21_balcony .flex-wrapper .item + .item {
     margin-top: 25px;
   }
 }
@@ -8593,6 +8624,16 @@ input::-webkit-input-placeholder {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+@media only screen and (max-width: 600px) {
+  .rassr_balcons.rassr_bg.es1 .decor_0 {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
 }
 
 .rassr_balcons.rassr_bg.es1 .decor_0::after {
