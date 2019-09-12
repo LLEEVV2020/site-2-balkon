@@ -3272,7 +3272,7 @@ input::-webkit-input-placeholder {
   display: block;
 }
 
-.es17_bg form {
+.es17_bg .div-form {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -4491,7 +4491,7 @@ input::-webkit-input-placeholder {
   }
 }
 
-.b_contact_ceo_bg .b_contact_ceo_form form {
+.b_contact_ceo_bg .b_contact_ceo_form .div-form {
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -4504,7 +4504,7 @@ input::-webkit-input-placeholder {
 }
 
 @media only screen and (max-width: 768px) {
-  .b_contact_ceo_bg .b_contact_ceo_form form {
+  .b_contact_ceo_bg .b_contact_ceo_form .div-form {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -5172,7 +5172,7 @@ input::-webkit-input-placeholder {
   color: #DF0054;
 }
 
-#kupitDeshevle .modal-dialog .modal_man_form form {
+#kupitDeshevle .modal-dialog .modal_man_form .div-form {
   padding-left: 5px;
   padding-right: 5px;
 }
@@ -5675,7 +5675,7 @@ input::-webkit-input-placeholder {
   padding-bottom: 40px;
 }
 
-.es7_balcons form {
+.es7_balcons .div-form {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -5686,7 +5686,7 @@ input::-webkit-input-placeholder {
 }
 
 @media only screen and (max-width: 1200px) {
-  .es7_balcons form {
+  .es7_balcons .div-form {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     -webkit-box-pack: center;
@@ -5696,7 +5696,7 @@ input::-webkit-input-placeholder {
 }
 
 @media only screen and (max-width: 667px) {
-  .es7_balcons form {
+  .es7_balcons .div-form {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -6396,7 +6396,7 @@ input::-webkit-input-placeholder {
   right: 3vw;
 }
 
-.es20_balcony form {
+.es20_balcony .div-form {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
