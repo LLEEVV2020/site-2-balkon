@@ -8671,9 +8671,11 @@ input::-webkit-input-placeholder {
 }
 
 .contact-wrap-balcon .flex-container .block-item .item-main .email {
-  font-size: 24px;
-  line-height: 29px;
-  color: #AAAAAA;
+  /*font-size: 24px;
+                    line-height: 29px;
+                    color: #AAAAAA;*/
+  font-size: 18px;
+  line-height: 25px;
 }
 
 .accii_temp.finishing_balconies {
